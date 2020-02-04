@@ -1,4 +1,4 @@
-package cn.ishow.teacher;
+package cn.ishow.teacher.base.mapper;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -16,19 +16,17 @@ package cn.ishow.teacher;
  * limitations under the License.
  */
 
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import cn.ishow.teacher.base.model.po.FilePO;
+import com.baomidou.mybatisplus.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * @author yinchong
- * @create 2019/11/24 16:33
+ * @create 2019/11/26 16:19
  * @description
  */
-@SpringBootApplication
-@MapperScan(basePackages = {"cn.ishow.*.*.mapper"})
-public class StartApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(StartApplication.class, args);
-    }
+public interface FileMapper extends BaseMapper<FilePO> {
+    FilePO findByMd5(@Param("md5") String md5);
+
+    void updatePosition(@Param("id") Long id,@Param("position") long position);
 }

@@ -1,4 +1,9 @@
-package cn.ishow.teacher;
+package cn.ishow.teacher.role.service;
+
+import cn.ishow.teacher.role.model.po.UserPO;
+import cn.ishow.teacher.role.model.vo.UserVO;
+import com.baomidou.mybatisplus.service.IService;
+
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -15,20 +20,12 @@ package cn.ishow.teacher;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+public interface IUserService extends IService<UserPO> {
+    String checkAccount(String account);
 
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+    String register(UserVO userVO);
 
-/**
- * @author yinchong
- * @create 2019/11/24 16:33
- * @description
- */
-@SpringBootApplication
-@MapperScan(basePackages = {"cn.ishow.*.*.mapper"})
-public class StartApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(StartApplication.class, args);
-    }
+    String login(String account, String password,boolean force);
+
+    String logout();
 }

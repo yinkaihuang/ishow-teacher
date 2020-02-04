@@ -1516,3 +1516,47 @@ INFO|2020-01-10 21:29:35.195|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dat
 INFO|2020-01-10 21:29:35.571|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
 INFO|2020-01-10 21:29:37.134|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9393 (http) with context path '/teacher'
 INFO|2020-01-10 21:29:37.142|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started BootstrapApplication in 5.708 seconds (JVM running for 8.259)
+INFO|2020-02-04 10:33:56.988|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 2072 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 10:33:57.006|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 675|No active profile set, falling back to default profiles: default
+INFO|2020-02-04 10:33:58.945|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9393 (http)
+INFO|2020-02-04 10:33:58.998|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 10:33:59.000|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 10:33:59.189|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 10:33:59.190|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 2113 ms
+INFO|2020-02-04 10:33:59.261|[main]|o.a.j.l.DirectJDKLog.log. 173|Stopping service [Tomcat]
+INFO|2020-02-04 10:33:59.277|[main]|o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage. 142|
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+INFO|2020-02-04 11:02:01.972|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 28140 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 11:02:01.977|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 675|No active profile set, falling back to default profiles: default
+INFO|2020-02-04 11:02:03.305|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9393 (http)
+INFO|2020-02-04 11:02:03.324|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 11:02:03.325|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 11:02:03.478|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 11:02:03.479|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1384 ms
+INFO|2020-02-04 11:02:03.544|[main]|o.a.j.l.DirectJDKLog.log. 173|Stopping service [Tomcat]
+INFO|2020-02-04 11:02:03.563|[main]|o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage. 142|
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+INFO|2020-02-04 11:02:36.622|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 15900 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 11:02:36.641|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 675|No active profile set, falling back to default profiles: default
+INFO|2020-02-04 11:02:38.028|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9393 (http)
+INFO|2020-02-04 11:02:38.046|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 11:02:38.046|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 11:02:38.203|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 11:02:38.203|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1459 ms
+INFO|2020-02-04 11:02:38.266|[main]|o.a.j.l.DirectJDKLog.log. 173|Stopping service [Tomcat]
+INFO|2020-02-04 11:02:38.282|[main]|o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage. 142|
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+INFO|2020-02-04 11:04:25.115|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 19424 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 11:04:25.121|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 675|No active profile set, falling back to default profiles: default
+INFO|2020-02-04 11:04:26.165|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9393 (http)
+INFO|2020-02-04 11:04:26.184|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 11:04:26.184|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 11:04:26.339|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 11:04:26.339|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1130 ms
+INFO|2020-02-04 11:04:26.483|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 11:04:26.754|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 11:04:27.712|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9393 (http) with context path '/teach'
+INFO|2020-02-04 11:04:27.717|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.934 seconds (JVM running for 4.744)

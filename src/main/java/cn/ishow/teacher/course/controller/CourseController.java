@@ -18,10 +18,10 @@ package cn.ishow.teacher.course.controller;
 
 import cn.ishow.common.enu.BusinessError;
 import cn.ishow.common.exception.BizRuntimeException;
-import cn.ishow.teacher.model.po.CoursePO;
-import cn.ishow.teacher.model.vo.CourseCondition;
-import cn.ishow.teacher.model.vo.CourseVO;
-import cn.ishow.teacher.service.ICourseService;
+import cn.ishow.teacher.course.model.po.CoursePO;
+import cn.ishow.teacher.course.model.vo.CourseCondition;
+import cn.ishow.teacher.course.model.vo.CourseVO;
+import cn.ishow.teacher.course.service.ICourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

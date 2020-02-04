@@ -18,11 +18,9 @@ package cn.ishow.teacher.role.controller;
 
 import cn.ishow.common.enu.BusinessError;
 import cn.ishow.common.exception.BizRuntimeException;
-import cn.ishow.teacher.constant.TeacherConstant;
-import cn.ishow.teacher.model.vo.UserVO;
-import cn.ishow.teacher.service.IUserService;
-import com.dianping.cat.Cat;
-import com.dianping.cat.message.Transaction;
+import cn.ishow.teacher.lib.constant.TeacherConstant;
+import cn.ishow.teacher.role.model.vo.UserVO;
+import cn.ishow.teacher.role.service.IUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,7 +45,6 @@ public class UserController {
 
     @RequestMapping("register")
     public String register(@Validated UserVO userVO) {
-        Transaction transaction = Cat.newTransaction("UserController", "register");
         try {
             if (!userVO.getPassword().equals(userVO.getPassword2())) {
                 log.warn("两次密码不一致,password:{}, password2:{}", userVO.getPassword(), userVO.getPassword2());
@@ -57,22 +54,14 @@ public class UserController {
                 throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "请输出正确角色");
             }
             String result = userService.register(userVO);
-            transaction.setSuccessStatus();
-            Cat.logMetricForCount("user_register_success");
             return result;
         } catch (RuntimeException e) {
-            transaction.setStatus(e);
-            transaction.addData("userVO", userVO);
-            Cat.logMetricForCount("user_register_fail");
             throw e;
-        } finally {
-            transaction.complete();
         }
     }
 
     @RequestMapping("checkAccount")
     public String checkAccount(String account) {
-        Transaction transaction = Cat.newTransaction("UserController", "checkAccount");
         try {
             if (Strings.isBlank(account)) {
                 log.warn("账号不能为空");
@@ -80,12 +69,7 @@ public class UserController {
             }
             return userService.checkAccount(account);
         } catch (RuntimeException e) {
-            Cat.logError(e);
-            transaction.setStatus(e);
-            transaction.addData("account ", account);
             throw e;
-        } finally {
-            transaction.complete();
         }
     }
 
@@ -101,7 +85,6 @@ public class UserController {
 
     @RequestMapping("login")
     public String login(String account, String password, boolean force) {
-        Transaction transaction = Cat.newTransaction("UserController", "login");
         try {
             if (Strings.isBlank(account)) {
                 throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "账号不为空");
@@ -110,19 +93,10 @@ public class UserController {
                 throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "密码不能为空");
             }
             String result = userService.login(account, password, force);
-            transaction.setSuccessStatus();
-            Cat.logMetricForCount("user_login_success");
             return result;
         } catch (RuntimeException e) {
-            transaction.setStatus(e);
-            transaction.addData("account", account);
-            transaction.addData("password", password);
-            transaction.addData("force", force);
-
-            Cat.logMetricForCount("user_login_fail");
+            log.error("login fail, account:{} password:{} force:{} cause:{}", account, password, force, e);
             throw e;
-        } finally {
-            transaction.complete();
         }
     }
 }

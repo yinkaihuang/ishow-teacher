@@ -1,4 +1,4 @@
-package cn.ishow.teacher;
+package cn.ishow.teacher.lib.configuration;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -16,19 +16,25 @@ package cn.ishow.teacher;
  * limitations under the License.
  */
 
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor;
+import cn.ishow.web.configuration.BaseWebMvcConfigurationSupport;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 
 /**
  * @author yinchong
- * @create 2019/11/24 16:33
+ * @create 2019/11/24 21:29
  * @description
  */
-@SpringBootApplication
-@MapperScan(basePackages = {"cn.ishow.*.*.mapper"})
-public class StartApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(StartApplication.class, args);
+@Configuration
+public class InterceptorConfiguration extends BaseWebMvcConfigurationSupport {
+    @Autowired
+    private LoginVerifyInterceptor loginVerifyInterceptor;
+
+    @Override
+    public void addInterceptorList(InterceptorRegistry registry) {
+        registry.addInterceptor(loginVerifyInterceptor).addPathPatterns("/**").order(100);
     }
+
 }

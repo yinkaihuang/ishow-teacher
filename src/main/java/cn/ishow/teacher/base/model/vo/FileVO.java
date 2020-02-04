@@ -1,4 +1,4 @@
-package cn.ishow.teacher;
+package cn.ishow.teacher.base.model.vo;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -16,19 +16,25 @@ package cn.ishow.teacher;
  * limitations under the License.
  */
 
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import lombok.Data;
+import org.hibernate.validator.constraints.Range;
+import org.springframework.validation.annotation.Validated;
+
+import javax.validation.constraints.NotBlank;
+import java.io.Serializable;
 
 /**
  * @author yinchong
- * @create 2019/11/24 16:33
+ * @create 2019/11/26 16:34
  * @description
  */
-@SpringBootApplication
-@MapperScan(basePackages = {"cn.ishow.*.*.mapper"})
-public class StartApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(StartApplication.class, args);
-    }
+@Data
+@Validated
+public class FileVO implements Serializable {
+    @NotBlank(message = "文件名称不能为空")
+    private String name;
+    @NotBlank(message = "md5值不能为空")
+    private String md5;
+    @Range(min = 1,max = 1024*1024*1024,message = "文件大小有误")
+    private Long length;
 }

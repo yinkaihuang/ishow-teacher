@@ -1,4 +1,4 @@
-package cn.ishow.teacher;
+package cn.ishow.teacher.course.model.vo;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -16,19 +16,23 @@ package cn.ishow.teacher;
  * limitations under the License.
  */
 
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import lombok.Data;
+
+import java.io.Serializable;
 
 /**
  * @author yinchong
- * @create 2019/11/24 16:33
+ * @create 2019/11/27 8:38
  * @description
  */
-@SpringBootApplication
-@MapperScan(basePackages = {"cn.ishow.*.*.mapper"})
-public class StartApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(StartApplication.class, args);
-    }
+@Data
+public class CourseVO implements Serializable {
+    private Long id;
+    private String name;
+    private Long imageId;
+    private Long videoId;
+    private String description;
+    private Integer type;
+    private Integer level;
+    private String tag;
 }

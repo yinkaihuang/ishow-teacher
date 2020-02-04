@@ -1,4 +1,4 @@
-package cn.ishow.teacher;
+package cn.ishow.teacher.lib.constant;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -16,19 +16,30 @@ package cn.ishow.teacher;
  * limitations under the License.
  */
 
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 /**
  * @author yinchong
- * @create 2019/11/24 16:33
+ * @create 2019/11/24 21:07
  * @description
  */
-@SpringBootApplication
-@MapperScan(basePackages = {"cn.ishow.*.*.mapper"})
-public class StartApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(StartApplication.class, args);
-    }
+public class TeacherConstant {
+    public static final String USRE_TOKEN = "user_token";
+    public static final int STUDENT_ROLE = 1;
+    public static final int TEACHER_ROLE = 2;
+    public static final int ADMIN_ROLE = 3;
+    //数学
+    public static final int MATH = 1;
+    //英文
+    private static final int ENGLISH =2;
+    //物理
+    private static final int PHYSICS = 3;
+    //语文
+    private static final int CHINESE = 4;
+    //化学
+    private static final int CHEMISTRY =5;
+    //基础
+    private static final int BASE = 1;
+    //进阶
+    private static final int ADVANCE =2;
+    //拔高
+    private static final int OVERSTATE =3;
 }

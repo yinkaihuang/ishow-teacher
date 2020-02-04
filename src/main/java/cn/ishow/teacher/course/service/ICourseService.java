@@ -1,4 +1,12 @@
-package cn.ishow.teacher;
+package cn.ishow.teacher.course.service;
+
+import cn.ishow.teacher.course.model.po.CoursePO;
+import cn.ishow.teacher.course.model.vo.CourseCondition;
+import cn.ishow.teacher.course.model.vo.CourseVO;
+import com.baomidou.mybatisplus.service.IService;
+
+import java.util.List;
+
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -15,20 +23,12 @@ package cn.ishow.teacher;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+public interface ICourseService extends IService<CoursePO> {
+    String addCourse(CourseVO courseVO);
 
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+    List<CoursePO> listActiveCourse(CourseCondition condition);
 
-/**
- * @author yinchong
- * @create 2019/11/24 16:33
- * @description
- */
-@SpringBootApplication
-@MapperScan(basePackages = {"cn.ishow.*.*.mapper"})
-public class StartApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(StartApplication.class, args);
-    }
+    String deleteCourse(Long id);
+
+    String updateCourse(CourseVO vo);
 }

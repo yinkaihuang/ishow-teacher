@@ -11321,3 +11321,11 @@ DEBUG|2019-12-19 16:14:36.659|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updat
 DEBUG|2020-01-10 21:29:32.341|[main]|o.s.b.StartupInfoLogger.logStarting.  53|Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
 DEBUG|2020-01-10 21:29:47.150|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
 DEBUG|2020-01-10 21:29:57.147|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 10:33:57.005|[main]|o.s.b.StartupInfoLogger.logStarting.  53|Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+DEBUG|2020-02-04 11:02:01.977|[main]|o.s.b.StartupInfoLogger.logStarting.  53|Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+DEBUG|2020-02-04 11:02:36.640|[main]|o.s.b.StartupInfoLogger.logStarting.  53|Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+DEBUG|2020-02-04 11:04:25.120|[main]|o.s.b.StartupInfoLogger.logStarting.  53|Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+DEBUG|2020-02-04 11:04:37.724|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:04:47.720|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:04:57.719|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:05:07.719|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same

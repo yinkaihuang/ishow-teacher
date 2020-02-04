@@ -1,4 +1,8 @@
-package cn.ishow.teacher;
+package cn.ishow.teacher.role.mapper;
+
+import cn.ishow.teacher.role.model.po.EventLogPO;
+import com.baomidou.mybatisplus.mapper.BaseMapper;
+
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -15,20 +19,5 @@ package cn.ishow.teacher;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-/**
- * @author yinchong
- * @create 2019/11/24 16:33
- * @description
- */
-@SpringBootApplication
-@MapperScan(basePackages = {"cn.ishow.*.*.mapper"})
-public class StartApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(StartApplication.class, args);
-    }
+public interface EventLogMapper extends BaseMapper<EventLogPO> {
 }

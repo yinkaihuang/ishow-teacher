@@ -643,7 +643,7 @@ ERROR|2019-11-25 12:00:33.097|[http-nio-9090-exec-5]|c.i.w.h.GlobalExceptionHand
 ERROR|2019-11-25 12:00:37.081|[http-nio-9090-exec-2]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 12:05:16.193|[http-nio-9090-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -682,7 +682,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-11-25 12:06:17.740|[http-nio-9090-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -721,7 +721,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-11-25 12:12:21.382|[http-nio-9090-exec-4]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -760,7 +760,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-11-25 12:12:37.267|[http-nio-9090-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -888,7 +888,7 @@ Verify the connector's configuration, identify and stop any process that's liste
 
 ERROR|2019-11-25 16:59:03.432|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -928,7 +928,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 16:59:03.441|[http-nio-9393-exec-2]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:00:47.346|[http-nio-9393-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -968,7 +968,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:00:47.356|[http-nio-9393-exec-1]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:00:48.494|[http-nio-9393-exec-3]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1008,7 +1008,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:00:48.496|[http-nio-9393-exec-3]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:01:01.580|[http-nio-9393-exec-4]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1048,7 +1048,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:01:01.582|[http-nio-9393-exec-4]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:01:02.440|[http-nio-9393-exec-5]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1088,7 +1088,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:01:02.441|[http-nio-9393-exec-5]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:01:03.184|[http-nio-9393-exec-6]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1128,7 +1128,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:01:03.186|[http-nio-9393-exec-6]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:02:20.898|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1168,7 +1168,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:02:20.915|[http-nio-9393-exec-2]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:02:21.771|[http-nio-9393-exec-3]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1208,7 +1208,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:02:21.772|[http-nio-9393-exec-3]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:02:22.443|[http-nio-9393-exec-6]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1248,7 +1248,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:02:22.445|[http-nio-9393-exec-6]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:02:49.129|[http-nio-9393-exec-5]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1288,7 +1288,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:02:49.130|[http-nio-9393-exec-5]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:02:49.518|[http-nio-9393-exec-7]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1328,7 +1328,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:02:49.519|[http-nio-9393-exec-7]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:02:49.735|[http-nio-9393-exec-4]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1368,7 +1368,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:02:49.736|[http-nio-9393-exec-4]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:02:49.919|[http-nio-9393-exec-8]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1408,7 +1408,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:02:49.921|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:02:50.125|[http-nio-9393-exec-9]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1448,7 +1448,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-25 17:02:50.127|[http-nio-9393-exec-9]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-25 17:02:50.337|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1500,7 +1500,7 @@ ERROR|2019-11-25 17:18:25.241|[http-nio-9393-exec-1]|c.i.w.h.GlobalExceptionHand
 ERROR|2019-11-25 17:22:19.544|[http-nio-9393-exec-5]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:403 detail:账号不为空
 ERROR|2019-11-25 17:22:25.918|[http-nio-9393-exec-6]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1559,7 +1559,7 @@ ERROR|2019-11-25 18:47:30.024|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHand
 ERROR|2019-11-25 18:47:30.272|[http-nio-9393-exec-9]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:403 detail:账号已经存在
 ERROR|2019-11-25 18:48:00.727|[http-nio-9393-exec-7]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1607,7 +1607,7 @@ ERROR|2019-11-25 18:50:34.308|[http-nio-9393-exec-6]|c.i.w.h.GlobalExceptionHand
 ERROR|2019-11-25 18:51:26.432|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:403 detail:账号已经存在
 ERROR|2019-11-25 18:52:43.393|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1677,7 +1677,7 @@ ERROR|2019-11-25 18:57:57.919|[http-nio-9393-exec-4]|c.i.w.h.GlobalExceptionHand
 ERROR|2019-11-25 18:57:59.368|[http-nio-9393-exec-5]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:403 detail:账号已经存在
 ERROR|2019-11-25 18:58:10.856|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1722,7 +1722,7 @@ ERROR|2019-11-25 18:58:10.860|[http-nio-9393-exec-10]|c.i.w.h.GlobalExceptionHan
 ERROR|2019-11-25 18:58:18.999|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHandler.handleError.  52|BizRuntimeException code:403 detail:该账号已经在其他地方正在登录，是否强制登录
 ERROR|2019-11-25 18:58:23.250|[http-nio-9393-exec-9]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1831,7 +1831,7 @@ WARN|2019-11-25 19:16:56.364|[http-nio-9393-exec-2]|o.s.w.s.h.AbstractHandlerExc
 Field error in object 'userVO' on field 'role': rejected value [null]; codes [NotNull.userVO.role,NotNull.role,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userVO.role,role]; arguments []; default message [role]]; default message [角色不能为空]]
 ERROR|2019-11-25 19:16:56.381|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -1923,7 +1923,7 @@ WARN|2019-11-25 19:17:00.404|[http-nio-9393-exec-4]|o.s.w.s.h.AbstractHandlerExc
 Field error in object 'userVO' on field 'role': rejected value [null]; codes [NotNull.userVO.role,NotNull.role,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userVO.role,role]; arguments []; default message [role]]; default message [角色不能为空]]
 ERROR|2019-11-25 19:17:00.405|[http-nio-9393-exec-4]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2015,7 +2015,7 @@ WARN|2019-11-25 19:17:15.038|[http-nio-9393-exec-5]|o.s.w.s.h.AbstractHandlerExc
 Field error in object 'userVO' on field 'role': rejected value [null]; codes [NotNull.userVO.role,NotNull.role,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userVO.role,role]; arguments []; default message [role]]; default message [角色不能为空]]
 ERROR|2019-11-25 19:17:15.039|[http-nio-9393-exec-5]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2072,7 +2072,7 @@ ERROR|2019-11-26 10:54:08.126|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHand
 ERROR|2019-11-26 10:54:08.321|[http-nio-9393-exec-10]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:403 detail:账号已经存在
 ERROR|2019-11-26 10:54:09.695|[http-nio-9393-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2116,7 +2116,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:54:09.718|[http-nio-9393-exec-1]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:54:09.918|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2160,7 +2160,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:54:09.920|[http-nio-9393-exec-2]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:54:10.123|[http-nio-9393-exec-3]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2204,7 +2204,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:54:10.124|[http-nio-9393-exec-3]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:54:10.308|[http-nio-9393-exec-4]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2248,7 +2248,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:54:10.309|[http-nio-9393-exec-4]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:54:10.610|[http-nio-9393-exec-5]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2292,7 +2292,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:54:10.611|[http-nio-9393-exec-5]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:54:10.811|[http-nio-9393-exec-6]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2336,7 +2336,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:54:10.812|[http-nio-9393-exec-6]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:55:35.569|[http-nio-9393-exec-8]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2380,7 +2380,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:55:35.570|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:55:35.846|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2424,7 +2424,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:55:35.847|[http-nio-9393-exec-10]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:55:36.048|[http-nio-9393-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2468,7 +2468,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:55:36.049|[http-nio-9393-exec-1]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:55:36.236|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2512,7 +2512,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:55:36.237|[http-nio-9393-exec-2]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:55:36.445|[http-nio-9393-exec-3]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2556,7 +2556,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:55:36.445|[http-nio-9393-exec-3]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:55:36.712|[http-nio-9393-exec-4]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2713,7 +2713,7 @@ ERROR|2019-11-26 10:57:00.469|[http-nio-9393-exec-7]|c.i.w.h.GlobalExceptionHand
 ERROR|2019-11-26 10:57:00.770|[http-nio-9393-exec-9]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:403 detail:账号已经存在
 ERROR|2019-11-26 10:57:56.326|[http-nio-9393-exec-8]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2757,7 +2757,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:57:56.326|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:57:56.631|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2801,7 +2801,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:57:56.632|[http-nio-9393-exec-10]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:57:56.910|[http-nio-9393-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2845,7 +2845,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:57:56.911|[http-nio-9393-exec-1]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:57:57.124|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2889,7 +2889,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 10:57:57.125|[http-nio-9393-exec-2]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 10:57:57.382|[http-nio-9393-exec-3]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -2970,7 +2970,7 @@ ERROR|2019-11-26 16:14:06.256|[http-nio-9393-exec-5]|c.i.w.h.GlobalExceptionHand
 ERROR|2019-11-26 16:14:06.500|[http-nio-9393-exec-6]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:403 detail:账号已经存在
 ERROR|2019-11-26 16:14:08.431|[http-nio-9393-exec-7]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3014,7 +3014,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 16:14:08.436|[http-nio-9393-exec-7]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 16:14:08.644|[http-nio-9393-exec-9]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3058,7 +3058,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 16:14:08.645|[http-nio-9393-exec-9]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 16:14:08.860|[http-nio-9393-exec-8]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3102,7 +3102,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 16:14:08.861|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 16:14:09.120|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3146,7 +3146,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 16:14:09.121|[http-nio-9393-exec-10]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 16:14:09.333|[http-nio-9393-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3192,7 +3192,7 @@ ERROR|2019-11-26 17:36:25.114|[http-nio-9393-exec-3]|c.i.w.h.GlobalExceptionHand
 ERROR|2019-11-26 17:36:34.822|[http-nio-9393-exec-4]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:403 detail:账号已经存在
 ERROR|2019-11-26 17:37:55.380|[http-nio-9393-exec-7]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3237,7 +3237,7 @@ ERROR|2019-11-26 17:37:55.385|[http-nio-9393-exec-7]|c.i.w.h.GlobalExceptionHand
 ERROR|2019-11-26 17:38:19.574|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHandler.handleError.  69| detail:javax.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'javax.validation.constraints.Size' validating type 'java.lang.Long'. Check configuration for 'length'
 ERROR|2019-11-26 17:39:43.942|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3286,13 +3286,13 @@ java.io.FileNotFoundException: \\data\37\2\17\7\1574761366202测试 (找不到�
 	at java.io.RandomAccessFile.open(RandomAccessFile.java:316) ~[?:1.8.0_151]
 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243) ~[?:1.8.0_151]
 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:124) ~[?:1.8.0_151]
-	at cn.ishow.teacher.service.impl.FileServiceImpl.createFile(FileServiceImpl.java:117) [classes/:?]
-	at cn.ishow.teacher.service.impl.FileServiceImpl.saveFileToDB(FileServiceImpl.java:111) [classes/:?]
-	at cn.ishow.teacher.service.impl.FileServiceImpl.obtainPosition(FileServiceImpl.java:51) [classes/:?]
-	at cn.ishow.teacher.service.impl.FileServiceImpl$$FastClassBySpringCGLIB$$86d0aefb.invoke(<generated>) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl.createFile(FileServiceImpl.java:117) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl.saveFileToDB(FileServiceImpl.java:111) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl.obtainPosition(FileServiceImpl.java:51) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl$$FastClassBySpringCGLIB$$86d0aefb.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) [spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at cn.ishow.teacher.service.impl.FileServiceImpl$$EnhancerBySpringCGLIB$$e9b820d4.obtainPosition(<generated>) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl$$EnhancerBySpringCGLIB$$e9b820d4.obtainPosition(<generated>) [classes/:?]
 	at cn.ishow.teacher.base.controller.FileController.obtainPosition(FileController.java:47) [classes/:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
@@ -3348,13 +3348,13 @@ ERROR|2019-11-26 17:46:20.840|[http-nio-9393-exec-2]|c.i.t.s.i.FileServiceImpl.c
 java.io.IOException: 找不到网络路径。
 	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[?:1.8.0_151]
 	at java.io.File.createNewFile(File.java:1012) ~[?:1.8.0_151]
-	at cn.ishow.teacher.service.impl.FileServiceImpl.createFile(FileServiceImpl.java:121) [classes/:?]
-	at cn.ishow.teacher.service.impl.FileServiceImpl.saveFileToDB(FileServiceImpl.java:112) [classes/:?]
-	at cn.ishow.teacher.service.impl.FileServiceImpl.obtainPosition(FileServiceImpl.java:52) [classes/:?]
-	at cn.ishow.teacher.service.impl.FileServiceImpl$$FastClassBySpringCGLIB$$86d0aefb.invoke(<generated>) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl.createFile(FileServiceImpl.java:121) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl.saveFileToDB(FileServiceImpl.java:112) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl.obtainPosition(FileServiceImpl.java:52) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl$$FastClassBySpringCGLIB$$86d0aefb.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) [spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at cn.ishow.teacher.service.impl.FileServiceImpl$$EnhancerBySpringCGLIB$$fca054c5.obtainPosition(<generated>) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl$$EnhancerBySpringCGLIB$$fca054c5.obtainPosition(<generated>) [classes/:?]
 	at cn.ishow.teacher.base.controller.FileController.obtainPosition(FileController.java:47) [classes/:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
@@ -3412,11 +3412,11 @@ java.io.FileNotFoundException:
 	at java.io.RandomAccessFile.open(RandomAccessFile.java:316) ~[?:1.8.0_151]
 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243) ~[?:1.8.0_151]
 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:124) ~[?:1.8.0_151]
-	at cn.ishow.teacher.service.impl.FileServiceImpl.upload(FileServiceImpl.java:77) [classes/:?]
-	at cn.ishow.teacher.service.impl.FileServiceImpl$$FastClassBySpringCGLIB$$86d0aefb.invoke(<generated>) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl.upload(FileServiceImpl.java:77) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl$$FastClassBySpringCGLIB$$86d0aefb.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) [spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at cn.ishow.teacher.service.impl.FileServiceImpl$$EnhancerBySpringCGLIB$$fa8fba24.upload(<generated>) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl$$EnhancerBySpringCGLIB$$fa8fba24.upload(<generated>) [classes/:?]
 	at cn.ishow.teacher.base.controller.FileController.uploadFile(FileController.java:67) [classes/:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
@@ -3485,11 +3485,11 @@ org.springframework.jdbc.BadSqlGrammarException:
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62) ~[mybatis-3.4.5.jar:3.4.5]
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59) ~[mybatis-3.4.5.jar:3.4.5]
 	at com.sun.proxy.$Proxy81.updatePosition(Unknown Source) ~[?:?]
-	at cn.ishow.teacher.service.impl.FileServiceImpl.upload(FileServiceImpl.java:88) [classes/:?]
-	at cn.ishow.teacher.service.impl.FileServiceImpl$$FastClassBySpringCGLIB$$86d0aefb.invoke(<generated>) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl.upload(FileServiceImpl.java:88) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl$$FastClassBySpringCGLIB$$86d0aefb.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) [spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at cn.ishow.teacher.service.impl.FileServiceImpl$$EnhancerBySpringCGLIB$$feeb687f.upload(<generated>) [classes/:?]
+	at cn.ishow.teacher.base.service.impl.FileServiceImpl$$EnhancerBySpringCGLIB$$feeb687f.upload(<generated>) [classes/:?]
 	at cn.ishow.teacher.base.controller.FileController.uploadFile(FileController.java:67) [classes/:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
@@ -3579,7 +3579,7 @@ Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'start_position' in 
 ERROR|2019-11-26 18:24:09.248|[http-nio-9393-exec-4]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:501 detail:文件上传失败
 ERROR|2019-11-26 18:46:35.450|[http-nio-9393-exec-5]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3623,7 +3623,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:35.456|[http-nio-9393-exec-5]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:35.744|[http-nio-9393-exec-7]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3667,7 +3667,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:35.745|[http-nio-9393-exec-7]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:35.959|[http-nio-9393-exec-8]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3711,7 +3711,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:35.960|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:36.205|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3755,7 +3755,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:36.206|[http-nio-9393-exec-10]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:36.384|[http-nio-9393-exec-9]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3799,7 +3799,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:36.385|[http-nio-9393-exec-9]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:36.643|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3843,7 +3843,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:36.644|[http-nio-9393-exec-2]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:36.847|[http-nio-9393-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3887,7 +3887,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:36.848|[http-nio-9393-exec-1]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:37.082|[http-nio-9393-exec-3]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3931,7 +3931,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:37.084|[http-nio-9393-exec-3]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:37.327|[http-nio-9393-exec-4]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -3975,7 +3975,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:37.327|[http-nio-9393-exec-4]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:37.520|[http-nio-9393-exec-6]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4019,7 +4019,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:37.523|[http-nio-9393-exec-6]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:37.757|[http-nio-9393-exec-5]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4063,7 +4063,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:37.758|[http-nio-9393-exec-5]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:37.952|[http-nio-9393-exec-7]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4107,7 +4107,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:37.953|[http-nio-9393-exec-7]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:38.169|[http-nio-9393-exec-8]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4151,7 +4151,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:38.170|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:38.363|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4195,7 +4195,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:38.364|[http-nio-9393-exec-10]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:38.626|[http-nio-9393-exec-9]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4239,7 +4239,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:38.626|[http-nio-9393-exec-9]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:38.830|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4283,7 +4283,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:38.831|[http-nio-9393-exec-2]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:39.032|[http-nio-9393-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4327,7 +4327,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:39.033|[http-nio-9393-exec-1]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:39.250|[http-nio-9393-exec-3]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4371,7 +4371,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:39.251|[http-nio-9393-exec-3]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:39.467|[http-nio-9393-exec-4]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4415,7 +4415,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:39.469|[http-nio-9393-exec-4]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:39.726|[http-nio-9393-exec-6]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4459,7 +4459,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:39.727|[http-nio-9393-exec-6]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:39.984|[http-nio-9393-exec-5]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4503,7 +4503,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:39.985|[http-nio-9393-exec-5]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:40.208|[http-nio-9393-exec-7]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4547,7 +4547,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:40.209|[http-nio-9393-exec-7]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:40.426|[http-nio-9393-exec-8]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4591,7 +4591,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:40.427|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:40.715|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4635,7 +4635,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:40.716|[http-nio-9393-exec-10]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:40.905|[http-nio-9393-exec-9]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4679,7 +4679,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:40.906|[http-nio-9393-exec-9]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:41.128|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4723,7 +4723,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:41.129|[http-nio-9393-exec-2]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:41.395|[http-nio-9393-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4767,7 +4767,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:41.396|[http-nio-9393-exec-1]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:41.610|[http-nio-9393-exec-3]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4811,7 +4811,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:41.611|[http-nio-9393-exec-3]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:41.879|[http-nio-9393-exec-4]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4855,7 +4855,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:41.879|[http-nio-9393-exec-4]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:42.082|[http-nio-9393-exec-6]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4899,7 +4899,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:42.083|[http-nio-9393-exec-6]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:42.338|[http-nio-9393-exec-5]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4943,7 +4943,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:42.339|[http-nio-9393-exec-5]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:42.546|[http-nio-9393-exec-7]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -4987,7 +4987,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:42.547|[http-nio-9393-exec-7]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:42.850|[http-nio-9393-exec-8]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5031,7 +5031,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:42.852|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:43.078|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5075,7 +5075,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:43.079|[http-nio-9393-exec-10]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:43.266|[http-nio-9393-exec-9]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5119,7 +5119,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:43.266|[http-nio-9393-exec-9]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:43.462|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5163,7 +5163,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:43.463|[http-nio-9393-exec-2]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:43.681|[http-nio-9393-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5207,7 +5207,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-11-26 18:46:43.682|[http-nio-9393-exec-1]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-11-26 18:46:43.872|[http-nio-9393-exec-3]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:65) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5343,7 +5343,7 @@ ERROR|2019-12-05 10:22:56.233|[http-nio-9393-exec-7]|c.i.w.h.GlobalExceptionHand
 ERROR|2019-12-05 10:22:56.562|[http-nio-9393-exec-9]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:403 detail:该账号已经在其他地方正在登录，是否强制登录
 ERROR|2019-12-05 10:23:01.359|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5404,7 +5404,7 @@ ERROR|2019-12-05 10:23:44.154|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHand
 ERROR|2019-12-05 10:23:44.365|[http-nio-9393-exec-7]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:403 detail:该账号已经在其他地方正在登录，是否强制登录
 ERROR|2019-12-05 10:24:00.599|[http-nio-9393-exec-9]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5448,7 +5448,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 ERROR|2019-12-05 10:24:00.600|[http-nio-9393-exec-9]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
 ERROR|2019-12-05 10:24:00.990|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5612,7 +5612,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 10:25:30.189|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5689,7 +5689,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 10:26:01.580|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5788,7 +5788,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 10:27:03.767|[http-nio-9393-exec-5]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5865,7 +5865,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 10:28:32.940|[http-nio-9393-exec-7]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5942,7 +5942,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 10:29:02.544|[http-nio-9393-exec-8]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -5974,7 +5974,7 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 10:29:02.546|[http-nio-9393-exec-8]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
-WARN|2019-12-05 10:29:36.620|[main]|o.s.c.s.AbstractApplicationContext.refresh. 557|Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'interceptorConfiguration': Unsatisfied dependency expressed through field 'loginVerifyInterceptor'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.interceptor.LoginVerifyInterceptor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+WARN|2019-12-05 10:29:36.620|[main]|o.s.c.s.AbstractApplicationContext.refresh. 557|Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'interceptorConfiguration': Unsatisfied dependency expressed through field 'loginVerifyInterceptor'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 ERROR|2019-12-05 10:29:36.851|[main]|o.s.b.d.LoggingFailureAnalysisReporter.report.  42|
 
 ***************************
@@ -5983,7 +5983,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field loginVerifyInterceptor in cn.ishow.teacher.configuration.InterceptorConfiguration required a bean of type 'cn.ishow.teacher.interceptor.LoginVerifyInterceptor' that could not be found.
+Field loginVerifyInterceptor in cn.ishow.teacher.lib.configuration.InterceptorConfiguration required a bean of type 'cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -5991,9 +5991,9 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'cn.ishow.teacher.interceptor.LoginVerifyInterceptor' in your configuration.
+Consider defining a bean of type 'cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor' in your configuration.
 
-WARN|2019-12-05 10:30:00.429|[main]|o.s.c.s.AbstractApplicationContext.refresh. 557|Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'interceptorConfiguration': Unsatisfied dependency expressed through field 'loginVerifyInterceptor'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.interceptor.LoginVerifyInterceptor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+WARN|2019-12-05 10:30:00.429|[main]|o.s.c.s.AbstractApplicationContext.refresh. 557|Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'interceptorConfiguration': Unsatisfied dependency expressed through field 'loginVerifyInterceptor'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 ERROR|2019-12-05 10:30:00.569|[main]|o.s.b.d.LoggingFailureAnalysisReporter.report.  42|
 
 ***************************
@@ -6002,7 +6002,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field loginVerifyInterceptor in cn.ishow.teacher.configuration.InterceptorConfiguration required a bean of type 'cn.ishow.teacher.interceptor.LoginVerifyInterceptor' that could not be found.
+Field loginVerifyInterceptor in cn.ishow.teacher.lib.configuration.InterceptorConfiguration required a bean of type 'cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -6010,7 +6010,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'cn.ishow.teacher.interceptor.LoginVerifyInterceptor' in your configuration.
+Consider defining a bean of type 'cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor' in your configuration.
 
 ERROR|2019-12-05 10:31:38.423|[http-nio-9393-exec-1]|c.i.w.h.GlobalExceptionHandler.handleError.  69| detail:java.lang.ClassCastException: cn.ishow.common.model.vo.ResultVO cannot be cast to java.lang.String
 ERROR|2019-12-05 10:31:39.636|[http-nio-9393-exec-3]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:403 detail:该账号已经在其他地方正在登录，是否强制登录
@@ -6722,7 +6722,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 18:41:16.807|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -6799,7 +6799,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 18:46:02.808|[http-nio-9393-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -6876,7 +6876,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 18:50:51.372|[http-nio-9393-exec-3]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -6953,7 +6953,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 18:55:03.089|[http-nio-9393-exec-7]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7030,7 +7030,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 18:56:11.412|[http-nio-9393-exec-8]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7107,7 +7107,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 18:56:31.991|[http-nio-9393-exec-9]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7184,7 +7184,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 19:02:10.610|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7261,7 +7261,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 19:07:08.984|[http-nio-9393-exec-2]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7338,7 +7338,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 19:12:10.739|[http-nio-9393-exec-1]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7415,7 +7415,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 19:17:10.729|[http-nio-9393-exec-3]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7492,7 +7492,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 19:22:09.046|[http-nio-9393-exec-4]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7569,7 +7569,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 19:27:08.589|[http-nio-9393-exec-5]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7646,7 +7646,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 19:32:09.020|[http-nio-9393-exec-6]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7723,7 +7723,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 19:37:08.609|[http-nio-9393-exec-7]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7800,7 +7800,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 19:42:08.781|[http-nio-9393-exec-8]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7877,7 +7877,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 19:47:08.515|[http-nio-9393-exec-9]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7954,7 +7954,7 @@ javax.servlet.ServletException: Could not resolve view with name 'email/sendEmai
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-05 19:52:09.148|[http-nio-9393-exec-10]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -7992,7 +7992,7 @@ WARN|2019-12-19 16:14:13.089|[http-nio-9393-exec-4]|o.s.w.s.DispatcherServlet.no
 ERROR|2019-12-19 16:14:13.090|[http-nio-9393-exec-4]|c.i.w.h.GlobalExceptionHandler.handleError.  59|NoHandlerFoundException detail:org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /teacher/hello
 ERROR|2019-12-19 16:14:36.196|[http-nio-9393-exec-6]|c.i.t.i.LoginVerifyInterceptor.preHandle.  70|error message:{}
 cn.ishow.common.exception.BizRuntimeException: 请重新登录
-	at cn.ishow.teacher.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
+	at cn.ishow.teacher.lib.interceptor.LoginVerifyInterceptor.preHandle(LoginVerifyInterceptor.java:61) [classes/:?]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
@@ -8034,3 +8034,183 @@ cn.ishow.common.exception.BizRuntimeException: 请重新登录
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
 ERROR|2019-12-19 16:14:36.202|[http-nio-9393-exec-6]|c.i.w.h.GlobalExceptionHandler.handleError.  53|BizRuntimeException code:404 detail:请重新登录
+WARN|2020-02-04 10:33:58.003|[main]|o.m.s.m.ClassPathMapperScanner.doScan. 166|No MyBatis mapper was found in '[cn.ishow.teacher.mapper]' package. Please check your configuration.
+WARN|2020-02-04 10:33:58.219|[main]|o.m.s.m.ClassPathMapperScanner.doScan. 166|No MyBatis mapper was found in '[cn.ishow.teacher]' package. Please check your configuration.
+WARN|2020-02-04 10:33:59.259|[main]|o.s.c.s.AbstractApplicationContext.refresh. 557|Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.base.mapper.FileMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ERROR|2020-02-04 10:33:59.365|[main]|o.s.b.SpringApplication.reportFailure. 858|Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.base.mapper.FileMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at cn.ishow.teacher.StartApplication.main(StartApplication.java:32) [classes/:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.base.mapper.FileMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 19 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.base.mapper.FileMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1654) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1213) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 19 more
+WARN|2020-02-04 11:02:02.640|[main]|o.m.s.m.ClassPathMapperScanner.doScan. 166|No MyBatis mapper was found in '[cn.ishow.teacher.mapper]' package. Please check your configuration.
+WARN|2020-02-04 11:02:02.734|[main]|o.m.s.m.ClassPathMapperScanner.doScan. 166|No MyBatis mapper was found in '[cn.ishow.teacher]' package. Please check your configuration.
+WARN|2020-02-04 11:02:03.542|[main]|o.s.c.s.AbstractApplicationContext.refresh. 557|Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.base.mapper.FileMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ERROR|2020-02-04 11:02:03.621|[main]|o.s.b.SpringApplication.reportFailure. 858|Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.base.mapper.FileMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at cn.ishow.teacher.StartApplication.main(StartApplication.java:32) [classes/:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.base.mapper.FileMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 19 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.base.mapper.FileMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1654) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1213) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 19 more
+WARN|2020-02-04 11:02:37.256|[main]|o.m.s.m.ClassPathMapperScanner.doScan. 166|No MyBatis mapper was found in '[cn.ishow.teacher.mapper]' package. Please check your configuration.
+WARN|2020-02-04 11:02:37.342|[main]|o.m.s.m.ClassPathMapperScanner.doScan. 166|No MyBatis mapper was found in '[cn.ishow.teacher]' package. Please check your configuration.
+WARN|2020-02-04 11:02:38.264|[main]|o.s.c.s.AbstractApplicationContext.refresh. 557|Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.base.mapper.FileMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ERROR|2020-02-04 11:02:38.337|[main]|o.s.b.SpringApplication.reportFailure. 858|Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.base.mapper.FileMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at cn.ishow.teacher.StartApplication.main(StartApplication.java:32) [classes/:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.base.mapper.FileMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 19 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.ishow.teacher.base.mapper.FileMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1654) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1213) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 19 more

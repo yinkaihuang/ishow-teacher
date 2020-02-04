@@ -34,11 +34,6 @@
             <artifactId>ishow-starter-jdbc</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>cn.bucheng</groupId>
-            <artifactId>ishow-starter-cat</artifactId>
-        </dependency>
-
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

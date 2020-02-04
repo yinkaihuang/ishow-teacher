@@ -1,4 +1,4 @@
-package cn.ishow.teacher;
+package cn.ishow.teacher.role.model.po;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -16,19 +16,34 @@ package cn.ishow.teacher;
  * limitations under the License.
  */
 
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import cn.ishow.common.model.po.BasePO;
+import com.baomidou.mybatisplus.annotations.TableId;
+import com.baomidou.mybatisplus.annotations.TableName;
+import com.baomidou.mybatisplus.enums.IdType;
+import lombok.Data;
+import org.apache.ibatis.type.Alias;
+
+import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @author yinchong
- * @create 2019/11/24 16:33
+ * @create 2019/11/24 16:35
  * @description
  */
-@SpringBootApplication
-@MapperScan(basePackages = {"cn.ishow.*.*.mapper"})
-public class StartApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(StartApplication.class, args);
-    }
+@Data
+@Alias("user")
+@TableName("t_user")
+public class UserPO extends BasePO implements Serializable {
+    @TableId(type = IdType.AUTO)
+    private Long id;
+    private String loginAccount;
+    private String password;
+    private String phoneNumber;
+    private String name;
+    private String gender;
+    private Date birthDay;
+    private String openId;
+    //1是学生 2是老师 3是管理员
+    private Integer role;
 }

@@ -1,4 +1,4 @@
-package cn.ishow.teacher;
+package cn.ishow.teacher.role.model.vo;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -16,19 +16,33 @@ package cn.ishow.teacher;
  * limitations under the License.
  */
 
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import lombok.Data;
+import org.springframework.validation.annotation.Validated;
+
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import java.io.Serializable;
 
 /**
  * @author yinchong
- * @create 2019/11/24 16:33
+ * @create 2019/11/24 16:56
  * @description
  */
-@SpringBootApplication
-@MapperScan(basePackages = {"cn.ishow.*.*.mapper"})
-public class StartApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(StartApplication.class, args);
-    }
+@Data
+@Validated
+public class UserVO implements Serializable {
+    @NotBlank(message = "账号不能为空")
+    private String loginAccount;
+    @NotBlank(message = "名称不能为空")
+    private String name;
+    private Data birthDay;
+    @NotBlank(message = "密码不能为空")
+    private String password;
+    @NotBlank(message = "第二次密码不能为空")
+    private String password2;
+    private String gender;
+    @NotBlank(message = "手机号不能为空")
+    private String phoneNumber;
+    @NotNull(message = "角色不能为空")
+    private Integer role;
 }
