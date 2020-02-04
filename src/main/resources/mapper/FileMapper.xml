@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="cn.ishow.teacher.base.mapper.FileMapper">
+<mapper namespace="cn.ishow.educate.base.mapper.FileMapper">
     <update id="updatePosition">
         update t_file set position =#{position},update_date =now() where id =#{id}
     </update>

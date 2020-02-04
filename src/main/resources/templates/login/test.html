@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script type="text/javascript">
+        function change() {
+            $.ajax({
+                url: "/getteacherinfo1",
+                type: "post",
+                datatype: "json",
+                success: function (data) {
+                    document.getElementById('winddow1td1').value = data.split(" ")[0];
+                    document.getElementById('winddow1td2').value = data.split(" ")[1];
+                    document.getElementById('winddow1td3').value = data.split(" ")[2];
+                    document.getElementById('winddow1td4').value = data.split(" ")[3];
+                    document.getElementById('winddow1td5').value = data.split(" ")[4];
+                    document.getElementById('winddow1td6').value = data.split(" ")[5];
+                }
+            })
+        }
+    </script>
+</head>
+<body onload="change()">
+    <div>
+        <h3 th:text="'欢迎您：：' + ${session.tname}"></h3>
+        <p>
+            你好！
+        </p>
+        <p>如果你看到这个页面，代表你是登陆成功了</p>
+        <p>1</p>
+        <a href="/info">用户信息</a>
+        <p>2</p>
+
+    </div>
+    <div>
+
+        <form  action="saveinfo" method="post">
+            <table border="0" style="margin-top:4px; margin-left: 18px">
+                <tr>
+                    <td width="90">
+                        <label>工号：</label>
+                    </td>
+                    <td>
+                        <input type="text"  readOnly="true" style="width:255px; height: 25px;" name="sno" id="winddow1td1"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="90">
+                        <label>姓名：</label>
+                    </td>
+                    <td>
+                        <input type="text"  style="width:255px; height: 25px;" name="sname" id="winddow1td2"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="90">
+                        <label>密码：</label>
+                    </td>
+                    <td>
+                        <input type="text"  style="width:255px; height: 25px;" name="password" id="winddow1td3"/>
+
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td width="90">
+                        <label>课程号：</label>
+                    </td>
+                    <td>
+                        <input type="text"  style="width:255px; height: 25px;" name="tno" id="winddow1td4"/>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="90">
+                        <label>课程名：</label>
+                    </td>
+                    <td>
+                        <input type="text"  style="width:255px; height: 25px;" name="tname" id="winddow1td5"/>
+
+                    </td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td width="90">
+                        <label>分数：</label>
+                    </td>
+                    <td>
+                        <input type="text"  style="width:255px; height: 25px;" name="tgrade" id="winddow1td6"/>
+
+                    </td>
+                    <td></td>
+                </tr>
+                <tr><td colspan="2" align="center"><input type="submit" value="确定" style="width:70px; height: 25px;" /></td></tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
