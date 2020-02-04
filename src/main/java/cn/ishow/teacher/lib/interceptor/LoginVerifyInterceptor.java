@@ -41,7 +41,7 @@ import javax.servlet.http.HttpServletResponse;
 @Slf4j
 public class LoginVerifyInterceptor implements HandlerInterceptor {
 
-    @Value("${not.need.login:/teacher/user/login,/teacher/user/register,/teacher/email/sendEmail}")
+    @Value("${not.need.login:/teach/user/login,/teach/user/register,/teach/email/sendEmail}")
     private String noNeedLogin;
 
     @Override

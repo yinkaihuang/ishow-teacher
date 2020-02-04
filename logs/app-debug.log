@@ -11329,3 +11329,14 @@ DEBUG|2020-02-04 11:04:37.724|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updat
 DEBUG|2020-02-04 11:04:47.720|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
 DEBUG|2020-02-04 11:04:57.719|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
 DEBUG|2020-02-04 11:05:07.719|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:05:17.720|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:05:27.719|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:05:37.719|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:05:47.719|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:05:57.720|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:06:11.627|[main]|o.s.b.StartupInfoLogger.logStarting.  53|Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+DEBUG|2020-02-04 11:06:22.335|[http-nio-9393-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select * from t_user where login_account =? and password =? 
+DEBUG|2020-02-04 11:06:22.447|[http-nio-9393-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: yinbucheng(String), 12345(String)
+DEBUG|2020-02-04 11:06:22.488|[http-nio-9393-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-04 11:06:24.288|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:06:34.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
