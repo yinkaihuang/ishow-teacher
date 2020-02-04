@@ -16,7 +16,7 @@ package cn.ishow.teacher.lib.util;
  * limitations under the License.
  */
 
-import cn.ishow.teacher.lib.constant.TeacherConstant;
+import cn.ishow.teacher.lib.enu.Educate;
 import cn.ishow.teacher.role.model.po.UserPO;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.web.context.request.RequestContextHolder;
@@ -58,6 +58,6 @@ public class WebUtils {
         if (request == null) {
             return null;
         }
-        return request.getHeader(TeacherConstant.USRE_TOKEN);
+        return request.getHeader(Educate.USER_TOKEN);
     }
 }

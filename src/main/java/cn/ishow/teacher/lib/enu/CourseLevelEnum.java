@@ -1,4 +1,4 @@
-package cn.ishow.teacher.lib.constant;
+package cn.ishow.teacher.lib.enu;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -18,28 +18,26 @@ package cn.ishow.teacher.lib.constant;
 
 /**
  * @author yinchong
- * @create 2019/11/24 21:07
+ * @create 2020/2/4 11:51
  * @description
  */
-public class TeacherConstant {
-    public static final String USRE_TOKEN = "user_token";
-    public static final int STUDENT_ROLE = 1;
-    public static final int TEACHER_ROLE = 2;
-    public static final int ADMIN_ROLE = 3;
-    //数学
-    public static final int MATH = 1;
-    //英文
-    private static final int ENGLISH =2;
-    //物理
-    private static final int PHYSICS = 3;
-    //语文
-    private static final int CHINESE = 4;
-    //化学
-    private static final int CHEMISTRY =5;
-    //基础
-    private static final int BASE = 1;
-    //进阶
-    private static final int ADVANCE =2;
-    //拔高
-    private static final int OVERSTATE =3;
+public enum  CourseLevelEnum {
+    BASE(1,"基础"),ADVANCE(2,"进阶"),OVERSTATE(3,"拔高");
+    private int code;
+    private String msg;
+
+    CourseLevelEnum(int code, String msg) {
+        this.code = code;
+        this.msg = msg;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+
 }

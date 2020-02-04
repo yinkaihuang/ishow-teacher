@@ -18,7 +18,7 @@ package cn.ishow.teacher.role.service.impl;
 
 import cn.ishow.common.enu.BusinessError;
 import cn.ishow.common.exception.BizRuntimeException;
-import cn.ishow.teacher.lib.constant.TeacherConstant;
+import cn.ishow.teacher.lib.enu.RoleEnum;
 import cn.ishow.teacher.role.mapper.UserMapper;
 import cn.ishow.teacher.role.model.po.UserPO;
 import cn.ishow.teacher.role.model.vo.UserVO;
@@ -58,7 +58,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserPO> implements 
         }
         UserPO userPO = new UserPO();
         BeanUtils.copyProperties(userVO, userPO);
-        if (userPO.getRole() == TeacherConstant.STUDENT_ROLE) {
+        if (userPO.getRole() == RoleEnum.TEACHER.getCode()) {
             userPO.setEnable(true);
         } else {
             userPO.setEnable(false);

@@ -11340,3 +11340,186 @@ DEBUG|2020-02-04 11:06:22.447|[http-nio-9393-exec-2]|o.a.i.l.j.BaseJdbcLogger.de
 DEBUG|2020-02-04 11:06:22.488|[http-nio-9393-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
 DEBUG|2020-02-04 11:06:24.288|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
 DEBUG|2020-02-04 11:06:34.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:06:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:06:54.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:07:04.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:07:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:07:24.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:07:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:07:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:07:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:08:04.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:08:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:08:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:08:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:08:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:08:54.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:09:04.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:09:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:09:24.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:09:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:09:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:09:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:10:04.239|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:10:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:10:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:10:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:10:44.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:10:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:11:04.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:11:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:11:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:11:34.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:11:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:11:54.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:12:04.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:12:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:12:24.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:12:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:12:44.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:12:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:13:04.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:13:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:13:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:13:34.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:13:44.256|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:13:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:14:04.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:14:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:14:24.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:14:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:14:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:14:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:15:04.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:15:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:15:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:15:34.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:15:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:15:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:16:04.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:16:14.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:16:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:16:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:16:44.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:16:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:17:04.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:17:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:17:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:17:34.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:17:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:17:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:18:04.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:18:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:18:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:18:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:18:44.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:18:54.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:19:04.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:19:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:19:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:19:34.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:19:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:19:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:20:04.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:20:14.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:20:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:20:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:20:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:20:54.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:21:04.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:21:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:21:24.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:21:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:21:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:21:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:22:04.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:22:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:22:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:22:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:22:44.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:22:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:23:04.251|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:23:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:23:24.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:23:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:23:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:23:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:24:04.239|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:24:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:24:24.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:24:34.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:24:44.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:24:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:25:04.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:25:14.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:25:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:25:34.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:25:44.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:25:54.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:26:04.236|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:26:14.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:26:24.235|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:26:39.032|[main]|o.s.b.StartupInfoLogger.logStarting.  53|Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+DEBUG|2020-02-04 11:26:46.748|[http-nio-9393-exec-3]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select * from t_user where login_account =? and password =? 
+DEBUG|2020-02-04 11:26:46.855|[http-nio-9393-exec-3]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: yinbucheng(String), 12345(String)
+DEBUG|2020-02-04 11:26:46.878|[http-nio-9393-exec-3]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-04 11:26:51.523|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:27:01.523|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:27:11.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:27:21.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:27:31.523|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:27:41.524|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:27:51.523|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:28:01.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:28:11.523|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:28:21.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:28:31.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:28:41.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:28:51.523|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:29:01.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:29:11.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:29:21.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:29:31.524|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:29:41.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:29:51.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:30:01.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:30:11.523|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:30:21.522|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:41:13.626|[main]|o.s.b.StartupInfoLogger.logStarting.  53|Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+DEBUG|2020-02-04 11:41:26.653|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:41:36.648|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:41:46.648|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:41:56.649|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:42:06.648|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:42:16.648|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:42:26.187|[main]|o.s.b.StartupInfoLogger.logStarting.  53|Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+DEBUG|2020-02-04 11:42:38.733|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:42:48.729|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:42:58.729|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:43:08.730|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:43:18.729|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:43:28.729|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:43:38.730|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:43:48.730|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:43:58.729|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:44:08.729|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:44:18.729|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:44:27.771|[http-nio-9393-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select count(*) from t_user where login_account = ? 
+DEBUG|2020-02-04 11:44:27.865|[http-nio-9393-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: yinbucheng2(String)
+DEBUG|2020-02-04 11:44:27.887|[http-nio-9393-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-04 11:44:28.730|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:44:35.317|[http-nio-9393-exec-4]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select count(*) from t_user where login_account = ? 
+DEBUG|2020-02-04 11:44:35.318|[http-nio-9393-exec-4]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: yinbucheng2(String)
+DEBUG|2020-02-04 11:44:35.319|[http-nio-9393-exec-4]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-04 11:44:38.729|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:44:48.729|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:44:58.730|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:57:47.860|[main]|o.s.b.StartupInfoLogger.logStarting.  53|Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+DEBUG|2020-02-04 11:58:00.979|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:58:13.672|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:58:14.942|[http-nio-9393-exec-1]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select count(*) from t_user where login_account = ? 
+DEBUG|2020-02-04 11:58:15.467|[http-nio-9393-exec-1]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: yinbucheng2(String)
+DEBUG|2020-02-04 11:58:15.689|[http-nio-9393-exec-1]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-04 11:58:35.732|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:58:35.733|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:info and lastLevel:info is same
+DEBUG|2020-02-04 11:58:44.450|[main]|o.s.b.StartupInfoLogger.logStarting.  53|Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE

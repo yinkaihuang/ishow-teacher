@@ -18,7 +18,7 @@ package cn.ishow.teacher.role.controller;
 
 import cn.ishow.common.enu.BusinessError;
 import cn.ishow.common.exception.BizRuntimeException;
-import cn.ishow.teacher.lib.constant.TeacherConstant;
+import cn.ishow.teacher.lib.enu.RoleEnum;
 import cn.ishow.teacher.role.model.vo.UserVO;
 import cn.ishow.teacher.role.service.IUserService;
 import lombok.extern.slf4j.Slf4j;
@@ -50,7 +50,7 @@ public class UserController {
                 log.warn("两次密码不一致,password:{}, password2:{}", userVO.getPassword(), userVO.getPassword2());
                 throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "两次密码不一致");
             }
-            if (userVO.getRole() != TeacherConstant.STUDENT_ROLE || userVO.getRole() == TeacherConstant.TEACHER_ROLE) {
+            if (userVO.getRole() != RoleEnum.STUDENT.getCode() || userVO.getRole() == RoleEnum.TEACHER.getCode()) {
                 throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "请输出正确角色");
             }
             String result = userService.register(userVO);
@@ -73,10 +73,6 @@ public class UserController {
         }
     }
 
-    @RequestMapping("supply")
-    public String supplyUser(UserVO userVO) {
-        return "";
-    }
 
     @RequestMapping("logout")
     public String logout() {

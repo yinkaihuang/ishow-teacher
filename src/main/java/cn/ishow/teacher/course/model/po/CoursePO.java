@@ -17,10 +17,14 @@ package cn.ishow.teacher.course.model.po;
  */
 
 import cn.ishow.common.model.po.BasePO;
+import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.apache.ibatis.type.Alias;
 
 import java.io.Serializable;
@@ -33,15 +37,31 @@ import java.io.Serializable;
 @Data
 @TableName("t_course")
 @Alias("coursePO")
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class CoursePO extends BasePO implements Serializable {
     @TableId(type = IdType.AUTO)
     private Long id;
+    //课程名称
     private String name;
+    //讲师名称
     private String author;
+    //发布者
+    private String pusher;
+    //图片id
     private Long imageId;
+    //视频播放地址
     private Long videoId;
+    //课程类型
     private Integer type;
+    //课程等级
     private Integer level;
+    //标签
     private String tag;
+    //描述
     private String description;
+    //是否免费
+    @TableField("free")
+    private Boolean isFree;
 }

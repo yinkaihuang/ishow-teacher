@@ -1,37 +1,57 @@
-create table t_user if not exists(
+create database  if not exists educate DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+
+create table  if not exists educate.t_user(
 id bigint primary key auto_increment,
-login_account varchar(100),
-password varchar(100),
-phone_number varchar(50) default "",
-name varchar(50),
-gender varchar(10),
-birth_day datetime,
-open_id varchar(200),
-create_date datetime default now(),
-update_date datetime default now(),
-enable tinyint default 1,
-remark varchar(255)
+login_account varchar(100) default "" comment "登录账号",
+password varchar(100) default "" comment "密码",
+phone_number varchar(50) default "" comment "手机号",
+name varchar(50) default "" comment "用户名称",
+gender varchar(10) default "" comment "性别",
+birth_day datetime default now() comment "生日",
+open_id varchar(255) default "" comment "微信ID",
+create_date datetime default now() comment "创建时间",
+update_date datetime default now() comment "更新时间",
+enable tinyint default 1 comment "是否启动",
+remark varchar(255) comment "备注"
 )engine=innodb;
 
-create table if not exists t_event_log (
+create table  if not exists educate.t_event_log(
 id bigint primary key auto_increment,
-operator varchar(100),
-event varchar(100),
-create_date datetime default now(),
-update_date datetime default now(),
-enable tinyint default 1,
-remark varchar(255)
+operator varchar(100) default "" comment "操作人",
+event varchar(100) default "" comment "事件",
+create_date datetime default now() comment "创建时间",
+update_date datetime default now() comment "更新时间",
+enable tinyint default 1 comment "是否启动",
+remark varchar(255) default "" comment "备注"
 )engine=innodb;
 
-create table if not exists t_file(
+create table  if not exists educate.t_file(
  id bigint primary key auto_increment,
  name varchar(100) default "" comment "文件名",
  md5 varchar(100) default "" comment "md5值",
  path varchar(255) default "" comment "文件路径",
  position bigint default 0 comment "偏移量",
  length bigint default 0 comment "文件大小",
- create_date datetime default now(),
- update_date datetime default now(),
- enable tinyint default 1,
- remark varchar(255)
+ create_date datetime default now() comment "创建时间",
+ update_date datetime default now() comment "修改时间",
+ enable tinyint default 1 comment "是否启动",
+ remark varchar(255) comment "备注"
+)engine=innodb;
+
+create table  if not exists educate.t_course(
+ id bigint primary key auto_increment,
+ name varchar(255) default "" comment "课程名称",
+ author varchar(255) default "" comment "讲师",
+ pusher varchar(255) default "" comment "视频发布者",
+ image_id varchar(255) default "" comment "视频封面id",
+ video_id varchar(255) default "" comment "视频录像id",
+ type int comment "课程类型",
+ level int comment "课程级别",
+ tag varchar(255) default "" comment "课程标签",
+ description text default "" comment "课程描述",
+ free tinyint default 1 comment "是否免费"
+ create_date datetime default now() comment "创建时间",
+ update_date datetime default now() comment "修改时间",
+ enable tinyint default 1 comment "是否启动",
+ remark varchar(255) comment "备注"
 )engine=innodb;
