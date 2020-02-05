@@ -18,7 +18,10 @@ package cn.ishow.educate.role.mapper;
 
 import cn.ishow.educate.role.model.po.UserPO;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
+import com.baomidou.mybatisplus.plugins.Page;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  * @author yinchong
@@ -29,4 +32,7 @@ public interface UserMapper extends BaseMapper<UserPO> {
     int checkAccount(@Param("account") String account);
 
     UserPO findByAccountAndPassword(@Param("account") String account,@Param("password") String password);
+
+
+    List<UserPO> findPage(Page page, int roleType, String search);
 }

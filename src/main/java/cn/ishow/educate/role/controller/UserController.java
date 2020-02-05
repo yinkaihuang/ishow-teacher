@@ -18,29 +18,41 @@ package cn.ishow.educate.role.controller;
 
 import cn.ishow.common.enu.BusinessError;
 import cn.ishow.common.exception.BizRuntimeException;
+import cn.ishow.educate.common.model.vo.BaseVO;
+import cn.ishow.educate.common.model.vo.ResultVO;
 import cn.ishow.educate.lib.enu.RoleEnum;
+import cn.ishow.educate.role.model.po.UserPO;
 import cn.ishow.educate.role.model.vo.UserVO;
 import cn.ishow.educate.role.service.IUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.logging.log4j.util.Strings;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.text.SimpleDateFormat;
+import java.util.Map;
 
 /**
  * @author yinchong
  * @create 2019/11/24 16:56
  * @description
  */
-@RestController
+@Controller
 @RequestMapping("user")
 @Slf4j
 public class UserController {
+    public static final String USER_EDIT = "userEdit";
+    public static final String ROLE_TYPE = "roleType";
     @Autowired
     private IUserService userService;
 
     @RequestMapping("register")
+    @ResponseBody
     public String register(@Validated UserVO userVO) {
         try {
             if (!userVO.getPassword().equals(userVO.getPassword2())) {
@@ -58,6 +70,7 @@ public class UserController {
     }
 
     @RequestMapping("checkAccount")
+    @ResponseBody
     public String checkAccount(String account) {
         try {
             if (Strings.isBlank(account)) {
@@ -72,11 +85,13 @@ public class UserController {
 
 
     @RequestMapping("logout")
+    @ResponseBody
     public String logout() {
         return userService.logout();
     }
 
     @RequestMapping("login")
+    @ResponseBody
     public String login(String account, String password, boolean force) {
         try {
             if (Strings.isBlank(account)) {
@@ -91,5 +106,55 @@ public class UserController {
             log.error("login fail, account:{} password:{} force:{} cause:{}", account, password, force, e);
             throw e;
         }
+    }
+
+    @RequestMapping("/student")
+    public String studentPage(ModelMap map) {
+        map.put(ROLE_TYPE, RoleEnum.STUDENT.getCode());
+        return "user/list";
+    }
+
+    @RequestMapping("/teacher")
+    public String teacherPage(ModelMap map) {
+        map.put(ROLE_TYPE, RoleEnum.TEACHER.getCode());
+        return "user/list";
+    }
+
+    @RequestMapping("/list")
+    @ResponseBody
+    public Map<String, Object> list(Integer roleType, BaseVO baseVO) {
+        return userService.listRecord(roleType, baseVO).toTableMap();
+    }
+
+    @RequestMapping("/delete")
+    @ResponseBody
+    public ResultVO delete(Long id) {
+        boolean flag = userService.deleteById(id);
+        if (flag) {
+            return ResultVO.success("删除成功");
+        } else {
+            return ResultVO.fail("删除失败");
+        }
+    }
+
+    @RequestMapping("/editPage")
+    public String teacherEdit(Long id, ModelMap map) {
+        UserPO userPO = userService.selectById(id);
+        if (userPO != null && userPO.getBirthDay() != null) {
+            SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+            String dateStr = format.format(userPO.getBirthDay());
+            userPO.setBirthDayStr(dateStr);
+        }
+        map.put(USER_EDIT, userPO);
+        return "user/edit";
+    }
+
+    @RequestMapping("edit")
+    public String edit(UserPO userVO, ModelMap map) {
+        UserPO userPO = userService.selectById(userVO.getId());
+        BeanUtils.copyProperties(userVO, userPO);
+        userService.updateById(userPO);
+        map.put(ROLE_TYPE, userPO.getRole());
+        return "user/list";
     }
 }

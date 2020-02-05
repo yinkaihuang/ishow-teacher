@@ -17,11 +17,14 @@ package cn.ishow.educate.role.model.po;
  */
 
 import cn.ishow.common.model.po.BasePO;
+import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import org.apache.ibatis.type.Alias;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -37,13 +40,28 @@ import java.util.Date;
 public class UserPO extends BasePO implements Serializable {
     @TableId(type = IdType.AUTO)
     private Long id;
+    //登录账号
     private String loginAccount;
+    //密码
     private String password;
+    //手机号
     private String phoneNumber;
+    //姓名
     private String name;
+    //性别
     private String gender;
+    //生日
+    @DateTimeFormat(pattern ="yyyy-MM-dd")
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private Date birthDay;
+    @TableField(exist = false)
+    private String birthDayStr;
+    //微信管理OpenId
     private String openId;
+    //身份证号码
+    private String idCard;
+    //家庭地址
+    private String address;
     //1是学生 2是老师 3是管理员
     private Integer role;
 }

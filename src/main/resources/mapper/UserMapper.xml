@@ -8,4 +8,15 @@
     <select id="findByAccountAndPassword" resultType="user">
         select * from t_user where login_account =#{account} and password =#{password}
     </select>
+    <select id="findPage" resultType="cn.ishow.educate.role.model.po.UserPO">
+        select * from t_user where role = #{roleType}
+        <if test="search !=''">
+            and (
+            name like '${search}%'
+            or id_card like '${search}%'
+            or phone_number like '${search}%'
+            or login_account like '${search}%'
+            )
+        </if>
+    </select>
 </mapper>

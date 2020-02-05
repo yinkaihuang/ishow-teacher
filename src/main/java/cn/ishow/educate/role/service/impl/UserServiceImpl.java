@@ -18,19 +18,25 @@ package cn.ishow.educate.role.service.impl;
 
 import cn.ishow.common.enu.BusinessError;
 import cn.ishow.common.exception.BizRuntimeException;
+import cn.ishow.educate.common.model.vo.BaseVO;
+import cn.ishow.educate.common.model.vo.ResultVO;
 import cn.ishow.educate.lib.enu.RoleEnum;
+import cn.ishow.educate.lib.enu.StatusEnum;
+import cn.ishow.educate.lib.util.MyPageUtil;
+import cn.ishow.educate.lib.util.TokenUserHolder;
+import cn.ishow.educate.lib.util.WebUtils;
 import cn.ishow.educate.role.mapper.UserMapper;
 import cn.ishow.educate.role.model.po.UserPO;
 import cn.ishow.educate.role.model.vo.UserVO;
 import cn.ishow.educate.role.service.IUserService;
-import cn.ishow.educate.lib.util.TokenUserHolder;
-import cn.ishow.educate.lib.util.WebUtils;
+import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -101,5 +107,18 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserPO> implements 
         String token = WebUtils.getToken();
         TokenUserHolder.removeByToken(token);
         return "登出成功";
+    }
+
+    @Override
+    public ResultVO listRecord(int roleType, BaseVO baseVO) {
+
+
+        String search = baseVO.getSearch();
+
+        Page page = MyPageUtil.getPage(baseVO);
+        List<UserPO> userList = baseMapper.findPage(page,roleType,baseVO.getSearch());
+        page.setRecords(userList);
+
+        return ResultVO.builder().code(StatusEnum.SUCCESS.getCode()).data(page).build();
     }
 }

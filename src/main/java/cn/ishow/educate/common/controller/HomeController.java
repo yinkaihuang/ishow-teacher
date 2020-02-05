@@ -29,7 +29,12 @@ public class HomeController {
 
     @RequestMapping("/")
     public String index(){
-        return "index";
+        return "home/index";
+    }
+
+    @RequestMapping("/hello")
+    public String hello(){
+        return "home/hello";
     }
 
     @RequestMapping("/infomation")

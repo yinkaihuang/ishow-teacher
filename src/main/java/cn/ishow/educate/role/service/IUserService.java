@@ -1,5 +1,7 @@
 package cn.ishow.educate.role.service;
 
+import cn.ishow.educate.common.model.vo.BaseVO;
+import cn.ishow.educate.common.model.vo.ResultVO;
 import cn.ishow.educate.role.model.po.UserPO;
 import cn.ishow.educate.role.model.vo.UserVO;
 import com.baomidou.mybatisplus.service.IService;
@@ -28,4 +30,6 @@ public interface IUserService extends IService<UserPO> {
     String login(String account, String password,boolean force);
 
     String logout();
+
+    ResultVO listRecord(int roleType, BaseVO baseVO);
 }
