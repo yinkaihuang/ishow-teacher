@@ -41,15 +41,23 @@ import javax.servlet.http.HttpServletResponse;
 @Slf4j
 public class LoginVerifyInterceptor implements HandlerInterceptor {
 
-    @Value("${not.need.login:/educate/user/login,/educate/user/register,/educate/email/sendEmail}")
+    @Value("${not.need.login:/login,/error,/easyui/,/css,.js,.css,/educate/user/register,/educate/email/sendEmail}")
     private String noNeedLogin;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-       try {
+        try {
             String uri = request.getRequestURI();
-            if (noNeedLogin.contains(uri)) {
-                return true;
+            if (!Strings.isBlank(noNeedLogin)) {
+                String[] split = noNeedLogin.split(",");
+                for (String matchUrl : split) {
+                    if (Strings.isBlank(matchUrl)) {
+                        continue;
+                    }
+                    if (uri.contains(matchUrl)) {
+                        return true;
+                    }
+                }
             }
             String token = WebUtils.getToken();
             if (Strings.isBlank(token)) {

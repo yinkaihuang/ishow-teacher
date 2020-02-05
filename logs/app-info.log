@@ -1935,3 +1935,1021 @@ INFO|2020-02-04 13:51:35.563|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Star
 INFO|2020-02-04 13:51:40.191|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
 INFO|2020-02-04 13:51:40.192|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
 INFO|2020-02-04 13:51:40.200|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 8 ms
+INFO|2020-02-04 14:04:31.580|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 33356 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:04:31.587|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:04:32.939|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:04:32.957|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:04:32.958|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:04:33.120|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:04:33.120|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1435 ms
+INFO|2020-02-04 14:04:33.273|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:04:33.535|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:04:34.232|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:04:34.235|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.055 seconds (JVM running for 5.644)
+INFO|2020-02-04 14:06:00.318|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:06:00.318|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:06:00.325|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-04 14:07:13.199|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 5736 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:07:13.205|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:07:14.912|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:07:14.933|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:07:14.933|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:07:15.088|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:07:15.089|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1745 ms
+INFO|2020-02-04 14:07:15.243|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:07:15.506|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:07:16.201|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:07:16.205|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.42 seconds (JVM running for 5.363)
+INFO|2020-02-04 14:07:26.007|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:07:26.007|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:07:26.025|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 17 ms
+INFO|2020-02-04 14:08:40.808|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 41108 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:08:40.815|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:08:42.069|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:08:42.087|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:08:42.088|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:08:42.231|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:08:42.231|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1358 ms
+INFO|2020-02-04 14:08:42.377|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:08:42.655|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:08:43.403|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:08:43.406|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.982 seconds (JVM running for 4.992)
+INFO|2020-02-04 14:08:47.930|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:08:47.930|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:08:47.941|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 10 ms
+INFO|2020-02-04 14:16:25.488|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 42668 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:16:25.506|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:16:27.089|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:16:27.107|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:16:27.107|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:16:27.247|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:16:27.248|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1620 ms
+INFO|2020-02-04 14:16:27.387|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:16:27.640|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:16:28.338|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:16:28.342|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.386 seconds (JVM running for 5.149)
+INFO|2020-02-04 14:16:37.116|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:16:37.116|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:16:37.122|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms
+INFO|2020-02-04 14:20:46.663|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 14788 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:20:46.668|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:20:47.789|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:20:47.808|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:20:47.809|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:20:47.964|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:20:47.965|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1217 ms
+INFO|2020-02-04 14:20:48.103|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:20:48.370|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:20:49.058|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:20:49.062|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.778 seconds (JVM running for 4.647)
+INFO|2020-02-04 14:20:54.991|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:20:54.992|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:20:55.008|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 16 ms
+INFO|2020-02-04 14:21:15.470|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 40940 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:21:15.477|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:21:16.821|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:21:16.844|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:21:16.844|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:21:17.002|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:21:17.002|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1451 ms
+INFO|2020-02-04 14:21:17.193|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:21:17.501|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:21:18.332|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:21:18.335|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.224 seconds (JVM running for 5.497)
+INFO|2020-02-04 14:21:30.846|[http-nio-9090-exec-2]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:21:30.847|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:21:30.853|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 5 ms
+INFO|2020-02-04 14:21:41.602|[Thread-10]|c.a.d.p.DruidDataSource.close.1928|{dataSource-1} closed
+INFO|2020-02-04 14:23:17.117|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 18116 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:23:17.133|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:23:18.418|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:23:18.440|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:23:18.440|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:23:18.593|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:23:18.593|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1381 ms
+INFO|2020-02-04 14:23:18.736|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:23:18.990|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:23:19.676|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:23:19.679|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.906 seconds (JVM running for 4.786)
+INFO|2020-02-04 14:23:26.537|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:23:26.538|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:23:26.557|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 18 ms
+INFO|2020-02-04 14:30:38.351|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 43164 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:30:38.371|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:30:39.918|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:30:39.938|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:30:39.939|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:30:40.099|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:30:40.099|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1615 ms
+INFO|2020-02-04 14:30:40.265|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:30:40.532|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:30:41.268|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:30:41.272|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.416 seconds (JVM running for 5.24)
+INFO|2020-02-04 14:30:50.737|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:30:50.737|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:30:50.750|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 12 ms
+INFO|2020-02-04 14:49:37.986|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 33380 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:49:37.992|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:49:39.207|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:49:39.224|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:49:39.224|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:49:39.363|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:49:39.364|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1303 ms
+INFO|2020-02-04 14:49:39.507|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:49:39.761|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:49:40.447|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:49:40.450|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.899 seconds (JVM running for 4.762)
+INFO|2020-02-04 14:49:55.046|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:49:55.047|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:49:55.062|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 14 ms
+INFO|2020-02-04 14:50:59.226|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 34032 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:50:59.235|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:51:00.484|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:51:00.513|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:51:00.514|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:51:00.655|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:51:00.655|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1282 ms
+INFO|2020-02-04 14:51:00.793|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:51:01.053|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:51:01.758|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:51:01.762|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.946 seconds (JVM running for 4.865)
+INFO|2020-02-04 14:51:08.499|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:51:08.500|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:51:08.513|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 13 ms
+INFO|2020-02-04 14:52:06.516|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 44860 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:52:06.555|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:52:07.871|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:52:07.891|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:52:07.891|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:52:08.055|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:52:08.055|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1424 ms
+INFO|2020-02-04 14:52:08.209|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:52:08.517|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:52:09.311|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:52:09.315|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.195 seconds (JVM running for 5.178)
+INFO|2020-02-04 14:52:17.163|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:52:17.166|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:52:17.193|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 26 ms
+INFO|2020-02-04 14:54:18.113|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 24992 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:54:18.167|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:54:19.404|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:54:19.427|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:54:19.427|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:54:19.588|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:54:19.589|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1305 ms
+INFO|2020-02-04 14:54:19.737|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:54:19.998|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:54:20.793|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:54:20.798|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.145 seconds (JVM running for 5.253)
+INFO|2020-02-04 14:54:27.346|[http-nio-9090-exec-2]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:54:27.346|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:54:27.354|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-04 14:57:22.986|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 37260 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:57:22.992|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:57:24.908|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:57:24.931|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:57:24.932|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:57:25.119|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:57:25.119|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 2006 ms
+INFO|2020-02-04 14:57:25.292|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:57:25.577|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:57:26.392|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:57:26.396|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.821 seconds (JVM running for 5.882)
+INFO|2020-02-04 14:57:34.245|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:57:34.245|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:57:34.257|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 12 ms
+INFO|2020-02-04 14:58:44.735|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 44652 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:58:44.768|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:58:45.976|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:58:45.997|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:58:45.997|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:58:46.156|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:58:46.156|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1282 ms
+INFO|2020-02-04 14:58:46.303|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:58:46.571|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:58:47.329|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:58:47.332|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.094 seconds (JVM running for 5.305)
+INFO|2020-02-04 14:58:51.740|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:58:51.740|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:58:51.761|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 21 ms
+INFO|2020-02-04 14:59:28.179|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 3200 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 14:59:28.187|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 14:59:29.644|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 14:59:29.666|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 14:59:29.666|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 14:59:29.827|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 14:59:29.828|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1558 ms
+INFO|2020-02-04 14:59:30.037|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 14:59:30.409|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 14:59:31.828|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 14:59:31.841|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 4.29 seconds (JVM running for 6.927)
+INFO|2020-02-04 14:59:42.483|[http-nio-9090-exec-2]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 14:59:42.484|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 14:59:42.491|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-04 15:00:26.403|[Thread-11]|c.a.d.p.DruidDataSource.close.1928|{dataSource-1} closed
+INFO|2020-02-04 15:00:36.588|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 44700 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:00:36.593|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:00:37.815|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:00:37.839|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:00:37.839|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:00:37.999|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:00:37.999|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1330 ms
+INFO|2020-02-04 15:00:38.159|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:00:38.464|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:00:39.186|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:00:39.189|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.452 seconds (JVM running for 6.112)
+INFO|2020-02-04 15:00:53.484|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 5952 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:00:53.501|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:00:54.754|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:00:54.777|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:00:54.777|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:00:54.956|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:00:54.957|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1387 ms
+INFO|2020-02-04 15:00:55.108|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:00:55.386|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:00:56.417|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:00:56.426|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.364 seconds (JVM running for 5.45)
+INFO|2020-02-04 15:01:00.649|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:01:00.650|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:01:00.670|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 17 ms
+INFO|2020-02-04 15:05:59.703|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 40376 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:05:59.710|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:06:01.291|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:06:01.319|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:06:01.320|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:06:01.487|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:06:01.487|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1695 ms
+INFO|2020-02-04 15:06:01.640|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:06:01.914|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:06:02.658|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:06:02.661|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.337 seconds (JVM running for 5.264)
+INFO|2020-02-04 15:06:33.313|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:06:33.314|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:06:33.321|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-04 15:08:16.957|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 44316 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:08:16.982|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:08:18.358|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:08:18.383|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:08:18.383|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:08:18.557|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:08:18.558|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1469 ms
+INFO|2020-02-04 15:08:18.722|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:08:19.017|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:08:19.916|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:08:19.920|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.41 seconds (JVM running for 5.736)
+INFO|2020-02-04 15:08:28.282|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:08:28.283|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:08:28.305|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 20 ms
+INFO|2020-02-04 15:09:24.270|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 42952 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:09:24.276|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:09:25.650|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:09:25.668|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:09:25.669|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:09:25.827|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:09:25.828|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1420 ms
+INFO|2020-02-04 15:09:25.991|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:09:26.279|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:09:27.090|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:09:27.095|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.33 seconds (JVM running for 5.4)
+INFO|2020-02-04 15:09:40.217|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:09:40.218|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:09:40.232|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 11 ms
+INFO|2020-02-04 15:13:17.634|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 44928 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:13:17.641|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:13:18.953|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:13:18.977|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:13:18.977|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:13:19.150|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:13:19.151|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1434 ms
+INFO|2020-02-04 15:13:19.303|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:13:19.588|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:13:20.324|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:13:20.328|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.128 seconds (JVM running for 5.638)
+INFO|2020-02-04 15:13:36.190|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:13:36.192|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:13:36.223|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 30 ms
+INFO|2020-02-04 15:18:32.212|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 11736 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:18:32.222|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:18:33.868|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:18:33.894|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:18:33.894|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:18:34.108|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:18:34.108|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1664 ms
+INFO|2020-02-04 15:18:34.323|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:18:34.673|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:18:35.605|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:18:35.609|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.801 seconds (JVM running for 6.001)
+INFO|2020-02-04 15:18:44.302|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:18:44.302|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:18:44.311|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 9 ms
+INFO|2020-02-04 15:21:08.133|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 41248 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:21:08.141|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:21:10.009|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:21:10.039|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:21:10.040|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:21:10.281|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:21:10.281|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1977 ms
+INFO|2020-02-04 15:21:10.489|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:21:10.945|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:21:12.035|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:21:12.038|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 4.332 seconds (JVM running for 6.522)
+INFO|2020-02-04 15:21:12.346|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:21:12.348|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:21:12.367|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 18 ms
+INFO|2020-02-04 15:22:35.609|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 43768 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:22:35.616|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:22:36.982|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:22:37.001|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:22:37.002|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:22:37.164|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:22:37.164|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1471 ms
+INFO|2020-02-04 15:22:37.314|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:22:37.588|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:22:38.311|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:22:38.314|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.089 seconds (JVM running for 5.143)
+INFO|2020-02-04 15:22:43.630|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:22:43.630|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:22:43.648|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 16 ms
+INFO|2020-02-04 15:24:07.275|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 41312 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:24:07.281|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:24:09.004|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:24:09.031|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:24:09.032|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:24:09.204|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:24:09.204|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1852 ms
+INFO|2020-02-04 15:24:09.361|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:24:09.642|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:24:10.407|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:24:10.410|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.514 seconds (JVM running for 5.746)
+INFO|2020-02-04 15:24:53.385|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:24:53.385|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:24:53.395|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 9 ms
+INFO|2020-02-04 15:26:21.438|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 43188 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:26:21.444|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:26:22.760|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:26:22.781|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:26:22.781|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:26:22.947|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:26:22.947|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1407 ms
+INFO|2020-02-04 15:26:23.105|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:26:23.386|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:26:24.141|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:26:24.144|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.12 seconds (JVM running for 5.363)
+INFO|2020-02-04 15:26:29.036|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:26:29.036|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:26:29.045|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 9 ms
+INFO|2020-02-04 15:26:57.367|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 1660 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:26:57.408|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:26:58.771|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:26:58.793|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:26:58.794|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:26:58.965|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:26:58.966|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1515 ms
+INFO|2020-02-04 15:26:59.122|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:26:59.394|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:27:00.167|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:27:00.170|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.186 seconds (JVM running for 5.336)
+INFO|2020-02-04 15:27:04.785|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:27:04.789|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:27:04.818|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 25 ms
+INFO|2020-02-04 15:33:29.099|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 43644 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:33:29.105|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:33:30.453|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:33:30.474|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:33:30.475|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:33:30.636|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:33:30.636|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1456 ms
+INFO|2020-02-04 15:33:30.786|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:33:31.061|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:33:31.782|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:33:31.785|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.054 seconds (JVM running for 5.053)
+INFO|2020-02-04 15:33:53.991|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:33:53.991|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:33:53.999|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 8 ms
+INFO|2020-02-04 15:48:13.901|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 45372 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:48:13.908|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:48:15.439|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:48:15.464|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:48:15.464|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:48:15.638|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:48:15.638|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1601 ms
+INFO|2020-02-04 15:48:15.796|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:48:16.168|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:48:16.953|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:48:16.956|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.578 seconds (JVM running for 6.504)
+INFO|2020-02-04 15:48:21.366|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:48:21.367|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:48:21.392|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 22 ms
+INFO|2020-02-04 15:53:36.213|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 45348 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:53:36.254|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:53:38.827|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:53:38.890|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:53:38.892|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:53:39.424|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:53:39.425|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 2973 ms
+INFO|2020-02-04 15:53:39.683|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:53:39.965|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:53:40.688|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:53:40.692|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 4.81 seconds (JVM running for 6.802)
+INFO|2020-02-04 15:54:21.125|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:54:21.125|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:54:21.136|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 11 ms
+INFO|2020-02-04 15:55:21.443|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 45652 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 15:55:21.466|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 15:55:22.669|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 15:55:22.690|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 15:55:22.690|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 15:55:22.852|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 15:55:22.852|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1293 ms
+INFO|2020-02-04 15:55:23.004|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 15:55:23.275|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 15:55:24.010|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 15:55:24.014|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.934 seconds (JVM running for 5.482)
+INFO|2020-02-04 15:55:37.218|[http-nio-9090-exec-2]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 15:55:37.218|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 15:55:37.224|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms
+INFO|2020-02-04 17:03:55.004|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 13172 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 17:03:55.013|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 17:03:56.651|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 17:03:56.676|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 17:03:56.677|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 17:03:56.883|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 17:03:56.883|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1719 ms
+INFO|2020-02-04 17:03:57.108|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 17:03:57.416|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 17:03:58.285|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 17:03:58.288|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.927 seconds (JVM running for 6.503)
+INFO|2020-02-04 17:04:02.476|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 17:04:02.477|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 17:04:02.490|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 13 ms
+INFO|2020-02-04 17:04:50.019|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 36112 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 17:04:50.034|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 17:04:51.694|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 17:04:51.717|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 17:04:51.717|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 17:04:51.896|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 17:04:51.896|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1785 ms
+INFO|2020-02-04 17:04:52.060|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 17:04:52.362|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 17:04:53.185|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 17:04:53.189|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.577 seconds (JVM running for 5.714)
+INFO|2020-02-04 17:05:12.663|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 17:05:12.664|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 17:05:12.682|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 17 ms
+INFO|2020-02-04 17:06:08.474|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 45788 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 17:06:08.502|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 17:06:09.714|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 17:06:09.742|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 17:06:09.742|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 17:06:09.956|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 17:06:09.956|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1362 ms
+INFO|2020-02-04 17:06:10.157|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 17:06:10.511|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 17:06:11.357|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 17:06:11.361|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.341 seconds (JVM running for 6.073)
+INFO|2020-02-04 17:06:17.735|[http-nio-9090-exec-2]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 17:06:17.735|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 17:06:17.743|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 8 ms
+INFO|2020-02-04 17:07:47.804|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 42868 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 17:07:47.810|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 17:07:49.042|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 17:07:49.063|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 17:07:49.064|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 17:07:49.226|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 17:07:49.226|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1324 ms
+INFO|2020-02-04 17:07:49.387|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 17:07:49.667|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 17:07:50.355|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 17:07:50.359|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.913 seconds (JVM running for 5.069)
+INFO|2020-02-04 17:07:57.907|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 17:07:57.908|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 17:07:57.914|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms
+INFO|2020-02-04 17:18:26.726|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 43816 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 17:18:26.732|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 17:18:28.819|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 17:18:28.845|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 17:18:28.846|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 17:18:29.054|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 17:18:29.054|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 2029 ms
+INFO|2020-02-04 17:18:29.295|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 17:18:29.666|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 17:18:30.429|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 17:18:30.433|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 4.159 seconds (JVM running for 6.19)
+INFO|2020-02-04 17:18:49.416|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 17:18:49.417|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 17:18:49.444|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 26 ms
+INFO|2020-02-04 17:20:29.532|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 32904 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 17:20:29.537|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 17:20:31.609|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 17:20:31.662|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 17:20:31.663|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 17:20:31.974|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 17:20:31.974|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 2356 ms
+INFO|2020-02-04 17:20:32.195|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 17:20:32.536|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 17:20:33.280|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 17:20:33.284|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 4.159 seconds (JVM running for 6.139)
+INFO|2020-02-04 17:20:37.008|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 17:20:37.008|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 17:20:37.027|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 17 ms
+INFO|2020-02-04 19:07:59.892|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 43664 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:07:59.898|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:08:01.259|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:08:01.279|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:08:01.279|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:08:01.446|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:08:01.446|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1479 ms
+INFO|2020-02-04 19:08:01.594|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:08:01.862|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:08:02.530|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:08:02.534|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.04 seconds (JVM running for 4.93)
+INFO|2020-02-04 19:08:24.877|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:08:24.878|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:08:24.889|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 10 ms
+INFO|2020-02-04 19:08:53.490|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 46524 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:08:53.519|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:08:54.825|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:08:54.847|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:08:54.849|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:08:55.028|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:08:55.029|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1349 ms
+INFO|2020-02-04 19:08:55.194|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:08:55.475|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:08:56.234|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:08:56.238|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.123 seconds (JVM running for 5.598)
+INFO|2020-02-04 19:08:59.941|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:08:59.941|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:08:59.959|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 17 ms
+INFO|2020-02-04 19:10:10.315|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 19652 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:10:10.334|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:10:11.657|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:10:11.677|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:10:11.677|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:10:11.830|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:10:11.831|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1418 ms
+INFO|2020-02-04 19:10:11.994|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:10:12.270|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:10:13.028|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:10:13.032|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.124 seconds (JVM running for 5.457)
+INFO|2020-02-04 19:10:16.705|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:10:16.706|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:10:16.713|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms
+INFO|2020-02-04 19:12:30.193|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 46660 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:12:30.199|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:12:31.703|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:12:31.722|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:12:31.722|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:12:31.863|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:12:31.863|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1617 ms
+INFO|2020-02-04 19:12:32.010|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:12:32.289|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:12:32.934|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:12:32.937|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.165 seconds (JVM running for 5.218)
+INFO|2020-02-04 19:12:41.352|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:12:41.352|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:12:41.361|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 9 ms
+INFO|2020-02-04 19:15:24.293|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 46208 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:15:24.298|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:15:25.830|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:15:25.855|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:15:25.856|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:15:26.044|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:15:26.044|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1607 ms
+INFO|2020-02-04 19:15:26.210|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:15:26.536|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:15:27.311|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:15:27.314|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.784 seconds (JVM running for 6.176)
+INFO|2020-02-04 19:15:32.684|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:15:32.685|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:15:32.691|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms
+INFO|2020-02-04 19:18:08.905|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 40780 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:18:08.911|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:18:10.479|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:18:10.518|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:18:10.518|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:18:10.679|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:18:10.680|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1675 ms
+INFO|2020-02-04 19:18:10.853|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:18:11.144|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:18:11.945|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:18:11.951|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.538 seconds (JVM running for 5.421)
+INFO|2020-02-04 19:18:15.589|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:18:15.589|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:18:15.596|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-04 19:19:46.632|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 44040 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:19:46.648|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:19:48.038|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:19:48.057|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:19:48.057|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:19:48.227|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:19:48.228|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1492 ms
+INFO|2020-02-04 19:19:48.375|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:19:48.651|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:19:49.327|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:19:49.331|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.101 seconds (JVM running for 5.083)
+INFO|2020-02-04 19:19:55.630|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:19:55.630|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:19:55.636|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 5 ms
+INFO|2020-02-04 19:25:44.427|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 43468 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:25:44.432|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:25:45.787|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:25:45.812|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:25:45.813|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:25:46.020|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:25:46.020|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1505 ms
+INFO|2020-02-04 19:25:46.180|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:25:46.479|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:25:47.488|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:25:47.492|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.686 seconds (JVM running for 5.899)
+INFO|2020-02-04 19:25:48.365|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:25:48.365|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:25:48.371|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms
+INFO|2020-02-04 19:29:14.873|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 24356 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:29:14.879|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:29:16.335|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:29:16.354|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:29:16.355|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:29:16.507|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:29:16.508|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1585 ms
+INFO|2020-02-04 19:29:16.661|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:29:16.959|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:29:17.626|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:29:17.630|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.151 seconds (JVM running for 5.077)
+INFO|2020-02-04 19:29:25.054|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:29:25.055|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:29:25.060|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 5 ms
+INFO|2020-02-04 19:29:58.775|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 46112 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:29:58.781|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:30:00.442|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:30:00.463|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:30:00.464|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:30:00.809|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:30:00.809|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1956 ms
+INFO|2020-02-04 19:30:01.096|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:30:01.465|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:30:02.666|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:30:02.670|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 4.392 seconds (JVM running for 6.481)
+INFO|2020-02-04 19:31:15.596|[http-nio-9090-exec-3]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:31:15.596|[http-nio-9090-exec-3]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:31:15.604|[http-nio-9090-exec-3]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 8 ms
+INFO|2020-02-04 19:32:46.786|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 42528 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:32:46.791|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:32:48.199|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:32:48.219|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:32:48.219|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:32:48.376|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:32:48.376|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1534 ms
+INFO|2020-02-04 19:32:48.529|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:32:48.795|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:32:49.504|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:32:49.507|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.203 seconds (JVM running for 5.253)
+INFO|2020-02-04 19:32:56.019|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:32:56.020|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:32:56.033|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 12 ms
+INFO|2020-02-04 19:34:43.401|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 42896 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:34:43.408|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:34:44.968|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:34:44.987|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:34:44.988|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:34:45.143|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:34:45.143|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1573 ms
+INFO|2020-02-04 19:34:45.305|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:34:45.628|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:34:46.458|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:34:46.463|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.619 seconds (JVM running for 5.848)
+INFO|2020-02-04 19:34:50.186|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:34:50.187|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:34:50.194|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-04 19:37:42.257|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 5736 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:37:42.263|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:37:43.507|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:37:43.528|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:37:43.529|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:37:43.748|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:37:43.749|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1425 ms
+INFO|2020-02-04 19:37:43.907|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:37:44.263|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:37:45.271|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:37:45.274|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.528 seconds (JVM running for 5.723)
+INFO|2020-02-04 19:37:47.904|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:37:47.904|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:37:47.909|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 5 ms
+INFO|2020-02-04 19:39:46.978|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 46644 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:39:46.985|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:39:48.177|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:39:48.199|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:39:48.200|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:39:48.369|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:39:48.370|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1318 ms
+INFO|2020-02-04 19:39:48.519|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:39:48.784|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:39:49.463|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:39:49.467|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.009 seconds (JVM running for 4.881)
+INFO|2020-02-04 19:39:58.774|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:39:58.774|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:39:58.783|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 9 ms
+INFO|2020-02-04 19:40:20.348|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 46952 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:40:20.365|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:40:21.614|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:40:21.639|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:40:21.639|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:40:21.816|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:40:21.816|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1416 ms
+INFO|2020-02-04 19:40:21.961|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:40:22.235|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:40:22.927|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:40:22.930|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.034 seconds (JVM running for 5.103)
+INFO|2020-02-04 19:40:31.151|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:40:31.151|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:40:31.157|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms
+INFO|2020-02-04 19:42:39.618|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 30176 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:42:39.655|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:42:40.984|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:42:41.007|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:42:41.008|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:42:41.172|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:42:41.173|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1398 ms
+INFO|2020-02-04 19:42:41.318|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:42:41.588|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:42:42.284|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:42:42.287|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.362 seconds (JVM running for 5.448)
+INFO|2020-02-04 19:42:49.947|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:42:49.947|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:42:49.954|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-04 19:44:24.860|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 45320 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:44:24.866|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:44:26.316|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:44:26.343|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:44:26.344|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:44:26.527|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:44:26.528|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1584 ms
+INFO|2020-02-04 19:44:26.726|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:44:27.027|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:44:27.884|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:44:27.888|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.751 seconds (JVM running for 5.887)
+INFO|2020-02-04 19:44:39.873|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:44:39.873|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:44:39.882|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 9 ms
+INFO|2020-02-04 19:47:01.212|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 44040 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:47:01.249|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:47:02.948|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:47:02.967|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:47:02.967|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:47:03.108|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:47:03.108|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1733 ms
+INFO|2020-02-04 19:47:03.260|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:47:03.562|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:47:04.300|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:47:04.304|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.527 seconds (JVM running for 5.708)
+INFO|2020-02-04 19:47:11.627|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:47:11.627|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:47:11.634|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-04 19:50:10.566|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 8300 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:50:10.571|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:50:12.237|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:50:12.258|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:50:12.259|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:50:12.454|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:50:12.454|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1741 ms
+INFO|2020-02-04 19:50:12.625|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:50:12.938|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:50:13.779|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:50:13.782|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.746 seconds (JVM running for 6.109)
+INFO|2020-02-04 19:50:27.255|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:50:27.255|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:50:27.278|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 21 ms
+INFO|2020-02-04 19:50:49.708|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 1280 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:50:49.722|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:50:51.412|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:50:51.433|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:50:51.434|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:50:51.634|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:50:51.635|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1863 ms
+INFO|2020-02-04 19:50:51.877|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:50:52.193|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:50:52.959|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:50:52.962|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.611 seconds (JVM running for 5.635)
+INFO|2020-02-04 19:50:57.197|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:50:57.199|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:50:57.217|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 10 ms
+INFO|2020-02-04 19:53:40.501|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 43388 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:53:40.507|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:53:41.904|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:53:41.924|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:53:41.925|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:53:42.104|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:53:42.104|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1534 ms
+INFO|2020-02-04 19:53:42.270|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:53:42.561|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:53:43.386|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:53:43.390|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.355 seconds (JVM running for 5.34)
+INFO|2020-02-04 19:53:49.641|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:53:49.641|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:53:49.654|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 12 ms
+INFO|2020-02-04 19:54:25.679|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 45232 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:54:25.755|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:54:27.502|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:54:27.521|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:54:27.522|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:54:27.692|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:54:27.692|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1846 ms
+INFO|2020-02-04 19:54:27.911|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:54:28.178|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:54:28.919|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:54:28.922|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.919 seconds (JVM running for 6.086)
+INFO|2020-02-04 19:55:22.333|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 45388 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 19:55:22.338|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 19:55:23.698|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 19:55:23.718|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 19:55:23.719|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 19:55:23.883|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 19:55:23.883|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1472 ms
+INFO|2020-02-04 19:55:24.029|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 19:55:24.294|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 19:55:24.962|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 19:55:24.965|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.035 seconds (JVM running for 4.92)
+INFO|2020-02-04 19:55:32.415|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 19:55:32.415|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 19:55:32.433|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 17 ms
+INFO|2020-02-04 20:01:54.647|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 48100 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:01:54.656|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:01:55.975|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:01:55.994|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:01:55.995|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:01:56.140|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:01:56.140|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1373 ms
+INFO|2020-02-04 20:01:56.289|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:01:56.553|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:01:57.239|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:01:57.242|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.966 seconds (JVM running for 5.1)
+INFO|2020-02-04 20:02:17.295|[http-nio-9090-exec-2]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:02:17.296|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:02:17.315|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 17 ms
+INFO|2020-02-04 20:06:19.493|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 40396 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:06:19.531|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:06:20.853|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:06:20.874|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:06:20.874|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:06:21.037|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:06:21.037|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1377 ms
+INFO|2020-02-04 20:06:21.194|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:06:21.459|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:06:22.145|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:06:22.149|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.125 seconds (JVM running for 5.459)
+INFO|2020-02-04 20:06:30.445|[http-nio-9090-exec-2]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:06:30.446|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:06:30.469|[http-nio-9090-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 22 ms
+INFO|2020-02-04 20:08:13.181|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 47800 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:08:13.189|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:08:14.290|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:08:14.309|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:08:14.310|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:08:14.477|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:08:14.477|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1214 ms
+INFO|2020-02-04 20:08:14.630|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:08:14.896|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:08:15.580|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:08:15.583|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.802 seconds (JVM running for 5.079)
+INFO|2020-02-04 20:08:25.420|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:08:25.420|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:08:25.426|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms
+INFO|2020-02-04 20:11:53.654|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 16968 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:11:53.660|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:11:55.137|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:11:55.156|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:11:55.157|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:11:55.326|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:11:55.326|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1573 ms
+INFO|2020-02-04 20:11:55.500|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:11:55.775|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:11:56.493|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:11:56.496|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.391 seconds (JVM running for 6.148)
+INFO|2020-02-04 20:12:03.061|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:12:03.061|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:12:03.078|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 16 ms
+INFO|2020-02-04 20:15:18.741|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 40636 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:15:18.758|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:15:20.304|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:15:20.344|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:15:20.345|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:15:20.685|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:15:20.685|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1812 ms
+INFO|2020-02-04 20:15:20.874|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:15:21.187|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:15:21.937|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:15:21.941|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.71 seconds (JVM running for 6.2)
+INFO|2020-02-04 20:15:28.064|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:15:28.065|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:15:28.073|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 8 ms
+INFO|2020-02-04 20:20:42.195|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 32012 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:20:42.200|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:20:43.710|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:20:43.733|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:20:43.733|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:20:43.900|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:20:43.900|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1631 ms
+INFO|2020-02-04 20:20:44.050|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:20:44.337|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:20:45.113|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:20:45.116|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.321 seconds (JVM running for 5.182)
+INFO|2020-02-04 20:20:51.277|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:20:51.277|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:20:51.282|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 5 ms
+INFO|2020-02-04 20:21:55.593|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 45712 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:21:55.614|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:21:56.871|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:21:56.890|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:21:56.891|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:21:57.050|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:21:57.050|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1320 ms
+INFO|2020-02-04 20:21:57.196|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:21:57.462|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:21:58.111|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:21:58.114|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.904 seconds (JVM running for 4.927)
+INFO|2020-02-04 20:22:01.527|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:22:01.528|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:22:01.537|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 8 ms
+INFO|2020-02-04 20:22:34.051|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 47912 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:22:34.057|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:22:35.429|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:22:35.447|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:22:35.448|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:22:35.598|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:22:35.598|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1498 ms
+INFO|2020-02-04 20:22:35.772|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:22:36.105|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:22:36.845|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:22:36.848|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.186 seconds (JVM running for 5.361)
+INFO|2020-02-04 20:22:41.741|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:22:41.741|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:22:41.749|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-04 20:23:53.894|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 44888 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:23:53.913|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:23:55.497|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:23:55.525|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:23:55.526|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:23:55.774|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:23:55.774|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1648 ms
+INFO|2020-02-04 20:23:55.932|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:23:56.260|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:23:57.013|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:23:57.017|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.478 seconds (JVM running for 5.959)
+INFO|2020-02-04 20:23:59.027|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:23:59.027|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:23:59.036|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 9 ms
+INFO|2020-02-04 20:24:53.306|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 6340 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:24:53.317|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:24:54.415|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:24:54.438|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:24:54.439|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:24:54.601|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:24:54.601|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1209 ms
+INFO|2020-02-04 20:24:54.752|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:24:55.026|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:24:55.680|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:24:55.683|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.793 seconds (JVM running for 4.955)
+INFO|2020-02-04 20:24:58.938|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:24:58.938|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:24:58.944|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 5 ms
+INFO|2020-02-04 20:25:58.122|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 35328 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:25:58.127|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:25:59.228|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:25:59.248|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:25:59.248|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:25:59.405|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:25:59.405|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1192 ms
+INFO|2020-02-04 20:25:59.555|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:25:59.822|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:26:00.608|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:26:00.612|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.873 seconds (JVM running for 5.073)
+INFO|2020-02-04 20:26:05.940|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:26:05.940|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:26:05.948|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 8 ms
+INFO|2020-02-04 20:32:24.573|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 17864 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:32:24.659|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:32:25.997|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:32:26.017|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:32:26.018|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:32:26.204|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:32:26.204|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1476 ms
+INFO|2020-02-04 20:32:26.405|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:32:26.672|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:32:27.405|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:32:27.409|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.643 seconds (JVM running for 5.634)
+INFO|2020-02-04 20:32:52.932|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:32:52.932|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:32:52.939|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-04 20:33:18.263|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 42660 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-04 20:33:18.281|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-04 20:33:19.393|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-04 20:33:19.413|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-04 20:33:19.414|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-04 20:33:19.573|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-04 20:33:19.573|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1204 ms
+INFO|2020-02-04 20:33:19.718|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-04 20:33:19.977|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-04 20:33:20.698|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-04 20:33:20.701|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.84 seconds (JVM running for 4.774)
+INFO|2020-02-04 20:33:23.413|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-04 20:33:23.413|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-04 20:33:23.419|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms

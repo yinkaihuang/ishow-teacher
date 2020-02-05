@@ -19,7 +19,6 @@ package cn.ishow.educate.lib.configuration;
 import cn.ishow.educate.lib.interceptor.LoginVerifyInterceptor;
 import cn.ishow.web.configuration.BaseWebMvcConfigurationSupport;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 
 /**
@@ -27,7 +26,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
  * @create 2019/11/24 21:29
  * @description
  */
-@Configuration
+//@Configuration
 public class InterceptorConfiguration extends BaseWebMvcConfigurationSupport {
     @Autowired
     private LoginVerifyInterceptor loginVerifyInterceptor;

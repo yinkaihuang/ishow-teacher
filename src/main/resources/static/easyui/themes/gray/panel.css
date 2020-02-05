@@ -1,3 +1,10 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
 .panel {
   overflow: hidden;
   text-align: left;
@@ -119,23 +126,25 @@
   background: linear-gradient(to bottom,#F8F8F8 0,#eeeeee 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F8F8F8,endColorstr=#eeeeee,GradientType=0);
+  color: #575765;
 }
 .panel-body {
   background-color: #ffffff;
   color: #000000;
-  font-size: 12px;
+  font-size: 14px;
 }
 .panel-title {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   color: #575765;
-  height: 16px;
-  line-height: 16px;
+  height: 20px;
+  line-height: 20px;
 }
 .panel-footer {
   border: 1px solid #D3D3D3;
   overflow: hidden;
   background: #fafafa;
+  color: #000000;
 }
 .panel-footer-noborder {
   border-width: 1px 0 0 0;
@@ -206,12 +215,14 @@
 .panel-hright>.panel-header .panel-icon {
   margin-top: 0;
   top: 5px;
+  left: 50%;
+  margin-left: -8px;
 }
 .panel-hleft>.panel-header .panel-title,
 .panel-hright>.panel-header .panel-title {
   position: absolute;
   min-width: 16px;
-  left: 21px;
+  left: 25px;
   top: 5px;
   bottom: auto;
   white-space: nowrap;
@@ -231,7 +242,7 @@
   min-width: 16px;
   left: 21px;
   top: auto;
-  bottom: 5px;
+  bottom: 0px;
   text-align: right;
   white-space: nowrap;
   word-wrap: normal;
