@@ -26,12 +26,10 @@ import cn.ishow.educate.base.service.IFileService;
 import cn.ishow.educate.lib.util.WebUtils;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.springframework.stereotype.Service;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.IOException;
-import java.io.RandomAccessFile;
+import java.io.*;
 import java.util.Date;
 import java.util.Random;
 
@@ -95,6 +93,20 @@ public class FileServiceImpl extends ServiceImpl<FileMapper, FilePO> implements 
             throw new BizRuntimeException(BusinessError.SERVER_FAIL, "文件上传失败");
         }
         return "上传成功";
+    }
+
+    @Override
+    public void show(Long id) {
+        FilePO filePO = baseMapper.selectById(id);
+        if (filePO.getPosition() < filePO.getLength()) {
+            return;
+        }
+        try {
+            IOUtils.copy(new BufferedInputStream(new FileInputStream(filePO.getPath())), WebUtils.getOutputStream());
+        } catch (Exception e) {
+            log.error("show error:", e);
+            throw new RuntimeException(e);
+        }
     }
 
     private FilePO saveFileToDB(FileVO fileVO, String md5) {

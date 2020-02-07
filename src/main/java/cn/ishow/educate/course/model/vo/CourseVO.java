@@ -17,7 +17,10 @@ package cn.ishow.educate.course.model.vo;
  */
 
 import lombok.Data;
+import org.springframework.validation.annotation.Validated;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
 /**
@@ -26,13 +29,22 @@ import java.io.Serializable;
  * @description
  */
 @Data
+@Validated
 public class CourseVO implements Serializable {
     private Long id;
+    @NotBlank(message = "课程名称不能为空")
     private String name;
     private Long imageId;
+    @NotNull(message = "选上传视频")
     private Long videoId;
     private String description;
+    @NotNull(message = "课程类型不能为空")
     private Integer type;
+    @NotNull(message = "课程级别不能为空")
     private Integer level;
+    @NotBlank(message = "课程标签不能为空")
     private String tag;
+    @NotBlank(message = "讲师不能为空")
+    private String author;
+    private Integer price;
 }

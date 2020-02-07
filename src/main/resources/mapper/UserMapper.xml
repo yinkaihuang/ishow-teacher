@@ -7,6 +7,9 @@
     </select>
     <select id="findByAccountAndPassword" resultType="user">
         select * from t_user where login_account =#{account} and password =#{password}
+        <if test="role!=null">
+            and role != #{role}
+        </if>
     </select>
     <select id="findPage" resultType="cn.ishow.educate.role.model.po.UserPO">
         select * from t_user where role = #{roleType}

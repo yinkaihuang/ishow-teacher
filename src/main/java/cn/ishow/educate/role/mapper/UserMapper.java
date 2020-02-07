@@ -31,7 +31,7 @@ import java.util.List;
 public interface UserMapper extends BaseMapper<UserPO> {
     int checkAccount(@Param("account") String account);
 
-    UserPO findByAccountAndPassword(@Param("account") String account,@Param("password") String password);
+    UserPO findByAccountAndPassword(@Param("account") String account,@Param("password") String password,@Param("role")Integer role);
 
 
     List<UserPO> findPage(Page page, int roleType, String search);

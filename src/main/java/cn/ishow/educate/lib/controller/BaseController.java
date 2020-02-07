@@ -1,10 +1,4 @@
-package cn.ishow.educate.lib.annotation;
-
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
-
+package cn.ishow.educate.lib.controller;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -21,7 +15,29 @@ import java.lang.annotation.Target;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.METHOD)
-public @interface NoNeedLogin {
+
+import cn.ishow.educate.lib.util.WebUtils;
+import cn.ishow.educate.role.model.po.UserPO;
+
+/**
+ * @author yinchong
+ * @create 2020/2/7 16:36
+ * @description
+ */
+public class BaseController {
+
+    /**
+     * 获取用户角色，如果用户未登入则返回null
+     *
+     * @return
+     */
+    protected Integer userType() {
+        UserPO user = WebUtils.getUser();
+        if (user == null) {
+            return null;
+        }
+        return user.getRole();
+    }
+
+
 }

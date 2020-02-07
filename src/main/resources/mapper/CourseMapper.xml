@@ -7,7 +7,7 @@
         select count(*) from t_course where name =#{name} and author =#{author}
     </select>
     <select id="listActiveCourse" resultType="coursePO">
-         select * from t_course where enbale = 1
+        select * from t_course where enbale = 1
         <if test="name!=null and name!=''">
             and name like #{name}%
         </if>
@@ -20,5 +20,19 @@
         <if test="level!=null">
             and level = #{level}
         </if>
+    </select>
+    <select id="listPage" resultType="cn.ishow.educate.course.model.po.CoursePO">
+        select * from t_course
+        <where>
+            <if test="pusher!='admin'">
+                pusher = #{pusher}
+            </if>
+            <if test="search!=null">
+                name like '${search}%'
+                or author like '${search}%'
+                or pusher like '${search}%'
+                or tag like '${search}%'
+            </if>
+        </where>
     </select>
 </mapper>

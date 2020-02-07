@@ -52,7 +52,7 @@ create table  if not exists educate.t_course(
  level int comment "课程级别",
  tag varchar(255) default "" comment "课程标签",
  description text  comment "课程描述",
- free tinyint default 1 comment "是否免费",
+ price int default 1 comment "是否免费",
  create_date datetime default now() comment "创建时间",
  update_date datetime default now() comment "修改时间",
  enable tinyint default 1 comment "是否启动",

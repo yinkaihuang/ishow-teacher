@@ -23,7 +23,7 @@ import cn.ishow.educate.common.model.vo.ResultVO;
 import cn.ishow.educate.lib.enu.RoleEnum;
 import cn.ishow.educate.lib.enu.StatusEnum;
 import cn.ishow.educate.lib.util.MyPageUtil;
-import cn.ishow.educate.lib.util.TokenUserHolder;
+import cn.ishow.educate.lib.holder.UserCache;
 import cn.ishow.educate.lib.util.WebUtils;
 import cn.ishow.educate.role.mapper.UserMapper;
 import cn.ishow.educate.role.model.po.UserPO;
@@ -82,8 +82,8 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserPO> implements 
     }
 
     @Override
-    public String login(String account, String password, boolean force) {
-        UserPO userPO = baseMapper.findByAccountAndPassword(account, password);
+    public String login(String account, String password, Integer role, boolean force) {
+        UserPO userPO = baseMapper.findByAccountAndPassword(account, password, role);
         if (userPO == null) {
             throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "账号或者密码错误");
         }
@@ -92,31 +92,27 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserPO> implements 
             throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "您的账号还未审核,请联系管理员");
         }
         if (!force) {
-            if (TokenUserHolder.exist(account)) {
+            if (UserCache.getInstance().exist(account)) {
                 throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "该账号已经在其他地方正在登录，是否强制登录");
             }
         }
-        TokenUserHolder.removeByAccount(userPO.getLoginAccount());
+        UserCache.getInstance().removeByAccount(userPO.getLoginAccount());
         String token = UUID.randomUUID().toString().replace("-", "");
-        TokenUserHolder.addUser(token, userPO);
+        UserCache.getInstance().addUser(token, userPO);
         return token;
     }
 
     @Override
     public String logout() {
-        String token = WebUtils.getToken();
-        TokenUserHolder.removeByToken(token);
+        String token = WebUtils.getTokenFromRequest();
+        UserCache.getInstance().removeByToken(token);
         return "登出成功";
     }
 
     @Override
     public ResultVO listRecord(int roleType, BaseVO baseVO) {
-
-
-        String search = baseVO.getSearch();
-
         Page page = MyPageUtil.getPage(baseVO);
-        List<UserPO> userList = baseMapper.findPage(page,roleType,baseVO.getSearch());
+        List<UserPO> userList = baseMapper.findPage(page, roleType, baseVO.getSearch());
         page.setRecords(userList);
 
         return ResultVO.builder().code(StatusEnum.SUCCESS.getCode()).data(page).build();

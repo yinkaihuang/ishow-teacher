@@ -1,5 +1,7 @@
 package cn.ishow.educate.course.service;
 
+import cn.ishow.educate.common.model.vo.BaseVO;
+import cn.ishow.educate.common.model.vo.ResultVO;
 import cn.ishow.educate.course.model.po.CoursePO;
 import cn.ishow.educate.course.model.vo.CourseCondition;
 import cn.ishow.educate.course.model.vo.CourseVO;
@@ -31,4 +33,6 @@ public interface ICourseService extends IService<CoursePO> {
     String deleteCourse(Long id);
 
     String updateCourse(CourseVO vo);
+
+    ResultVO listCourse(BaseVO baseVO,String pusher);
 }

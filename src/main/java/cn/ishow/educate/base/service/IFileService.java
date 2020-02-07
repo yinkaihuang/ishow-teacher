@@ -25,4 +25,6 @@ public interface IFileService extends IService<FilePO> {
     FilePositionVO obtainPosition(FileVO md5);
 
     String upload(Long id, Long position);
+
+    void show(Long id);
 }

@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <head>
-    <%@include file="/templates/common/common.jsp" %>
+    <%@include file="../common/common.jsp" %>
     <link href="${basePath}/static/assets/pages/css/login-2.min.css" rel="stylesheet" type="text/css"/>
     <script src="${basePath}/static/js/user/common.js"></script>
     <script src="${basePath}/static/js/user/register.js"></script>

@@ -27,7 +27,7 @@ public interface IUserService extends IService<UserPO> {
 
     String register(UserVO userVO);
 
-    String login(String account, String password,boolean force);
+    String login(String account, String password,Integer role,boolean force);
 
     String logout();
 

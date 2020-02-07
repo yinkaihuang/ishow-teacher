@@ -25,28 +25,22 @@
 <!-- BEGIN LOGIN -->
 <div class="content">
     <!-- BEGIN LOGIN FORM -->
-    <form class="login-form" method="post" action="/login">
+    <form class="login-form">
+        <input type="hidden" name="force" value="true">
+        <input type="hidden" name="role" value="1">
         <div class="form-title">
             <span class="form-title">登陆</span>
         </div>
         <div class="form-group">
             <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
-            <label class="control-label visible-ie8 visible-ie9">手机号</label>
-            <input class="form-control form-control-solid placeholder-no-fix phone" type="text" autocomplete="off"
-                   placeholder="手机号" name="phone" value="13128267299"/></div>
+            <label class="control-label visible-ie8 visible-ie9">账号</label>
+            <input class="form-control form-control-solid placeholder-no-fix account" type="text" autocomplete="off"
+                   placeholder="账号" name="account" /></div>
         <div class="form-group">
             <label class="control-label visible-ie8 visible-ie9">密码</label>
             <input class="form-control form-control-solid placeholder-no-fix password" type="password"
                    autocomplete="off"
-                   placeholder="密码" name="password" value="123456"/></div>
-        <div class="form-group">
-            <label class="control-label visible-ie8 visible-ie9">验证码</label>
-            <input class="form-control form-control-solid imageCode" type="text" autocomplete="off"
-                   placeholder="验证码" name="imageCode"/>
-        </div>
-        <div class="form-group">
-            <img id="kaptcha" src="${basePath}/kaptcha.jpg">
-        </div>
+                   placeholder="密码" name="password" /></div>
         <div class="form-actions">
             <input type="button" value="登陆" class="btn red btn-block login-submit">
         </div>

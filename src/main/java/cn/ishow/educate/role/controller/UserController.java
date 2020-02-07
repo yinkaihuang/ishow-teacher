@@ -48,6 +48,7 @@ import java.util.Map;
 public class UserController {
     public static final String USER_EDIT = "userEdit";
     public static final String ROLE_TYPE = "roleType";
+    public static final String ROLE_NAME = "roleName";
     @Autowired
     private IUserService userService;
 
@@ -61,6 +62,9 @@ public class UserController {
             }
             if (userVO.getRole() != RoleEnum.STUDENT.getCode() || userVO.getRole() == RoleEnum.TEACHER.getCode()) {
                 throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "请输出正确角色");
+            }
+            if(userVO.getName().equals("admin")){
+                throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL,"admin名称不能使用");
             }
             String result = userService.register(userVO);
             return result;
@@ -90,9 +94,17 @@ public class UserController {
         return userService.logout();
     }
 
+    /**
+     * 登入系统后台只允许教师和管理员使用
+     * @param account
+     * @param password
+     * @param role
+     * @param force
+     * @return
+     */
     @RequestMapping("login")
     @ResponseBody
-    public String login(String account, String password, boolean force) {
+    public ResultVO login(String account, String password,Integer role, boolean force) {
         try {
             if (Strings.isBlank(account)) {
                 throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "账号不为空");
@@ -100,23 +112,26 @@ public class UserController {
             if (Strings.isBlank(password)) {
                 throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "密码不能为空");
             }
-            String result = userService.login(account, password, force);
-            return result;
+            String result = userService.login(account, password,role, force);
+            return ResultVO.successWithData(result);
         } catch (RuntimeException e) {
             log.error("login fail, account:{} password:{} force:{} cause:{}", account, password, force, e);
             throw e;
         }
     }
 
+
     @RequestMapping("/student")
     public String studentPage(ModelMap map) {
         map.put(ROLE_TYPE, RoleEnum.STUDENT.getCode());
+        map.put(ROLE_NAME, "学生管理");
         return "user/list";
     }
 
     @RequestMapping("/teacher")
     public String teacherPage(ModelMap map) {
         map.put(ROLE_TYPE, RoleEnum.TEACHER.getCode());
+        map.put(ROLE_NAME, "教师管理");
         return "user/list";
     }
 
@@ -155,6 +170,11 @@ public class UserController {
         BeanUtils.copyProperties(userVO, userPO);
         userService.updateById(userPO);
         map.put(ROLE_TYPE, userPO.getRole());
+        if (userPO.getRole() == RoleEnum.STUDENT.getCode()) {
+            map.put(ROLE_NAME, "学生管理");
+        } else {
+            map.put(ROLE_NAME, "教师管理");
+        }
         return "user/list";
     }
 }

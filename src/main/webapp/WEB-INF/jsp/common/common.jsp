@@ -63,6 +63,7 @@
 <!-- BEGIN THEME GLOBAL SCRIPTS -->
 <script src="${basePath}/static/assets/global/scripts/app.min.js" type="text/javascript"></script>
 <!-- END THEME GLOBAL SCRIPTS -->
+<script src="${basePath}/static/js/md5.js"></script>
 <script src="${basePath}/static/bootstarp-table/bootstrap-table.min.js" type="text/javascript"></script>
 <script src="${basePath}/static/bootstarp-table/locale/bootstrap-table-zh-CN.min.js" type="text/javascript"></script>
 <script src="${basePath}/static/bootstarp-table/extensions/export/bootstrap-table-export.min.js"
@@ -73,27 +74,6 @@
 <script type="text/javascript" src="${basePath}/static/js/common/build/jquery.datetimepicker.full.js"></script>
 <script type="text/javascript" src="${basePath}/static/js/common/common.js"></script>
 <script>
-	var sysDict;
-    $(document).ready(function () {
-        $('#clickmewow').click(function () {
-            $('#radio1003').attr('checked', 'checked');
-        });
-        if(typeof(sysDict) == 'undefined' || sysDict == ''){
-	        $.ajax({
-	            url:"${basePath}/dict/getSystemDict",
-	            dataType:'json',
-	            type:"post",
-	            traditional:true,
-	            data:{
-	            },
-	         	success:function(result){
-	         		sysDict = result;
-			        console.log(sysDict);
-	         	}
-	      	});
-        }
-    });
-
     function myPage(params) {
         var limit = params.limit;
         params.pageNum = params.offset / limit + 1;

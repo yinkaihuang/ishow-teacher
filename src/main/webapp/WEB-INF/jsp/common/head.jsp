@@ -83,7 +83,7 @@
                                 </a>
                                 <ul class="dropdown-menu pull-left">
                                     <li aria-haspopup="true" class="nav-link  ">
-                                        <a href="${basePath }/app/gotoAppsPage.do" class="nav-link"> 视频列表 </a>
+                                        <a href="${basePath }/course/listPage" class="nav-link"> 视频列表 </a>
                                     </li>
                                 </ul>
                             </li>

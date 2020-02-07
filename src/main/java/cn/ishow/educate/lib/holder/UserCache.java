@@ -1,4 +1,4 @@
-package cn.ishow.educate.lib.util;
+package cn.ishow.educate.lib.holder;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -16,6 +16,7 @@ package cn.ishow.educate.lib.util;
  * limitations under the License.
  */
 
+import cn.ishow.educate.lib.util.WebUtils;
 import cn.ishow.educate.role.model.po.UserPO;
 import lombok.Data;
 import org.apache.logging.log4j.util.Strings;
@@ -27,12 +28,23 @@ import java.util.concurrent.ConcurrentHashMap;
  * @create 2019/11/24 20:55
  * @description
  */
-public class TokenUserHolder {
-    private static ConcurrentHashMap<String, TimeOutUser> tokenUserCache = new ConcurrentHashMap<>(100);
+public class UserCache {
+    private ConcurrentHashMap<String, TimeOutUser> tokenUserCache = new ConcurrentHashMap<>(100);
 
-    private static ConcurrentHashMap<String, String> accountTokenCache = new ConcurrentHashMap<>();
+    private ConcurrentHashMap<String, String> accountTokenCache = new ConcurrentHashMap<>();
 
-    public static void addUser(String token, UserPO user) {
+    private static UserCache instance = new UserCache();
+
+    private UserCache() {
+
+    }
+
+    public static UserCache getInstance() {
+        return instance;
+    }
+
+    public void addUser(String token, UserPO user) {
+        WebUtils.saveTokenToSession(token);
         TimeOutUser timeOutUser = new TimeOutUser();
         timeOutUser.setStartTime(System.currentTimeMillis());
         timeOutUser.setUser(user);
@@ -40,7 +52,7 @@ public class TokenUserHolder {
         accountTokenCache.put(user.getLoginAccount(), token);
     }
 
-    public static UserPO getUser(String token) {
+    public UserPO getUser(String token) {
         TimeOutUser timeOutUser = tokenUserCache.get(token);
         if (timeOutUser == null) {
             return null;
@@ -48,7 +60,7 @@ public class TokenUserHolder {
         return timeOutUser.getUser();
     }
 
-    public static boolean exist(String account) {
+    public boolean exist(String account) {
         String token = accountTokenCache.get(account);
         if (Strings.isBlank(token)) {
             return false;
@@ -56,7 +68,8 @@ public class TokenUserHolder {
         return true;
     }
 
-    public static void removeByToken(String token) {
+    public void removeByToken(String token) {
+        WebUtils.removeTokenFromSession();
         TimeOutUser timeOutUser = tokenUserCache.get(token);
         if (timeOutUser == null) {
             return;
@@ -65,11 +78,12 @@ public class TokenUserHolder {
         accountTokenCache.remove(account);
     }
 
-    public static void removeByAccount(String account) {
+    public void removeByAccount(String account) {
         String token = accountTokenCache.get(account);
         if (Strings.isBlank(token)) {
             return;
         }
+        WebUtils.removeTokenFromSession();
         accountTokenCache.remove(account);
         tokenUserCache.remove(token);
     }

@@ -17,10 +17,10 @@ package cn.ishow.educate.course.model.po;
  */
 
 import cn.ishow.common.model.po.BasePO;
-import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -28,6 +28,7 @@ import lombok.NoArgsConstructor;
 import org.apache.ibatis.type.Alias;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @author yinchong
@@ -61,7 +62,9 @@ public class CoursePO extends BasePO implements Serializable {
     private String tag;
     //描述
     private String description;
-    //是否免费
-    @TableField("free")
-    private Boolean isFree;
+    //价格
+    private Integer price;
+
+    @JsonFormat(pattern = "yyyy年MM月dd日 HH时mm分ss秒")
+    private Date updateDate;
 }

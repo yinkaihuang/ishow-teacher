@@ -21,19 +21,21 @@ import cn.ishow.common.exception.BizRuntimeException;
 import cn.ishow.educate.base.model.vo.FilePositionVO;
 import cn.ishow.educate.base.model.vo.FileVO;
 import cn.ishow.educate.base.service.IFileService;
+import cn.ishow.educate.common.model.vo.ResultVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @author yinchong
  * @create 2019/11/26 16:18
  * @description
  */
-@RestController
+@Controller
 @RequestMapping("file")
 @Slf4j
 public class FileController {
@@ -41,10 +43,11 @@ public class FileController {
     private IFileService fileService;
 
     @RequestMapping("obtainPosition")
-    private FilePositionVO obtainPosition(@Validated FileVO fileVO) {
+    @ResponseBody
+    public Object obtainPosition(@Validated FileVO fileVO) {
         try {
             FilePositionVO filePositionVO = fileService.obtainPosition(fileVO);
-            return filePositionVO;
+            return ResultVO.successWithData(filePositionVO);
         } catch (RuntimeException e) {
             log.error("obtainPosition fail, fileVO:{} cause:{}", fileVO, e);
             throw e;
@@ -52,16 +55,24 @@ public class FileController {
     }
 
     @RequestMapping("uploadFile")
-    private String uploadFile(@RequestHeader Long id, @RequestHeader Long position) {
+    @ResponseBody
+    public Object uploadFile(@RequestHeader Long id, @RequestHeader Long position) {
         try {
             if (id == null || position == null) {
                 throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "参数校验失败");
             }
             String result = fileService.upload(id, position);
-            return result;
+            return ResultVO.successWithData(result);
         } catch (RuntimeException e) {
             log.error("uploadFile fail, id:{} position:{} cause:{}", id, position, e);
             throw e;
         }
     }
+
+    @RequestMapping("/show")
+    @ResponseBody
+    public void show(Long id) {
+        fileService.show(id);
+    }
+
 }

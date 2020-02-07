@@ -27,14 +27,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
 
-    @RequestMapping("/")
+    @RequestMapping("/index")
     public String index(){
         return "home/index";
     }
 
-    @RequestMapping("/hello")
+    @RequestMapping("/login")
     public String hello(){
-        return "home/hello";
+        return "user/login";
     }
 
     @RequestMapping("/infomation")

@@ -41,8 +41,16 @@ public class ResultVO implements Serializable {
         return ResultVO.builder().code(StatusEnum.SUCCESS.getCode()).msg(msg).build();
     }
 
+    public static ResultVO successWithData(Object data) {
+        return ResultVO.builder().code(StatusEnum.SUCCESS.getCode()).msg("操作成功").data(data).build();
+    }
+
     public static ResultVO fail(String msg) {
         return ResultVO.builder().code(StatusEnum.FAIL.getCode()).msg(msg).build();
+    }
+
+    public static ResultVO needLogin() {
+        return ResultVO.builder().code(StatusEnum.NEEDLOGIN.getCode()).msg("用户未登陆").build();
     }
 
 

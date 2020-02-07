@@ -17,12 +17,15 @@ package cn.ishow.educate.lib.util;
  */
 
 import cn.ishow.educate.lib.enu.Educate;
+import cn.ishow.educate.lib.holder.UserCache;
 import cn.ishow.educate.role.model.po.UserPO;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import java.io.OutputStream;
 
 /**
  * @author yinchong
@@ -31,17 +34,26 @@ import javax.servlet.http.HttpServletRequest;
  */
 public class WebUtils {
 
+    public static final String USER_TOKEN = "user_token";
+
     private static ServletRequestAttributes attributes() {
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         return attributes;
     }
 
-    public static UserPO getUser(){
-       String token = getToken();
-       if(Strings.isBlank(token)){
-           return null;
-       }
-       return TokenUserHolder.getUser(token);
+    public static OutputStream getOutputStream()throws Exception{
+       return attributes().getResponse().getOutputStream();
+    }
+
+    public static UserPO getUser() {
+        String token = getTokenFromRequest();
+        if (Strings.isBlank(token)) {
+            token = getTokenFromSession();
+        }
+        if (Strings.isBlank(token)) {
+            return null;
+        }
+        return UserCache.getInstance().getUser(token);
     }
 
 
@@ -53,7 +65,24 @@ public class WebUtils {
         return attributes.getRequest();
     }
 
-    public static String getToken() {
+    public static HttpSession getSession() {
+        return attributes().getRequest().getSession();
+    }
+
+    public static void saveTokenToSession(String token) {
+        getSession().setAttribute(USER_TOKEN, token);
+    }
+
+    public static void removeTokenFromSession(){
+        getSession().removeAttribute(USER_TOKEN);
+    }
+
+
+    public static String getTokenFromSession() {
+        return (String) getSession().getAttribute(USER_TOKEN);
+    }
+
+    public static String getTokenFromRequest() {
         HttpServletRequest request = request();
         if (request == null) {
             return null;

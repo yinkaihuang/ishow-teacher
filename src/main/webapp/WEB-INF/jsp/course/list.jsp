@@ -24,7 +24,7 @@
                     <div class="panel-heading"><h4>${roleName}</h4></div>
                     <div class="panel-body">
                         <div id="toolbar">
-                            <a href="${basePath}/user/edit" class="btn btn-primary" role="button">
+                            <a href="${basePath}/course/addPage" class="btn btn-primary" role="button">
                                 <i class="glyphicon glyphicon-plus"></i> 添加
                             </a>
                         </div>
@@ -39,7 +39,7 @@
                                data-pagination="true"
                                data-id-field="id"
                                data-show-footer="false"
-                               data-url="/user/list?roleType=${roleType}"
+                               data-url="/course/list?pusher=${pusher_name}"
                                data-striped="true"
                                data-query-params="myPage"
                                data-side-pagination="server">
@@ -51,58 +51,79 @@
     </div>
     <%@include file="../common/footer.jsp" %>
     <script>
-        $('#table').bootstrapTable({
-            url: '/user/list?roleType=${roleType}',
+        var $table = $('#table');
+        $table.bootstrapTable({
+            url: '/course/list?pusher=${pusher_name}',
             columns: [
+                {
+                    checkbox: true
+                },
+                {
+                    title: '课程封面',
+                    field: 'imageId',
+                    align: 'center',
+                    formatter: function (value, row, index) {//自定义显示可以写标签哦~
+                        return '<img src="${basePath}/file/show?id=' + value + '" style="wdith:50px;height:50px"/>';
+                    }
+                },
                 {
                     field: 'id',
                     title: 'ID',
                     visible: false
-                }, {
-                    field: 'loginAccount',
-                    title: '账号',
-                    align: 'center'
                 }
                 , {
                     field: 'name',
                     title: '名称',
                     align: 'center'
                 }, {
-                    field: 'phoneNumber',
-                    title: '手机号',
+                    field: 'author',
+                    title: '讲师',
                     align: 'center'
                 }, {
-                    field: 'gender',
-                    title: '性别',
+                    field: 'pusher',
+                    title: '发布者',
+                    align: 'center'
+                }, {
+                    field: 'type',
+                    title: '类型',
                     align: 'center',
                     formatter: function (value, row, index) {
                         if (value == 1)
-                            return "男";
+                            return "数学";
                         else if (value == 2)
-                            return "女";
+                            return "英语";
+                        else if (value == 3)
+                            return "物理";
+                        else if (value == 4)
+                            return "语文";
+                        else if (value == 5)
+                            return "化学";
                     }
                 }, {
-                    field: 'birthDay',
-                    title: '生日',
-                    align: 'center'
-                }, {
-                    field: 'address',
-                    title: '常住地址',
-                    align: 'center'
-                }, {
-                    field: 'idCard',
-                    title: '身份证号码',
-                    align: 'center'
-                }, {
-                    field: 'enable',
-                    title: '审批状态',
+                    field: 'level',
+                    title: '级别',
                     align: 'center',
                     formatter: function (value, row, index) {
-                        if (value == 1)
-                            return "完成";
-                        else
-                            return "等待";
+                        if (value == 1) {
+                            return "基础";
+                        } else if (value == 2) {
+                            return "进阶";
+                        } else if (value == 3) {
+                            return "拔高";
+                        }
                     }
+                }, {
+                    field: 'updateDate',
+                    title: '发布时间',
+                    align: 'center'
+                }, {
+                    field: 'price',
+                    title: '价格',
+                    align: 'center'
+                }, {
+                    field: 'description',
+                    title: '描述',
+                    align: 'center'
                 }, {
                     field: 'id',
                     title: '操作',
@@ -115,20 +136,19 @@
         function operateFormatter(value, row, index) {
             return [
                 '<a role="button" class="btn btn-primary btn-sm" href="${basePath}/user/editPage?id=' + value + '">修改</a>',
-                '<a role="button" class="btn btn-primary btn-sm" href="${basePath}/user/approval?id=' + value + '">审批</a>',
                 '<button type="button" class="btn btn-primary btn-sm" onclick="remove(' + value + ')">删除</a>',
             ].join('');
         }
 
         //删除教师
-        function remove(id){
-            layer.confirm("删除后将无法撤销，确定执行操作吗?",function(){
-                $.post("${basePath}/user/delete",{"id":id},function(result){
-                    if(result.code==200){
+        function remove(id) {
+            layer.confirm("删除后将无法撤销，确定执行操作吗?", function () {
+                $.post("${basePath}/course/deleteCourse", {"id": id}, function (result) {
+                    if (result.code == 200) {
                         layer.msg(result.msg);
                         $table.bootstrapTable("refresh");//重新加载数据
-                    }else{
-                        layer.msg("错误！"+result.msg);
+                    } else {
+                        layer.msg("错误！" + result.msg);
                     }
                 });
             });

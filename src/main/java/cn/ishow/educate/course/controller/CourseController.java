@@ -18,48 +18,102 @@ package cn.ishow.educate.course.controller;
 
 import cn.ishow.common.enu.BusinessError;
 import cn.ishow.common.exception.BizRuntimeException;
+import cn.ishow.educate.common.model.vo.BaseVO;
+import cn.ishow.educate.common.model.vo.ResultVO;
 import cn.ishow.educate.course.model.po.CoursePO;
 import cn.ishow.educate.course.model.vo.CourseCondition;
 import cn.ishow.educate.course.model.vo.CourseVO;
 import cn.ishow.educate.course.service.ICourseService;
+import cn.ishow.educate.lib.controller.BaseController;
+import cn.ishow.educate.lib.enu.RoleEnum;
+import cn.ishow.educate.lib.util.WebUtils;
+import cn.ishow.educate.role.model.po.UserPO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.validation.constraints.NotEmpty;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author yinchong
  * @create 2019/11/27 8:48
  * @description
  */
-@RestController
+@Controller
 @RequestMapping("course")
-public class CourseController {
+public class CourseController extends BaseController {
+    public static final String PULISHER_NAME = "pusher_name";
+    public static final String ADMIN = "admin";
     @Autowired
     private ICourseService courseService;
 
     @RequestMapping("addCourse")
-    public String addCourese(CourseVO courseVO){
-       return courseService.addCourse(courseVO);
+    @ResponseBody
+    public Object addCourse(@Validated CourseVO courseVO) {
+        Integer type = userType();
+        if(type==null){
+            return ResultVO.needLogin();
+        }else if(type!=RoleEnum.TEACHER.getCode()||type!=RoleEnum.MANAGER.getCode()){
+            return ResultVO.fail("无权限");
+        }
+        String message = courseService.addCourse(courseVO);
+        return ResultVO.successWithData(message);
     }
 
     @RequestMapping("listActiveCourse")
-    public List<CoursePO> listActiveCourse(CourseCondition condition){
+    @ResponseBody
+    public List<CoursePO> listActiveCourse(CourseCondition condition) {
         return courseService.listActiveCourse(condition);
     }
 
+    @RequestMapping("/list")
+    @ResponseBody
+    public Map<String, Object> listCourse(BaseVO baseVO, String pusher) {
+        if(userType()==null){
+            throw new BizRuntimeException(500,"未登入");
+        }
+        ResultVO resultVO = courseService.listCourse(baseVO, pusher);
+        return resultVO.toTableMap();
+    }
+
+    @RequestMapping("/listPage")
+    public String listPage(ModelMap map) {
+        UserPO user = WebUtils.getUser();
+        if (user == null) {
+            return "user/login";
+        }
+        if (user.getRole() == RoleEnum.MANAGER.getCode()) {
+            map.put(PULISHER_NAME, ADMIN);
+        } else {
+            map.put(PULISHER_NAME, user.getName());
+        }
+        return "course/list";
+    }
+
     @RequestMapping("deleteCourse")
-    public String deleteCourse(@NotEmpty(message = "id不能为空") Long id){
-        return courseService.deleteCourse(id);
+    @ResponseBody
+    public Object deleteCourse(@NotEmpty(message = "id不能为空") Long id) {
+        String result = courseService.deleteCourse(id);
+        return ResultVO.successWithData(result);
     }
 
     @RequestMapping("updateCourse")
-    public String updateCourse(CourseVO vo){
-        if(vo.getId()==null){
-            throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL,"id不能为空");
+    @ResponseBody
+    public Object updateCourse(CourseVO vo) {
+        if (vo.getId() == null) {
+            throw new BizRuntimeException(BusinessError.PARAM_VERIFY_FAIL, "id不能为空");
         }
-        return courseService.updateCourse(vo);
+        String result = courseService.updateCourse(vo);
+        return ResultVO.successWithData(result);
+    }
+
+    @RequestMapping("/addPage")
+    public String addPage() {
+        return "course/add";
     }
 }
