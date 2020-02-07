@@ -5934,3 +5934,17 @@ INFO|2020-02-07 16:30:10.580|[log-level-task]|c.i.l.LoggerLevelUpdateTask.update
 INFO|2020-02-07 16:30:17.786|[http-nio-9090-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
 INFO|2020-02-07 16:30:17.787|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
 INFO|2020-02-07 16:30:17.810|[http-nio-9090-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 22 ms
+INFO|2020-02-07 16:45:18.177|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 22456 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-07 16:45:18.182|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-07 16:45:19.213|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 9090 (http)
+INFO|2020-02-07 16:45:19.234|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-07 16:45:19.235|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-07 16:45:19.527|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-07 16:45:19.534|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-07 16:45:19.534|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1283 ms
+INFO|2020-02-07 16:45:19.702|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-07 16:45:19.963|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-07 16:45:20.366|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-07 16:45:20.640|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 9090 (http) with context path ''
+INFO|2020-02-07 16:45:20.644|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.759 seconds (JVM running for 4.529)
+INFO|2020-02-07 16:45:20.659|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug

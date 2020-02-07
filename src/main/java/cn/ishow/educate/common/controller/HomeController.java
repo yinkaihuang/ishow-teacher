@@ -16,6 +16,7 @@ package cn.ishow.educate.common.controller;
  * limitations under the License.
  */
 
+import cn.ishow.educate.lib.controller.BaseController;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -25,25 +26,29 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @description
  */
 @Controller
-public class HomeController {
+public class HomeController extends BaseController {
 
-    @RequestMapping("/index")
-    public String index(){
+    @RequestMapping("/")
+    public String index() {
+        Integer type = userType();
+        if (type == null) {
+            return "user/login";
+        }
         return "home/index";
     }
 
     @RequestMapping("/login")
-    public String hello(){
+    public String hello() {
         return "user/login";
     }
 
     @RequestMapping("/infomation")
-    public String infomation(){
+    public String infomation() {
         return "common/information";
     }
 
     @RequestMapping("loginPage")
-    public String login(){
+    public String login() {
         return "login/login";
     }
 }
