@@ -90,7 +90,7 @@ public class UserController {
 
     @RequestMapping("logout")
     @ResponseBody
-    public String logout() {
+    public Object logout() {
         return userService.logout();
     }
 

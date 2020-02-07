@@ -37,7 +37,7 @@
                             <!-- BEGIN QUICK SIDEBAR TOGGLER -->
                             <li class="dropdown dropdown-extended quick-sidebar-toggler">
                                 <span class="sr-only">Toggle Quick Sidebar</span>
-                                <i class="icon-logout" onclick="window.location.href='/user/logout'"></i>
+                                <i class="icon-logout" onclick="logout()"></i>
                             </li>
                             <!-- END QUICK SIDEBAR TOGGLER -->
                         </ul>
@@ -146,3 +146,19 @@
         <!-- END HEADER -->
     </div>
 </div>
+
+<script>
+    function logout() {
+        $.ajax({
+            type: "POST",
+            url: "${basePath}/user/logout",
+            success: function (result) {
+                if (result.code == 200) {
+                    window.location.href="/index"
+                } else {
+                    layer.msg(result.msg);
+                }
+            }
+        });
+    }
+</script>

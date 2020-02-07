@@ -37,6 +37,15 @@ public class HomeController extends BaseController {
         return "home/index";
     }
 
+    @RequestMapping("/index")
+    public String home(){
+        Integer type = userType();
+        if (type == null) {
+            return "user/login";
+        }
+        return "home/index";
+    }
+
     @RequestMapping("/login")
     public String hello() {
         return "user/login";

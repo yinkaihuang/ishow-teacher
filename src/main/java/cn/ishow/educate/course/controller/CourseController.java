@@ -58,7 +58,7 @@ public class CourseController extends BaseController {
         Integer type = userType();
         if(type==null){
             return ResultVO.needLogin();
-        }else if(type!=RoleEnum.TEACHER.getCode()||type!=RoleEnum.MANAGER.getCode()){
+        }else if(type!=RoleEnum.TEACHER.getCode()&&type!=RoleEnum.MANAGER.getCode()){
             return ResultVO.fail("无权限");
         }
         String message = courseService.addCourse(courseVO);

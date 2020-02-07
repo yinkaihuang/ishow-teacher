@@ -103,10 +103,10 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserPO> implements 
     }
 
     @Override
-    public String logout() {
-        String token = WebUtils.getTokenFromRequest();
+    public Object logout() {
+        String token = WebUtils.getUserToken();
         UserCache.getInstance().removeByToken(token);
-        return "登出成功";
+        return ResultVO.successWithData("登出成功");
     }
 
     @Override

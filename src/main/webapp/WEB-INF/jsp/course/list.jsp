@@ -65,6 +65,13 @@
                     formatter: function (value, row, index) {//自定义显示可以写标签哦~
                         return '<img src="${basePath}/file/show?id=' + value + '" style="wdith:50px;height:50px"/>';
                     }
+                }, {
+                    title: '视频',
+                    field: 'videoId',
+                    align: 'center',
+                    formatter: function (value, row, index) {//自定义显示可以写标签哦~
+                        return '<video src="${basePath}/file/show?id=' + value + '" controls width="50px" height="50px"></video>';
+                    }
                 },
                 {
                     field: 'id',

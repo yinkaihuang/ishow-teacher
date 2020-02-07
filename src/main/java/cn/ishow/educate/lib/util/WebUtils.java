@@ -41,8 +41,8 @@ public class WebUtils {
         return attributes;
     }
 
-    public static OutputStream getOutputStream()throws Exception{
-       return attributes().getResponse().getOutputStream();
+    public static OutputStream getOutputStream() throws Exception {
+        return attributes().getResponse().getOutputStream();
     }
 
     public static UserPO getUser() {
@@ -54,6 +54,14 @@ public class WebUtils {
             return null;
         }
         return UserCache.getInstance().getUser(token);
+    }
+
+    public static String getUserToken() {
+        String token = getTokenFromRequest();
+        if (!Strings.isBlank(token)) {
+            return token;
+        }
+        return getTokenFromSession();
     }
 
 
@@ -73,7 +81,7 @@ public class WebUtils {
         getSession().setAttribute(USER_TOKEN, token);
     }
 
-    public static void removeTokenFromSession(){
+    public static void removeTokenFromSession() {
         getSession().removeAttribute(USER_TOKEN);
     }
 
