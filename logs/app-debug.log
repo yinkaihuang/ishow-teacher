@@ -11043,3 +11043,199 @@ DEBUG|2020-02-08 12:12:08.231|[log-level-task]|o.s.c.e.PropertySourcesPropertyRe
 DEBUG|2020-02-08 12:12:08.231|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
 DEBUG|2020-02-08 12:12:18.232|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
 DEBUG|2020-02-08 12:12:18.232|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:16:28.680|[RMI TCP Connection(1)-192.168.40.2]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'local.server.port' in PropertySource 'server.ports' with value of type Integer
+DEBUG|2020-02-08 13:16:28.686|[RMI TCP Connection(1)-192.168.40.2]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'server.servlet.context-path' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:16:34.060|[http-nio-80-exec-1]|o.s.w.s.DispatcherServlet.initMultipartResolver. 525|Detected StandardServletMultipartResolver
+DEBUG|2020-02-08 13:16:34.065|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 541|enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+DEBUG|2020-02-08 13:16:34.074|[http-nio-80-exec-1]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/course/listActiveCourse", parameters={}
+DEBUG|2020-02-08 13:16:34.079|[http-nio-80-exec-1]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.Object cn.ishow.educate.course.controller.CourseController.listActiveCourse(cn.ishow.educate.course.model.vo.CourseCondition)
+DEBUG|2020-02-08 13:16:34.096|[http-nio-80-exec-1]|o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException. 403|Using @ExceptionHandler public java.util.Map<java.lang.String, java.lang.Object> cn.ishow.educate.lib.exception.GlobalExceptionHandler.handlerException(java.lang.Exception)
+DEBUG|2020-02-08 13:16:34.113|[http-nio-80-exec-1]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-08 13:16:34.113|[http-nio-80-exec-1]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [{msg=null, code=0}]
+DEBUG|2020-02-08 13:16:34.141|[http-nio-80-exec-1]|o.s.w.s.h.AbstractHandlerExceptionResolver.resolveException. 143|Resolved [BizRuntimeException(code=0, message=null)]
+DEBUG|2020-02-08 13:16:34.141|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-08 13:16:38.586|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:16:48.587|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:16:48.587|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:17:05.145|[RMI TCP Connection(4)-192.168.40.2]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'local.server.port' in PropertySource 'server.ports' with value of type Integer
+DEBUG|2020-02-08 13:17:05.152|[RMI TCP Connection(4)-192.168.40.2]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'server.servlet.context-path' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:17:13.910|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:17:18.926|[http-nio-80-exec-2]|o.s.w.s.DispatcherServlet.initMultipartResolver. 525|Detected StandardServletMultipartResolver
+DEBUG|2020-02-08 13:17:18.934|[http-nio-80-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 541|enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+DEBUG|2020-02-08 13:17:18.946|[http-nio-80-exec-2]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/course/listActiveCourse", parameters={}
+DEBUG|2020-02-08 13:17:18.949|[http-nio-80-exec-2]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.Object cn.ishow.educate.course.controller.CourseController.listActiveCourse(cn.ishow.educate.course.model.vo.CourseCondition)
+DEBUG|2020-02-08 13:17:18.973|[http-nio-80-exec-2]|o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException. 403|Using @ExceptionHandler public java.util.Map<java.lang.String, java.lang.Object> cn.ishow.educate.lib.exception.GlobalExceptionHandler.handlerException(java.lang.Exception)
+DEBUG|2020-02-08 13:17:19.007|[http-nio-80-exec-2]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-08 13:17:19.008|[http-nio-80-exec-2]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [{msg=null, code=0}]
+DEBUG|2020-02-08 13:17:19.044|[http-nio-80-exec-2]|o.s.w.s.h.AbstractHandlerExceptionResolver.resolveException. 143|Resolved [BizRuntimeException(code=0, message=null)]
+DEBUG|2020-02-08 13:17:19.045|[http-nio-80-exec-2]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-08 13:17:23.909|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:17:23.909|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:17:32.910|[http-nio-80-exec-3]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/course/listActiveCourse", parameters={}
+DEBUG|2020-02-08 13:17:32.910|[http-nio-80-exec-3]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.Object cn.ishow.educate.course.controller.CourseController.listActiveCourse(cn.ishow.educate.course.model.vo.CourseCondition)
+DEBUG|2020-02-08 13:17:42.715|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:18:00.496|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:18:00.496|[http-nio-80-exec-3]|o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException. 403|Using @ExceptionHandler public java.util.Map<java.lang.String, java.lang.Object> cn.ishow.educate.lib.exception.GlobalExceptionHandler.handlerException(java.lang.Exception)
+DEBUG|2020-02-08 13:18:00.496|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:18:02.516|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:18:02.517|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:18:02.517|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:19:28.558|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:19:28.559|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:19:28.559|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:19:28.559|[http-nio-80-exec-3]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-08 13:19:28.559|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:19:28.559|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:19:28.559|[http-nio-80-exec-3]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [{msg=null, code=0}]
+DEBUG|2020-02-08 13:19:28.559|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:19:28.562|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:19:28.562|[http-nio-80-exec-3]|o.s.w.s.h.AbstractHandlerExceptionResolver.resolveException. 143|Resolved [BizRuntimeException(code=0, message=null)]
+DEBUG|2020-02-08 13:19:28.563|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:19:28.563|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:19:28.564|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:19:28.563|[http-nio-80-exec-3]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-08 13:19:28.564|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:19:28.564|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:19:28.564|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:19:28.565|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:19:28.565|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:19:28.565|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:19:28.566|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:19:28.566|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:19:30.437|[Thread-10]|o.s.c.s.AbstractApplicationContext.doClose.1002|Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@50fe837a, started on Sat Feb 08 13:17:00 CST 2020
+DEBUG|2020-02-08 13:19:30.438|[Thread-10]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+DEBUG|2020-02-08 13:19:30.439|[Thread-10]|o.s.j.e.MBeanExporter.destroy. 451|Unregistering JMX-exposed beans on shutdown
+DEBUG|2020-02-08 13:19:30.440|[Thread-10]|o.s.j.s.MBeanRegistrationSupport.unregisterBeans. 185|Unregistering JMX-exposed beans
+DEBUG|2020-02-08 13:33:19.892|[RMI TCP Connection(2)-192.168.40.2]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'local.server.port' in PropertySource 'server.ports' with value of type Integer
+DEBUG|2020-02-08 13:33:19.899|[RMI TCP Connection(2)-192.168.40.2]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'server.servlet.context-path' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:33:24.605|[http-nio-80-exec-1]|o.s.w.s.DispatcherServlet.initMultipartResolver. 525|Detected StandardServletMultipartResolver
+DEBUG|2020-02-08 13:33:24.611|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 541|enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+DEBUG|2020-02-08 13:33:24.622|[http-nio-80-exec-1]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/course/listActiveCourse", parameters={}
+DEBUG|2020-02-08 13:33:24.626|[http-nio-80-exec-1]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.Object cn.ishow.educate.course.controller.CourseController.listActiveCourse(cn.ishow.educate.course.model.vo.CourseCondition)
+DEBUG|2020-02-08 13:33:24.646|[http-nio-80-exec-1]|o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException. 403|Using @ExceptionHandler public java.util.Map<java.lang.String, java.lang.Object> cn.ishow.educate.lib.exception.GlobalExceptionHandler.handlerException(java.lang.Exception)
+DEBUG|2020-02-08 13:33:24.662|[http-nio-80-exec-1]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-08 13:33:24.663|[http-nio-80-exec-1]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [{msg=需要登录, code=401}]
+DEBUG|2020-02-08 13:33:24.694|[http-nio-80-exec-1]|o.s.w.s.h.AbstractHandlerExceptionResolver.resolveException. 143|Resolved [BizRuntimeException(code=401, message=需要登录)]
+DEBUG|2020-02-08 13:33:24.697|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-08 13:33:26.062|[http-nio-80-exec-3]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/course/listActiveCourse", parameters={}
+DEBUG|2020-02-08 13:33:26.063|[http-nio-80-exec-3]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.Object cn.ishow.educate.course.controller.CourseController.listActiveCourse(cn.ishow.educate.course.model.vo.CourseCondition)
+DEBUG|2020-02-08 13:33:26.063|[http-nio-80-exec-3]|o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException. 403|Using @ExceptionHandler public java.util.Map<java.lang.String, java.lang.Object> cn.ishow.educate.lib.exception.GlobalExceptionHandler.handlerException(java.lang.Exception)
+DEBUG|2020-02-08 13:33:26.063|[http-nio-80-exec-3]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-08 13:33:26.064|[http-nio-80-exec-3]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [{msg=需要登录, code=401}]
+DEBUG|2020-02-08 13:33:26.065|[http-nio-80-exec-3]|o.s.w.s.h.AbstractHandlerExceptionResolver.resolveException. 143|Resolved [BizRuntimeException(code=401, message=需要登录)]
+DEBUG|2020-02-08 13:33:26.065|[http-nio-80-exec-3]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-08 13:33:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:33:31.145|[http-nio-80-exec-4]|o.s.c.l.LogFormatUtils.traceDebug.  90|POST "/user/login", parameters={masked}
+DEBUG|2020-02-08 13:33:31.146|[http-nio-80-exec-4]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public cn.ishow.educate.common.model.vo.ResultVO cn.ishow.educate.role.controller.UserController.login(java.lang.String,java.lang.String,java.lang.Integer,boolean)
+DEBUG|2020-02-08 13:33:31.159|[http-nio-80-exec-4]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-08 13:33:31.162|[http-nio-80-exec-4]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7508d2f0] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-08 13:33:31.181|[http-nio-80-exec-4]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-08 13:33:31.182|[http-nio-80-exec-4]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1c26edd2] will not be managed by Spring
+DEBUG|2020-02-08 13:33:31.190|[http-nio-80-exec-4]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select * from t_user where login_account =? and password =? 
+DEBUG|2020-02-08 13:33:31.302|[http-nio-80-exec-4]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: yinbucheng(String), 12345(String)
+DEBUG|2020-02-08 13:33:31.343|[http-nio-80-exec-4]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-08 13:33:31.346|[http-nio-80-exec-4]|c.a.d.p.PreparedStatementPool.put. 129|{conn-10005, pstmt-20000} enter cache
+DEBUG|2020-02-08 13:33:31.347|[http-nio-80-exec-4]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7508d2f0]
+DEBUG|2020-02-08 13:33:31.370|[http-nio-80-exec-4]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-08 13:33:31.371|[http-nio-80-exec-4]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [ResultVO(code=200, msg=操作成功, data=6dec392f0cd84eeabbcfe20a564336be)]
+DEBUG|2020-02-08 13:33:31.374|[http-nio-80-exec-4]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-08 13:33:39.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:33:39.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:33:40.796|[http-nio-80-exec-5]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/course/listActiveCourse", parameters={}
+DEBUG|2020-02-08 13:33:40.796|[http-nio-80-exec-5]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.Object cn.ishow.educate.course.controller.CourseController.listActiveCourse(cn.ishow.educate.course.model.vo.CourseCondition)
+DEBUG|2020-02-08 13:33:40.801|[http-nio-80-exec-5]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-08 13:33:40.801|[http-nio-80-exec-5]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b313d0] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-08 13:33:40.802|[http-nio-80-exec-5]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-08 13:33:40.803|[http-nio-80-exec-5]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1c26edd2] will not be managed by Spring
+DEBUG|2020-02-08 13:33:40.803|[http-nio-80-exec-5]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select * from t_course where enable = 1 
+DEBUG|2020-02-08 13:33:40.805|[http-nio-80-exec-5]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 
+DEBUG|2020-02-08 13:33:40.808|[http-nio-80-exec-5]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-08 13:33:40.809|[http-nio-80-exec-5]|c.a.d.p.PreparedStatementPool.put. 129|{conn-10005, pstmt-20001} enter cache
+DEBUG|2020-02-08 13:33:40.809|[http-nio-80-exec-5]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b313d0]
+DEBUG|2020-02-08 13:33:40.810|[http-nio-80-exec-5]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-08 13:33:40.810|[http-nio-80-exec-5]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [ResultVO(code=200, msg=操作成功, data=[CoursePO(id=14, name=尹哥讲数学, author=尹老师, pusher=测试, imageId=5, vid (truncated)...]
+DEBUG|2020-02-08 13:33:40.820|[http-nio-80-exec-5]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-08 13:33:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:33:49.196|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:33:59.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:33:59.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:34:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:34:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:34:19.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:34:19.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:34:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:34:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:34:39.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:34:39.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:34:49.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:34:49.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:34:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:34:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:35:09.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:35:09.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:35:19.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:35:19.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:35:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:35:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:35:39.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:35:39.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:35:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:35:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:35:59.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:35:59.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:36:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:36:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:36:19.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:36:19.196|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:36:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:36:29.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:36:39.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:36:39.196|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:36:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:36:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:36:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:36:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:37:09.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:37:09.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:37:19.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:37:19.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:37:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:37:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:37:39.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:37:39.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:37:49.196|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:37:49.196|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:37:59.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:37:59.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:38:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:38:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:38:19.202|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:38:19.202|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:38:29.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:38:29.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:38:39.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:38:39.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:38:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:38:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:38:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:38:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:39:09.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:39:09.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:39:19.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:39:19.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:39:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:39:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:39:39.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:39:39.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:39:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:39:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:39:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:39:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:40:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:40:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:40:19.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:40:19.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:40:29.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:40:29.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 13:40:39.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 13:40:39.197|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
