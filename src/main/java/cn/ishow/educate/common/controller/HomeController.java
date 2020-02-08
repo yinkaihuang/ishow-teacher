@@ -56,8 +56,13 @@ public class HomeController extends BaseController {
         return "common/information";
     }
 
-    @RequestMapping("loginPage")
+    @RequestMapping("/loginPage")
     public String login() {
         return "login/login";
+    }
+
+    @RequestMapping("/videoPage")
+    public String video(){
+        return "wechat/list";
     }
 }

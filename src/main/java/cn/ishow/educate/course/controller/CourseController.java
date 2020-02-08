@@ -20,12 +20,12 @@ import cn.ishow.common.enu.BusinessError;
 import cn.ishow.common.exception.BizRuntimeException;
 import cn.ishow.educate.common.model.vo.BaseVO;
 import cn.ishow.educate.common.model.vo.ResultVO;
-import cn.ishow.educate.course.model.po.CoursePO;
 import cn.ishow.educate.course.model.vo.CourseCondition;
 import cn.ishow.educate.course.model.vo.CourseVO;
 import cn.ishow.educate.course.service.ICourseService;
 import cn.ishow.educate.lib.controller.BaseController;
 import cn.ishow.educate.lib.enu.RoleEnum;
+import cn.ishow.educate.lib.enu.StatusEnum;
 import cn.ishow.educate.lib.util.WebUtils;
 import cn.ishow.educate.role.model.po.UserPO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,7 +36,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.validation.constraints.NotEmpty;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -56,9 +55,9 @@ public class CourseController extends BaseController {
     @ResponseBody
     public Object addCourse(@Validated CourseVO courseVO) {
         Integer type = userType();
-        if(type==null){
+        if (type == null) {
             return ResultVO.needLogin();
-        }else if(type!=RoleEnum.TEACHER.getCode()&&type!=RoleEnum.MANAGER.getCode()){
+        } else if (type != RoleEnum.TEACHER.getCode() && type != RoleEnum.MANAGER.getCode()) {
             return ResultVO.fail("无权限");
         }
         String message = courseService.addCourse(courseVO);
@@ -67,15 +66,18 @@ public class CourseController extends BaseController {
 
     @RequestMapping("listActiveCourse")
     @ResponseBody
-    public List<CoursePO> listActiveCourse(CourseCondition condition) {
-        return courseService.listActiveCourse(condition);
+    public Object listActiveCourse(CourseCondition condition) {
+        if (userType() == null) {
+            throw new BizRuntimeException(StatusEnum.NEEDLOGIN.getCode(), StatusEnum.NEEDLOGIN.getMsg());
+        }
+        return ResultVO.successWithData(courseService.listActiveCourse(condition));
     }
 
     @RequestMapping("/list")
     @ResponseBody
     public Map<String, Object> listCourse(BaseVO baseVO, String pusher) {
-        if(userType()==null){
-            throw new BizRuntimeException(500,"未登入");
+        if (userType() == null) {
+            throw new BizRuntimeException(500, "未登入");
         }
         ResultVO resultVO = courseService.listCourse(baseVO, pusher);
         return resultVO.toTableMap();

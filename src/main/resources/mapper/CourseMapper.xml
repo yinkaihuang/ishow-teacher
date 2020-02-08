@@ -7,7 +7,7 @@
         select count(*) from t_course where name =#{name} and author =#{author}
     </select>
     <select id="listActiveCourse" resultType="coursePO">
-        select * from t_course where enbale = 1
+        select * from t_course where enable = 1
         <if test="name!=null and name!=''">
             and name like #{name}%
         </if>
