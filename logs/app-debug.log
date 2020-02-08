@@ -11557,3 +11557,233 @@ DEBUG|2020-02-08 14:06:59.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyRe
 DEBUG|2020-02-08 14:06:59.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
 DEBUG|2020-02-08 14:07:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
 DEBUG|2020-02-08 14:07:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:07:19.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:07:19.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:07:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:07:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:07:39.207|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:07:39.207|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:07:49.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:07:49.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:07:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:07:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:08:09.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:08:09.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:08:19.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:08:19.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:08:29.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:08:29.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:08:39.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:08:39.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:08:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:08:49.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:08:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:08:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:09:09.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:09:09.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:09:19.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:09:19.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:09:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:09:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:09:39.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:09:39.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:09:49.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:09:49.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:09:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:09:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:10:09.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:10:09.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:10:19.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:10:19.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:10:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:10:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:10:39.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:10:39.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:10:49.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:10:49.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:10:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:10:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:11:09.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:11:09.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:11:19.294|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:11:19.294|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:11:29.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:11:29.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:11:39.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:11:39.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:11:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:11:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:11:59.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:11:59.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:12:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:12:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:12:19.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:12:19.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:12:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:12:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:12:39.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:12:39.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:12:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:12:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:12:59.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:12:59.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:13:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:13:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:13:19.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:13:19.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:13:29.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:13:29.196|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:13:39.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:13:39.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:13:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:13:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:13:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:13:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:14:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:14:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:14:19.210|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:14:19.210|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:14:29.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:14:29.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:14:39.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:14:39.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:14:49.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:14:49.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:14:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:14:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:15:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:15:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:15:19.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:15:19.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:15:29.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:15:29.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:15:39.568|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:15:39.568|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:15:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:15:49.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:15:59.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:15:59.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:16:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:16:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:16:19.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:16:19.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:16:29.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:16:29.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:16:39.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:16:39.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:16:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:16:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:16:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:16:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:17:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:17:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:17:19.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:17:19.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:17:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:17:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:17:39.266|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:17:39.266|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:17:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:17:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:17:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:17:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:18:09.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:18:09.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:18:19.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:18:19.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:18:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:18:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:18:39.266|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:18:39.266|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:18:49.213|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:18:49.213|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:18:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:18:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:19:09.395|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:19:09.395|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:19:19.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:19:19.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:19:29.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:19:29.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:19:39.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:19:39.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:19:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:19:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:19:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:19:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:20:09.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:20:09.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:20:19.212|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:20:19.212|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:20:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:20:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:20:39.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:20:39.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:20:49.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:20:49.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:20:59.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:20:59.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:21:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:21:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:21:19.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:21:19.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:21:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:21:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:21:39.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:21:39.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:21:49.214|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:21:49.214|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:21:59.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:21:59.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:22:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:22:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:22:19.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:22:19.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:22:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:22:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:22:39.286|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:22:39.286|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:22:49.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:22:49.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:22:59.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:22:59.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:23:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:23:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:23:19.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:23:19.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:23:29.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:23:29.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:23:39.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:23:39.196|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:23:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:23:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:23:59.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:23:59.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:24:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:24:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:24:19.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:24:19.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:24:29.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:24:29.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:24:39.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:24:39.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:24:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:24:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:24:59.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:24:59.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:25:09.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:25:09.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:25:19.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:25:19.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:25:29.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:25:29.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:25:39.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:25:39.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:25:49.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:25:49.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:25:59.195|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:25:59.195|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:26:09.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:26:09.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-08 14:26:19.194|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-08 14:26:19.194|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
