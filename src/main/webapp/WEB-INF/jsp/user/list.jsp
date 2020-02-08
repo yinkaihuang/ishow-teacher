@@ -24,7 +24,7 @@
                     <div class="panel-heading"><h4>${roleName}</h4></div>
                     <div class="panel-body">
                         <div id="toolbar">
-                            <a href="${basePath}/user/edit" class="btn btn-primary" role="button">
+                            <a href="#" class="btn btn-primary" role="button">
                                 <i class="glyphicon glyphicon-plus"></i> 添加
                             </a>
                         </div>

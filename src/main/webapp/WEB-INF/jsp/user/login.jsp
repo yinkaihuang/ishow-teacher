@@ -46,10 +46,10 @@
         </div>
         <div class="form-actions">
             <div class="pull-left forget-password-block">
-                <a href="${basePath}/user/register" class="forget-password">注册</a>
+                <a href="#" class="forget-password">注册</a>
             </div>
             <div class="pull-right forget-password-block">
-                <a href="${basePath}/user/forgot" class="forget-password">忘记密码</a>
+                <a href="#" class="forget-password">忘记密码</a>
             </div>
         </div>
     </form>

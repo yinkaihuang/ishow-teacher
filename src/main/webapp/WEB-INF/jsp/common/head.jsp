@@ -69,11 +69,6 @@
                                             <i class="fa fa-cloud"></i> 学生管理
                                         </a>
                                     </li>
-                                    <li aria-haspopup="true" class=" ">
-                                        <a href="${basePath}/role/list" class="nav-link  ">
-                                            <i class="fa fa-user-secret"></i> 角色管理 </a>
-                                    </li>
-
                                 </ul>
                             </li>
 
