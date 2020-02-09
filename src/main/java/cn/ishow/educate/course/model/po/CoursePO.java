@@ -17,6 +17,7 @@ package cn.ishow.educate.course.model.po;
  */
 
 import cn.ishow.common.model.po.BasePO;
+import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
@@ -54,8 +55,12 @@ public class CoursePO extends BasePO implements Serializable {
     private Long videoId;
     //课程类型
     private Integer type;
+    @TableField(exist = false)
+    private String typeStr;
     //课程等级
     private Integer level;
+    @TableField(exist = false)
+    private String levelStr;
     //标签
     private String tag;
     //描述

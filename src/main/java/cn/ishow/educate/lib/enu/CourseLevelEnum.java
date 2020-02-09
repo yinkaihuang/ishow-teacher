@@ -39,5 +39,14 @@ public enum  CourseLevelEnum {
         return msg;
     }
 
+    public static String levelMsg(int code){
+        for(CourseLevelEnum levelEnum:values()){
+            if(levelEnum.code==code){
+                return levelEnum.msg;
+            }
+        }
+        return "";
+    }
+
 
 }

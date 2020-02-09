@@ -20,6 +20,7 @@
         <if test="level!=null">
             and level = #{level}
         </if>
+        order by id desc
     </select>
     <select id="listPage" resultType="cn.ishow.educate.course.model.po.CoursePO">
         select * from t_course

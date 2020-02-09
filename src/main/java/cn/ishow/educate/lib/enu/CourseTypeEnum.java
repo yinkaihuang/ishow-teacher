@@ -21,8 +21,8 @@ package cn.ishow.educate.lib.enu;
  * @create 2020/2/4 11:49
  * @description
  */
-public enum  CourseTypeEnum {
-    MATH(1,"数学"),ENGLISH(2,"英语"),PHYSICS(3,"物理"),CHINESE(4,"语文"),CHEMISTRY(5,"化学");
+public enum CourseTypeEnum {
+    MATH(1, "数学"), ENGLISH(2, "英语"), PHYSICS(3, "物理"), CHINESE(4, "语文"), CHEMISTRY(5, "化学");
     private int code;
     private String msg;
 
@@ -37,5 +37,14 @@ public enum  CourseTypeEnum {
 
     public String getMsg() {
         return msg;
+    }
+
+    public static String typeMsg(int code) {
+        for (CourseTypeEnum typeEnum : values()) {
+            if (typeEnum.code == code) {
+                return typeEnum.msg;
+            }
+        }
+        return "";
     }
 }

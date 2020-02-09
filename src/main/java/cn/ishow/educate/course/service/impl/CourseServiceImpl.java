@@ -22,6 +22,8 @@ import cn.ishow.educate.common.model.vo.BaseVO;
 import cn.ishow.educate.common.model.vo.ResultVO;
 import cn.ishow.educate.course.mapper.CourseMapper;
 import cn.ishow.educate.course.model.po.CoursePO;
+import cn.ishow.educate.lib.enu.CourseLevelEnum;
+import cn.ishow.educate.lib.enu.CourseTypeEnum;
 import cn.ishow.educate.lib.enu.StatusEnum;
 import cn.ishow.educate.lib.util.MyPageUtil;
 import cn.ishow.educate.role.model.po.UserPO;
@@ -66,7 +68,21 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, CoursePO> imple
 
     @Override
     public List<CoursePO> listActiveCourse(CourseCondition condition) {
-        return baseMapper.listActiveCourse(condition.getName(), condition.getAuthor(), condition.getType(), condition.getLevel());
+        List<CoursePO> records = baseMapper.listActiveCourse(condition.getName(), condition.getAuthor(), condition.getType(), condition.getLevel());
+        applyLevelAndTypeStr(records);
+        return records;
+    }
+
+    private void applyLevelAndTypeStr(List<CoursePO> records) {
+        if (records == null) {
+            return;
+        }
+        for (CoursePO coursePO : records) {
+            String levelMsg = CourseLevelEnum.levelMsg(coursePO.getLevel());
+            coursePO.setLevelStr(levelMsg);
+            String typeMsg = CourseTypeEnum.typeMsg(coursePO.getType());
+            coursePO.setTypeStr(typeMsg);
+        }
     }
 
     @Override

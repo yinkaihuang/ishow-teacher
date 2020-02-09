@@ -25,7 +25,6 @@ import cn.ishow.educate.course.model.vo.CourseVO;
 import cn.ishow.educate.course.service.ICourseService;
 import cn.ishow.educate.lib.controller.BaseController;
 import cn.ishow.educate.lib.enu.RoleEnum;
-import cn.ishow.educate.lib.enu.StatusEnum;
 import cn.ishow.educate.lib.util.WebUtils;
 import cn.ishow.educate.role.model.po.UserPO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -67,9 +66,9 @@ public class CourseController extends BaseController {
     @RequestMapping("listActiveCourse")
     @ResponseBody
     public Object listActiveCourse(CourseCondition condition) {
-        if (userType() == null) {
-            throw new BizRuntimeException(StatusEnum.NEEDLOGIN.getCode(), StatusEnum.NEEDLOGIN.getMsg());
-        }
+//        if (userType() == null) {
+//            throw new BizRuntimeException(StatusEnum.NEEDLOGIN.getCode(), StatusEnum.NEEDLOGIN.getMsg());
+//        }
         return ResultVO.successWithData(courseService.listActiveCourse(condition));
     }
 
