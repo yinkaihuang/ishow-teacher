@@ -122,7 +122,8 @@
                         return;
                     }
                     for (var i = 0; i < records.length; i++) {
-                        var trs = ' <li><div class="left"><video src="${basePath}/file/show?id=' + records[i].videoId + '" controls  onclick="test()"></video></div> <div class="right"><div class="right_top"><h3>' + records[i].name + '</h3></div><div class="right_bottom"><div class="right_bottom_left"><span>' + records[i].author + '</span> <span>' + records[i].tag + '</span> <span>' + records[i].levelStr + '</span> <span>|</span> <span>' + records[i].typeStr + '</span></div></div></div></li>';
+                        var id = "video_" + i;
+                        var trs = ' <li onclick="play(\'' + id + '\')"><div class="left"><video id=' + id + ' src="${basePath}/file/show?id=' + records[i].videoId + '" controls    height="85px"></video></div> <div class="right"><div class="right_top"><h3>' + records[i].name + '</h3></div><div class="right_bottom"><div class="right_bottom_left"><span>' + records[i].author + '</span> <span>' + records[i].tag + '</span> <span>' + records[i].levelStr + '</span> <span>|</span> <span>' + records[i].typeStr + '</span></div></div></div></li>';
                         $("#course_list_ul").append(trs);
                     }
                 } else {
@@ -137,5 +138,30 @@
     }
 
     window.onload = loadCourse();
+
+
+    function play(v) {
+        var video = document.getElementById(v);
+        if (video.paused) {
+            if (video.requestFullscreen) {
+                video.requestFullscreen();
+            } else if (video.mozRequestFullScreen) {
+                video.mozRequestFullScreen();
+            } else if (video.webkitRequestFullScreen) {
+                video.webkitRequestFullScreen();
+            }
+            video.play();
+        } else {
+            if (video.exitFullscreen) {
+                video.exitFullscreen();
+            } else if (video.mozCancelFullScreen) {
+                video.mozCancelFullScreen();
+            } else if (video.webkitCancelFullScreen) {
+                video.webkitCancelFullScreen();
+            }
+            video.pause();
+        }
+    }
+
 </script>
 </html>
