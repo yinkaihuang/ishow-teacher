@@ -97,4 +97,16 @@ public class WebUtils {
         }
         return request.getHeader(Educate.USER_TOKEN);
     }
+
+    public static String getHeader(String s) {
+        return attributes().getRequest().getHeader(s);
+    }
+
+    public static void setHeader(String name,String value){
+        attributes().getResponse().addHeader(name,value);
+    }
+
+    public static void setHttpCode(int code){
+        attributes().getResponse().setStatus(code);
+    }
 }

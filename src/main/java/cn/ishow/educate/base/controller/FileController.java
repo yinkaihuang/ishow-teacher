@@ -75,4 +75,10 @@ public class FileController {
         fileService.show(id);
     }
 
+
+    @RequestMapping("/showVideo")
+    @ResponseBody
+    public void showVideo(Long id) {
+        fileService.showVideo(id);
+    }
 }

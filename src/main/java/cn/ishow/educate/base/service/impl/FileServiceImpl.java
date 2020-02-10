@@ -26,6 +26,7 @@ import cn.ishow.educate.base.service.IFileService;
 import cn.ishow.educate.lib.util.WebUtils;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.logging.log4j.util.Strings;
 import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.springframework.stereotype.Service;
 
@@ -41,6 +42,11 @@ import java.util.Random;
 @Service
 @Slf4j
 public class FileServiceImpl extends ServiceImpl<FileMapper, FilePO> implements IFileService {
+
+    public static final String RANGE = "Range";
+    public static final String ACCEPT_RANGES = "Accept-Ranges";
+    public static final String BYTES = "bytes";
+
     @Override
     public FilePositionVO obtainPosition(FileVO fileVO) {
         String md5 = fileVO.getMd5();
@@ -104,9 +110,71 @@ public class FileServiceImpl extends ServiceImpl<FileMapper, FilePO> implements 
         try {
             IOUtils.copy(new BufferedInputStream(new FileInputStream(filePO.getPath())), WebUtils.getOutputStream());
         } catch (Exception e) {
-            log.error("show error:", e);
+            log.error("show happen error:", e);
             throw new RuntimeException(e);
         }
+    }
+
+    @Override
+    public void showVideo(Long id) {
+        FilePO filePO = baseMapper.selectById(id);
+        if (filePO.getPosition() < filePO.getLength()) {
+            return;
+        }
+        //获取交互的数据
+        String range = WebUtils.getHeader(RANGE);
+        log.info("show range:{}", range);
+        if (!Strings.isBlank(range)) {
+            int length = 2 * 1024 * 1024;
+            String[] ranges = range.split("=")[1].split("-");
+            long startIndex = Long.parseLong(ranges[0]);
+            long endIndex = startIndex + length - 1;
+            WebUtils.setHeader(ACCEPT_RANGES, BYTES);
+            if (ranges.length == 2 && !Strings.isBlank(ranges[1])) {
+                endIndex = Long.parseLong(ranges[1]);
+            }
+
+            if (endIndex <= startIndex) {
+                endIndex = startIndex + length - 1;
+            }
+            if (endIndex > filePO.getLength() - 1) {
+                endIndex = filePO.getLength() - 1;
+            }
+
+            //设置响应的长度
+            WebUtils.setHeader("Content-Range", "bytes " + startIndex + "-" + endIndex + "/" + filePO.getLength());
+            WebUtils.setHttpCode(206);
+
+            RandomAccessFile accessFile = null;
+            try {
+                accessFile = new RandomAccessFile(filePO.getPath(), "r");
+                accessFile.seek(startIndex);
+                byte[] buffer = new byte[(int) (endIndex - startIndex + 1)];
+                int len = 0;
+                if ((len = accessFile.read(buffer)) > 0) {
+                    WebUtils.getOutputStream().write(buffer, 0, len);
+                }
+            } catch (Exception e) {
+                log.error("show error:", e);
+                throw new RuntimeException(e);
+            } finally {
+                if (accessFile != null) {
+                    try {
+                        accessFile.close();
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+        } else {
+            try {
+                IOUtils.copy(new BufferedInputStream(new FileInputStream(filePO.getPath())), WebUtils.getOutputStream());
+            } catch (Exception e) {
+                log.error("show happen error:", e);
+                throw new RuntimeException(e);
+            }
+        }
+
     }
 
     private FilePO saveFileToDB(FileVO fileVO, String md5) {

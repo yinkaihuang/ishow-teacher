@@ -71,7 +71,7 @@
                     field: 'videoId',
                     align: 'center',
                     formatter: function (value, row, index) {//自定义显示可以写标签哦~
-                        return '<video src="${basePath}/file/show?id=' + value + '" controls width="50px" height="50px"></video>';
+                        return '<video src="${basePath}/file/showVideo?id=' + value + '" controls width="50px" height="50px"></video>';
                     }
                 },
                 {

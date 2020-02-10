@@ -27,4 +27,6 @@ public interface IFileService extends IService<FilePO> {
     String upload(Long id, Long position);
 
     void show(Long id);
+
+    void showVideo(Long id);
 }
