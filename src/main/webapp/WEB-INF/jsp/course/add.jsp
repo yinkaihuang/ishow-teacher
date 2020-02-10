@@ -69,14 +69,14 @@
                                            class="form-control"></div>
                             </div>
                             <div class="form-group">
-                                <label class="col-md-2 control-label">封面</label>
-                                <div class="col-md-4">
-                                    <input type="text" hidden="true" id="imageId" name="imageId" value="">
-                                    <input type="file"
-                                           onchange="fileUpload('imageId',this,'ImageProgress')"
-                                           class="form-control">
-                                    <progress id="ImageProgress" max="100" value="0"></progress>
-                                </div>
+<%--                                <label class="col-md-2 control-label">封面</label>--%>
+<%--                                <div class="col-md-4">--%>
+<%--                                    <input type="text" hidden="true" id="imageId" name="imageId" value="">--%>
+<%--                                    <input type="file"--%>
+<%--                                           onchange="fileUpload('imageId',this,'ImageProgress')"--%>
+<%--                                           class="form-control">--%>
+<%--                                    <progress id="ImageProgress" max="100" value="0"></progress>--%>
+<%--                                </div>--%>
                                 <label class="col-md-2 control-label">视频</label>
                                 <div class="col-md-4">
                                     <input id="videoId" name="videoId" hidden="true" value="">

@@ -19492,3 +19492,274 @@ DEBUG|2020-02-10 14:10:36.432|[log-level-task]|o.s.c.e.PropertySourcesPropertyRe
 DEBUG|2020-02-10 14:10:36.433|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
 DEBUG|2020-02-10 14:10:46.432|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
 DEBUG|2020-02-10 14:10:46.432|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-10 14:10:56.433|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-10 14:10:56.434|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-10 14:11:06.432|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-10 14:11:06.433|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-10 14:11:16.432|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-10 14:11:16.432|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-10 14:19:09.273|[RMI TCP Connection(2)-192.168.40.2]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'local.server.port' in PropertySource 'server.ports' with value of type Integer
+DEBUG|2020-02-10 14:19:09.278|[RMI TCP Connection(2)-192.168.40.2]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'server.servlet.context-path' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-10 14:19:13.629|[http-nio-80-exec-1]|o.s.w.s.DispatcherServlet.initMultipartResolver. 525|Detected StandardServletMultipartResolver
+DEBUG|2020-02-10 14:19:13.634|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 541|enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+DEBUG|2020-02-10 14:19:13.647|[http-nio-80-exec-1]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/", parameters={}
+DEBUG|2020-02-10 14:19:13.650|[http-nio-80-exec-1]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.String cn.ishow.educate.common.controller.HomeController.index()
+DEBUG|2020-02-10 14:19:13.672|[http-nio-80-exec-1]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [user/login_zh_CN.ftl]
+DEBUG|2020-02-10 14:19:13.673|[http-nio-80-exec-1]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [user/login_zh.ftl]
+DEBUG|2020-02-10 14:19:13.674|[http-nio-80-exec-1]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [user/login.ftl]
+DEBUG|2020-02-10 14:19:13.675|[http-nio-80-exec-1]|o.s.w.s.v.ContentNegotiatingViewResolver.getBestView. 347|Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+DEBUG|2020-02-10 14:19:13.676|[http-nio-80-exec-1]|o.s.w.s.v.AbstractView.render. 309|View name 'user/login', model {}
+DEBUG|2020-02-10 14:19:13.678|[http-nio-80-exec-1]|o.s.w.s.v.InternalResourceView.renderMergedOutputModel. 168|Forwarding to [/WEB-INF/jsp/user/login.jsp]
+DEBUG|2020-02-10 14:19:14.196|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:14.243|[http-nio-80-exec-2]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/static/js/user/login.js", parameters={}
+DEBUG|2020-02-10 14:19:14.249|[http-nio-80-exec-2]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+DEBUG|2020-02-10 14:19:14.254|[http-nio-80-exec-2]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 304 NOT_MODIFIED
+DEBUG|2020-02-10 14:19:15.928|[http-nio-80-exec-3]|o.s.c.l.LogFormatUtils.traceDebug.  90|POST "/user/login", parameters={masked}
+DEBUG|2020-02-10 14:19:15.929|[http-nio-80-exec-3]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public cn.ishow.educate.common.model.vo.ResultVO cn.ishow.educate.role.controller.UserController.login(java.lang.String,java.lang.String,java.lang.Integer,boolean)
+DEBUG|2020-02-10 14:19:15.978|[http-nio-80-exec-3]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:15.982|[http-nio-80-exec-3]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@520c3d6a] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:16.047|[http-nio-80-exec-3]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:16.048|[http-nio-80-exec-3]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:16.061|[http-nio-80-exec-3]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select * from t_user where login_account =? and password =? and role != ? 
+DEBUG|2020-02-10 14:19:16.183|[http-nio-80-exec-3]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: yinbucheng(String), 12345(String), 1(Integer)
+DEBUG|2020-02-10 14:19:16.205|[http-nio-80-exec-3]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-10 14:19:16.208|[http-nio-80-exec-3]|c.a.d.p.PreparedStatementPool.put. 129|{conn-10005, pstmt-20000} enter cache
+DEBUG|2020-02-10 14:19:16.208|[http-nio-80-exec-3]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@520c3d6a]
+DEBUG|2020-02-10 14:19:16.244|[http-nio-80-exec-3]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-10 14:19:16.245|[http-nio-80-exec-3]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [ResultVO(code=200, msg=操作成功, data=fba7e00e90b345529d2ab6a2665e9c41)]
+DEBUG|2020-02-10 14:19:16.259|[http-nio-80-exec-3]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:16.274|[http-nio-80-exec-4]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/index", parameters={}
+DEBUG|2020-02-10 14:19:16.274|[http-nio-80-exec-4]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.String cn.ishow.educate.common.controller.HomeController.home()
+DEBUG|2020-02-10 14:19:16.276|[http-nio-80-exec-4]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [home/index_zh_CN.ftl]
+DEBUG|2020-02-10 14:19:16.277|[http-nio-80-exec-4]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [home/index_zh.ftl]
+DEBUG|2020-02-10 14:19:16.277|[http-nio-80-exec-4]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [home/index.ftl]
+DEBUG|2020-02-10 14:19:16.278|[http-nio-80-exec-4]|o.s.w.s.v.ContentNegotiatingViewResolver.getBestView. 347|Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+DEBUG|2020-02-10 14:19:16.278|[http-nio-80-exec-4]|o.s.w.s.v.AbstractView.render. 309|View name 'home/index', model {}
+DEBUG|2020-02-10 14:19:16.278|[http-nio-80-exec-4]|o.s.w.s.v.InternalResourceView.renderMergedOutputModel. 168|Forwarding to [/WEB-INF/jsp/home/index.jsp]
+DEBUG|2020-02-10 14:19:16.536|[http-nio-80-exec-4]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:16.841|[http-nio-80-exec-5]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff", parameters={}
+DEBUG|2020-02-10 14:19:16.848|[http-nio-80-exec-5]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+DEBUG|2020-02-10 14:19:16.858|[http-nio-80-exec-5]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:17.396|[http-nio-80-exec-6]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0", parameters={masked}
+DEBUG|2020-02-10 14:19:17.398|[http-nio-80-exec-6]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+DEBUG|2020-02-10 14:19:17.411|[http-nio-80-exec-6]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:18.088|[http-nio-80-exec-7]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/course/listPage", parameters={}
+DEBUG|2020-02-10 14:19:18.090|[http-nio-80-exec-7]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.String cn.ishow.educate.course.controller.CourseController.listPage(org.springframework.ui.ModelMap)
+DEBUG|2020-02-10 14:19:18.097|[http-nio-80-exec-7]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [course/list_zh_CN.ftl]
+DEBUG|2020-02-10 14:19:18.098|[http-nio-80-exec-7]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [course/list_zh.ftl]
+DEBUG|2020-02-10 14:19:18.099|[http-nio-80-exec-7]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [course/list.ftl]
+DEBUG|2020-02-10 14:19:18.102|[http-nio-80-exec-7]|o.s.w.s.v.ContentNegotiatingViewResolver.getBestView. 347|Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+DEBUG|2020-02-10 14:19:18.103|[http-nio-80-exec-7]|o.s.w.s.v.AbstractView.render. 309|View name 'course/list', model {pusher_name=测试}
+DEBUG|2020-02-10 14:19:18.103|[http-nio-80-exec-7]|o.s.w.s.v.InternalResourceView.renderMergedOutputModel. 168|Forwarding to [/WEB-INF/jsp/course/list.jsp]
+DEBUG|2020-02-10 14:19:18.178|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-10 14:19:18.481|[http-nio-80-exec-7]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:18.805|[http-nio-80-exec-8]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/course/list?pusher=%E6%B5%8B%E8%AF%95&order=asc&offset=0&limit=10&pageNum=1&pageSize=10", parameters={masked}
+DEBUG|2020-02-10 14:19:18.805|[http-nio-80-exec-8]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.util.Map<java.lang.String, java.lang.Object> cn.ishow.educate.course.controller.CourseController.listCourse(cn.ishow.educate.common.model.vo.BaseVO,java.lang.String)
+DEBUG|2020-02-10 14:19:18.823|[http-nio-80-exec-8]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:18.823|[http-nio-80-exec-8]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a18a3dd] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:18.826|[http-nio-80-exec-8]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:18.826|[http-nio-80-exec-8]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:18.828|[http-nio-80-exec-9]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/static/assets/global/plugins/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.woff2", parameters={}
+DEBUG|2020-02-10 14:19:18.829|[http-nio-80-exec-9]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+DEBUG|2020-02-10 14:19:18.833|[http-nio-80-exec-9]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:18.837|[http-nio-80-exec-8]|c.b.m.p.p.o.JsqlParserCountOptimize.optimizeSql.  61| JsqlParserCountOptimize sql=select * from t_course
+         WHERE pusher = ?
+DEBUG|2020-02-10 14:19:18.868|[http-nio-80-exec-8]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: SELECT COUNT(1) FROM t_course WHERE pusher = ? 
+DEBUG|2020-02-10 14:19:18.872|[http-nio-80-exec-8]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 测试(String)
+DEBUG|2020-02-10 14:19:18.873|[http-nio-80-exec-8]|c.a.d.p.PreparedStatementPool.put. 129|{conn-10005, pstmt-20001} enter cache
+DEBUG|2020-02-10 14:19:18.876|[http-nio-80-exec-8]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select * from t_course WHERE pusher = ? LIMIT 0,10 
+DEBUG|2020-02-10 14:19:18.878|[http-nio-80-exec-8]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 测试(String)
+DEBUG|2020-02-10 14:19:18.882|[http-nio-80-exec-8]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-10 14:19:18.882|[http-nio-80-exec-8]|c.a.d.p.PreparedStatementPool.put. 129|{conn-10005, pstmt-20002} enter cache
+DEBUG|2020-02-10 14:19:18.883|[http-nio-80-exec-8]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a18a3dd]
+DEBUG|2020-02-10 14:19:18.888|[http-nio-80-exec-8]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-10 14:19:18.888|[http-nio-80-exec-8]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [{total=1, page=1, rows=[CoursePO(id=14, name=尹哥讲数学, author=尹老师, pusher=测试, imageId=5, videoId=6, typ (truncated)...]
+DEBUG|2020-02-10 14:19:18.902|[http-nio-80-exec-8]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:18.927|[http-nio-80-exec-10]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/file/show?id=6", parameters={masked}
+DEBUG|2020-02-10 14:19:18.927|[http-nio-80-exec-10]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public void cn.ishow.educate.base.controller.FileController.show(java.lang.Long)
+DEBUG|2020-02-10 14:19:18.932|[http-nio-80-exec-10]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:18.933|[http-nio-80-exec-10]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@782422bd] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:18.933|[http-nio-80-exec-10]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:18.934|[http-nio-80-exec-10]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:18.934|[http-nio-80-exec-10]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: SELECT id AS id,`name`,md5,`path`,`position`,`length`,create_date AS createDate,update_date AS updateDate,`enable`,remark FROM t_file WHERE id=? 
+DEBUG|2020-02-10 14:19:18.938|[http-nio-80-exec-10]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 6(Long)
+DEBUG|2020-02-10 14:19:18.940|[http-nio-80-exec-10]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-10 14:19:18.941|[http-nio-80-exec-10]|c.a.d.p.PreparedStatementPool.put. 129|{conn-10005, pstmt-20003} enter cache
+DEBUG|2020-02-10 14:19:18.941|[http-nio-80-exec-10]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@782422bd]
+DEBUG|2020-02-10 14:19:18.956|[http-nio-80-exec-10]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-10 14:19:18.957|[http-nio-80-exec-10]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 298|Nothing to write: null body
+DEBUG|2020-02-10 14:19:18.957|[http-nio-80-exec-10]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:24.880|[http-nio-80-exec-1]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/course/addPage", parameters={}
+DEBUG|2020-02-10 14:19:24.880|[http-nio-80-exec-1]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.String cn.ishow.educate.course.controller.CourseController.addPage()
+DEBUG|2020-02-10 14:19:24.883|[http-nio-80-exec-1]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [course/add_zh_CN.ftl]
+DEBUG|2020-02-10 14:19:24.884|[http-nio-80-exec-1]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [course/add_zh.ftl]
+DEBUG|2020-02-10 14:19:24.886|[http-nio-80-exec-1]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [course/add.ftl]
+DEBUG|2020-02-10 14:19:24.888|[http-nio-80-exec-1]|o.s.w.s.v.ContentNegotiatingViewResolver.getBestView. 347|Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+DEBUG|2020-02-10 14:19:24.888|[http-nio-80-exec-1]|o.s.w.s.v.AbstractView.render. 309|View name 'course/add', model {}
+DEBUG|2020-02-10 14:19:24.889|[http-nio-80-exec-1]|o.s.w.s.v.InternalResourceView.renderMergedOutputModel. 168|Forwarding to [/WEB-INF/jsp/course/add.jsp]
+DEBUG|2020-02-10 14:19:25.259|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:28.178|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-10 14:19:28.179|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-10 14:19:38.177|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-10 14:19:38.177|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-10 14:19:45.648|[http-nio-80-exec-2]|o.s.c.l.LogFormatUtils.traceDebug.  90|POST "/file/obtainPosition", parameters={masked}
+DEBUG|2020-02-10 14:19:45.649|[http-nio-80-exec-2]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.Object cn.ishow.educate.base.controller.FileController.obtainPosition(cn.ishow.educate.base.model.vo.FileVO)
+DEBUG|2020-02-10 14:19:45.673|[http-nio-80-exec-2]|o.h.v.i.m.d.ConstraintDescriptorImpl.parseComposingConstraints. 680|Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Min, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@186b886a, message={javax.validation.constraints.Min.message}, value=1, payload=[Ljava.lang.Class;@3e3faf14}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+DEBUG|2020-02-10 14:19:45.674|[http-nio-80-exec-2]|o.h.v.i.m.d.ConstraintDescriptorImpl.parseComposingConstraints. 680|Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Max, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@516c3512, message={javax.validation.constraints.Max.message}, value=1073741824, payload=[Ljava.lang.Class;@12e86724}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+DEBUG|2020-02-10 14:19:45.727|[http-nio-80-exec-2]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:45.727|[http-nio-80-exec-2]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e5a8a19] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:45.728|[http-nio-80-exec-2]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:45.728|[http-nio-80-exec-2]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:45.728|[http-nio-80-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select * from t_file where md5 = ? 
+DEBUG|2020-02-10 14:19:45.729|[http-nio-80-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 78c4840369668b1ff25b9ba41cceb4f0(String)
+DEBUG|2020-02-10 14:19:45.739|[http-nio-80-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-10 14:19:45.740|[http-nio-80-exec-2]|c.a.d.p.PreparedStatementPool.put. 129|{conn-10005, pstmt-20004} enter cache
+DEBUG|2020-02-10 14:19:45.740|[http-nio-80-exec-2]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e5a8a19]
+DEBUG|2020-02-10 14:19:45.741|[http-nio-80-exec-2]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-10 14:19:45.741|[http-nio-80-exec-2]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [ResultVO(code=200, msg=操作成功, data=FilePositionVO(id=6, startPosition=623855))]
+DEBUG|2020-02-10 14:19:45.744|[http-nio-80-exec-2]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:45.749|[http-nio-80-exec-3]|o.s.c.l.LogFormatUtils.traceDebug.  90|POST "/file/uploadFile", parameters={}
+DEBUG|2020-02-10 14:19:45.750|[http-nio-80-exec-3]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.Object cn.ishow.educate.base.controller.FileController.uploadFile(java.lang.Long,java.lang.Long)
+DEBUG|2020-02-10 14:19:45.752|[http-nio-80-exec-3]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:45.752|[http-nio-80-exec-3]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1851b662] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:45.752|[http-nio-80-exec-3]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:45.752|[http-nio-80-exec-3]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:45.753|[http-nio-80-exec-3]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: SELECT id AS id,`name`,md5,`path`,`position`,`length`,create_date AS createDate,update_date AS updateDate,`enable`,remark FROM t_file WHERE id=? 
+DEBUG|2020-02-10 14:19:45.753|[http-nio-80-exec-3]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 6(Long)
+DEBUG|2020-02-10 14:19:45.754|[http-nio-80-exec-3]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-10 14:19:45.755|[http-nio-80-exec-3]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1851b662]
+DEBUG|2020-02-10 14:19:45.755|[http-nio-80-exec-3]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-10 14:19:45.755|[http-nio-80-exec-3]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [ResultVO(code=200, msg=操作成功, data=上传成功)]
+DEBUG|2020-02-10 14:19:45.756|[http-nio-80-exec-3]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:46.959|[http-nio-80-exec-4]|o.s.c.l.LogFormatUtils.traceDebug.  90|POST "/course/addCourse", parameters={masked}
+DEBUG|2020-02-10 14:19:46.960|[http-nio-80-exec-4]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.Object cn.ishow.educate.course.controller.CourseController.addCourse(cn.ishow.educate.course.model.vo.CourseVO)
+DEBUG|2020-02-10 14:19:46.991|[http-nio-80-exec-4]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:46.992|[http-nio-80-exec-4]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4208f1ba] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:46.993|[http-nio-80-exec-4]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:46.994|[http-nio-80-exec-4]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:46.995|[http-nio-80-exec-4]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select count(*) from t_course where name =? and author =? 
+DEBUG|2020-02-10 14:19:46.997|[http-nio-80-exec-4]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 个人测试(String), 测试(String)
+DEBUG|2020-02-10 14:19:47.014|[http-nio-80-exec-4]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-10 14:19:47.015|[http-nio-80-exec-4]|c.a.d.p.PreparedStatementPool.put. 129|{conn-10005, pstmt-20005} enter cache
+DEBUG|2020-02-10 14:19:47.016|[http-nio-80-exec-4]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4208f1ba]
+DEBUG|2020-02-10 14:19:47.024|[http-nio-80-exec-4]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:47.025|[http-nio-80-exec-4]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28d71fc6] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:47.033|[http-nio-80-exec-4]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:47.033|[http-nio-80-exec-4]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:47.034|[http-nio-80-exec-4]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: INSERT INTO t_course ( `name`, author, pusher, video_id, `type`, `level`, tag, price, create_date, update_date, `enable` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+DEBUG|2020-02-10 14:19:47.055|[http-nio-80-exec-4]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 个人测试(String), 尹冲(String), 测试(String), 6(Long), 1(Integer), 2(Integer), 高一(String), 0(Integer), 2020-02-10 14:19:47.024(Timestamp), 2020-02-10 14:19:47.024(Timestamp), true(Boolean)
+DEBUG|2020-02-10 14:19:47.197|[http-nio-80-exec-4]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==    Updates: 1
+DEBUG|2020-02-10 14:19:47.199|[http-nio-80-exec-4]|c.a.d.p.PreparedStatementPool.put. 129|{conn-10005, pstmt-20006} enter cache
+DEBUG|2020-02-10 14:19:47.199|[http-nio-80-exec-4]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28d71fc6]
+DEBUG|2020-02-10 14:19:47.200|[http-nio-80-exec-4]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-10 14:19:47.200|[http-nio-80-exec-4]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [ResultVO(code=200, msg=操作成功, data=上传课程成功)]
+DEBUG|2020-02-10 14:19:47.201|[http-nio-80-exec-4]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:47.214|[http-nio-80-exec-5]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/course/listPage", parameters={}
+DEBUG|2020-02-10 14:19:47.215|[http-nio-80-exec-5]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.String cn.ishow.educate.course.controller.CourseController.listPage(org.springframework.ui.ModelMap)
+DEBUG|2020-02-10 14:19:47.217|[http-nio-80-exec-5]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [course/list_zh_CN.ftl]
+DEBUG|2020-02-10 14:19:47.218|[http-nio-80-exec-5]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [course/list_zh.ftl]
+DEBUG|2020-02-10 14:19:47.218|[http-nio-80-exec-5]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [course/list.ftl]
+DEBUG|2020-02-10 14:19:47.219|[http-nio-80-exec-5]|o.s.w.s.v.ContentNegotiatingViewResolver.getBestView. 347|Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+DEBUG|2020-02-10 14:19:47.220|[http-nio-80-exec-5]|o.s.w.s.v.AbstractView.render. 309|View name 'course/list', model {pusher_name=测试}
+DEBUG|2020-02-10 14:19:47.220|[http-nio-80-exec-5]|o.s.w.s.v.InternalResourceView.renderMergedOutputModel. 168|Forwarding to [/WEB-INF/jsp/course/list.jsp]
+DEBUG|2020-02-10 14:19:47.223|[http-nio-80-exec-5]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:47.445|[http-nio-80-exec-6]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/course/list?pusher=%E6%B5%8B%E8%AF%95&order=asc&offset=0&limit=10&pageNum=1&pageSize=10", parameters={masked}
+DEBUG|2020-02-10 14:19:47.445|[http-nio-80-exec-6]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.util.Map<java.lang.String, java.lang.Object> cn.ishow.educate.course.controller.CourseController.listCourse(cn.ishow.educate.common.model.vo.BaseVO,java.lang.String)
+DEBUG|2020-02-10 14:19:47.447|[http-nio-80-exec-6]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:47.447|[http-nio-80-exec-6]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69217a43] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:47.448|[http-nio-80-exec-6]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:47.448|[http-nio-80-exec-6]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:47.449|[http-nio-80-exec-6]|c.b.m.p.p.o.JsqlParserCountOptimize.optimizeSql.  61| JsqlParserCountOptimize sql=select * from t_course
+         WHERE pusher = ?
+DEBUG|2020-02-10 14:19:47.451|[http-nio-80-exec-6]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: SELECT COUNT(1) FROM t_course WHERE pusher = ? 
+DEBUG|2020-02-10 14:19:47.452|[http-nio-80-exec-6]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 测试(String)
+DEBUG|2020-02-10 14:19:47.461|[http-nio-80-exec-6]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select * from t_course WHERE pusher = ? LIMIT 0,10 
+DEBUG|2020-02-10 14:19:47.462|[http-nio-80-exec-6]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 测试(String)
+DEBUG|2020-02-10 14:19:47.467|[http-nio-80-exec-6]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 2
+DEBUG|2020-02-10 14:19:47.468|[http-nio-80-exec-6]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69217a43]
+DEBUG|2020-02-10 14:19:47.469|[http-nio-80-exec-6]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-10 14:19:47.469|[http-nio-80-exec-6]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [{total=2, page=1, rows=[CoursePO(id=14, name=尹哥讲数学, author=尹老师, pusher=测试, imageId=5, videoId=6, typ (truncated)...]
+DEBUG|2020-02-10 14:19:47.471|[http-nio-80-exec-6]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:47.512|[http-nio-80-exec-7]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/file/show?id=6", parameters={masked}
+DEBUG|2020-02-10 14:19:47.513|[http-nio-80-exec-7]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public void cn.ishow.educate.base.controller.FileController.show(java.lang.Long)
+DEBUG|2020-02-10 14:19:47.513|[http-nio-80-exec-7]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:47.514|[http-nio-80-exec-7]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48ba00ed] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:47.514|[http-nio-80-exec-7]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:47.515|[http-nio-80-exec-7]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:47.515|[http-nio-80-exec-7]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: SELECT id AS id,`name`,md5,`path`,`position`,`length`,create_date AS createDate,update_date AS updateDate,`enable`,remark FROM t_file WHERE id=? 
+DEBUG|2020-02-10 14:19:47.516|[http-nio-80-exec-7]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 6(Long)
+DEBUG|2020-02-10 14:19:47.518|[http-nio-80-exec-7]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-10 14:19:47.519|[http-nio-80-exec-7]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48ba00ed]
+DEBUG|2020-02-10 14:19:47.536|[http-nio-80-exec-7]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-10 14:19:47.536|[http-nio-80-exec-7]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 298|Nothing to write: null body
+DEBUG|2020-02-10 14:19:47.537|[http-nio-80-exec-7]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:47.547|[http-nio-80-exec-9]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/file/show?id=6", parameters={masked}
+DEBUG|2020-02-10 14:19:47.548|[http-nio-80-exec-9]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public void cn.ishow.educate.base.controller.FileController.show(java.lang.Long)
+DEBUG|2020-02-10 14:19:47.549|[http-nio-80-exec-9]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:47.550|[http-nio-80-exec-9]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30100fbf] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:47.550|[http-nio-80-exec-9]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:47.551|[http-nio-80-exec-9]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:47.553|[http-nio-80-exec-9]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: SELECT id AS id,`name`,md5,`path`,`position`,`length`,create_date AS createDate,update_date AS updateDate,`enable`,remark FROM t_file WHERE id=? 
+DEBUG|2020-02-10 14:19:47.554|[http-nio-80-exec-9]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 6(Long)
+DEBUG|2020-02-10 14:19:47.556|[http-nio-80-exec-9]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-10 14:19:47.556|[http-nio-80-exec-9]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30100fbf]
+DEBUG|2020-02-10 14:19:47.573|[http-nio-80-exec-9]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-10 14:19:47.573|[http-nio-80-exec-9]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 298|Nothing to write: null body
+DEBUG|2020-02-10 14:19:47.574|[http-nio-80-exec-9]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:48.177|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-10 14:19:48.177|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-10 14:19:54.724|[http-nio-80-exec-8]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/videoPage", parameters={}
+DEBUG|2020-02-10 14:19:54.724|[http-nio-80-exec-8]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.String cn.ishow.educate.common.controller.HomeController.video()
+DEBUG|2020-02-10 14:19:54.726|[http-nio-80-exec-8]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [wechat/list_zh_CN.ftl]
+DEBUG|2020-02-10 14:19:54.727|[http-nio-80-exec-8]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [wechat/list_zh.ftl]
+DEBUG|2020-02-10 14:19:54.728|[http-nio-80-exec-8]|o.s.u.f.SpringTemplateLoader.findTemplateSource.  72|Looking for FreeMarker template with name [wechat/list.ftl]
+DEBUG|2020-02-10 14:19:54.730|[http-nio-80-exec-8]|o.s.w.s.v.ContentNegotiatingViewResolver.getBestView. 347|Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+DEBUG|2020-02-10 14:19:54.730|[http-nio-80-exec-8]|o.s.w.s.v.AbstractView.render. 309|View name 'wechat/list', model {}
+DEBUG|2020-02-10 14:19:54.730|[http-nio-80-exec-8]|o.s.w.s.v.InternalResourceView.renderMergedOutputModel. 168|Forwarding to [/WEB-INF/jsp/wechat/list.jsp]
+DEBUG|2020-02-10 14:19:54.864|[http-nio-80-exec-8]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:55.869|[http-nio-80-exec-10]|o.s.c.l.LogFormatUtils.traceDebug.  90|POST "/course/listActiveCourse", parameters={}
+DEBUG|2020-02-10 14:19:55.870|[http-nio-80-exec-10]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public java.lang.Object cn.ishow.educate.course.controller.CourseController.listActiveCourse(cn.ishow.educate.course.model.vo.CourseCondition)
+DEBUG|2020-02-10 14:19:55.871|[http-nio-80-exec-10]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:55.871|[http-nio-80-exec-10]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@83b7df9] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:55.871|[http-nio-80-exec-10]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:55.872|[http-nio-80-exec-10]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:55.872|[http-nio-80-exec-10]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: select * from t_course where enable = 1 order by id desc 
+DEBUG|2020-02-10 14:19:55.874|[http-nio-80-exec-10]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 
+DEBUG|2020-02-10 14:19:55.878|[http-nio-80-exec-10]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 2
+DEBUG|2020-02-10 14:19:55.878|[http-nio-80-exec-10]|c.a.d.p.PreparedStatementPool.put. 129|{conn-10005, pstmt-20007} enter cache
+DEBUG|2020-02-10 14:19:55.878|[http-nio-80-exec-10]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@83b7df9]
+DEBUG|2020-02-10 14:19:55.880|[http-nio-80-exec-10]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-10 14:19:55.880|[http-nio-80-exec-10]|o.s.c.l.LogFormatUtils.traceDebug.  90|Writing [ResultVO(code=200, msg=操作成功, data=[CoursePO(id=15, name=个人测试, author=尹冲, pusher=测试, imageId=0, video (truncated)...]
+DEBUG|2020-02-10 14:19:55.882|[http-nio-80-exec-10]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:55.931|[http-nio-80-exec-1]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/file/show?id=6", parameters={masked}
+DEBUG|2020-02-10 14:19:55.932|[http-nio-80-exec-1]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public void cn.ishow.educate.base.controller.FileController.show(java.lang.Long)
+DEBUG|2020-02-10 14:19:55.932|[http-nio-80-exec-1]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:55.933|[http-nio-80-exec-1]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26cf4334] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:55.933|[http-nio-80-exec-1]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:55.934|[http-nio-80-exec-1]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:55.934|[http-nio-80-exec-1]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: SELECT id AS id,`name`,md5,`path`,`position`,`length`,create_date AS createDate,update_date AS updateDate,`enable`,remark FROM t_file WHERE id=? 
+DEBUG|2020-02-10 14:19:55.935|[http-nio-80-exec-1]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 6(Long)
+DEBUG|2020-02-10 14:19:55.936|[http-nio-80-exec-1]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-10 14:19:55.937|[http-nio-80-exec-1]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26cf4334]
+DEBUG|2020-02-10 14:19:55.941|[http-nio-80-exec-2]|o.s.c.l.LogFormatUtils.traceDebug.  90|GET "/file/show?id=6", parameters={masked}
+DEBUG|2020-02-10 14:19:55.941|[http-nio-80-exec-2]|o.s.w.s.h.AbstractHandlerMapping.getHandler. 420|Mapped to public void cn.ishow.educate.base.controller.FileController.show(java.lang.Long)
+DEBUG|2020-02-10 14:19:55.942|[http-nio-80-exec-2]|o.m.s.SqlSessionUtils.getSqlSession.  97|Creating a new SqlSession
+DEBUG|2020-02-10 14:19:55.943|[http-nio-80-exec-2]|o.m.s.SqlSessionUtils.registerSessionHolder. 148|SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43088237] was not registered for synchronization because synchronization is not active
+DEBUG|2020-02-10 14:19:55.944|[http-nio-80-exec-2]|o.s.j.d.DataSourceUtils.doGetConnection. 114|Fetching JDBC Connection from DataSource
+DEBUG|2020-02-10 14:19:55.945|[http-nio-80-exec-2]|o.m.s.t.SpringManagedTransaction.openConnection.  87|JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@20f7c8b9] will not be managed by Spring
+DEBUG|2020-02-10 14:19:55.946|[http-nio-80-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==>  Preparing: SELECT id AS id,`name`,md5,`path`,`position`,`length`,create_date AS createDate,update_date AS updateDate,`enable`,remark FROM t_file WHERE id=? 
+DEBUG|2020-02-10 14:19:55.946|[http-nio-80-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|==> Parameters: 6(Long)
+DEBUG|2020-02-10 14:19:55.947|[http-nio-80-exec-2]|o.a.i.l.j.BaseJdbcLogger.debug. 159|<==      Total: 1
+DEBUG|2020-02-10 14:19:55.948|[http-nio-80-exec-2]|o.m.s.SqlSessionUtils.closeSqlSession. 191|Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43088237]
+DEBUG|2020-02-10 14:19:55.952|[http-nio-80-exec-1]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-10 14:19:55.952|[http-nio-80-exec-1]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 298|Nothing to write: null body
+DEBUG|2020-02-10 14:19:55.953|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:55.954|[http-nio-80-exec-2]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 268|Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+DEBUG|2020-02-10 14:19:55.954|[http-nio-80-exec-2]|o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor.writeWithMessageConverters. 298|Nothing to write: null body
+DEBUG|2020-02-10 14:19:55.954|[http-nio-80-exec-2]|o.s.w.s.FrameworkServlet.logResult.1130|Completed 200 OK
+DEBUG|2020-02-10 14:19:58.178|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-10 14:19:58.179|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-10 14:20:08.178|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-10 14:20:08.178|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
+DEBUG|2020-02-10 14:20:18.177|[log-level-task]|o.s.c.e.PropertySourcesPropertyResolver.logKeyFound. 115|Found key 'logger.level' in PropertySource 'configurationProperties' with value of type String
+DEBUG|2020-02-10 14:20:18.177|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  53|level:debug and lastLevel:debug is same
