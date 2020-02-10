@@ -84,8 +84,8 @@
 <div class="wrap">
     <div class="menu">
         <ul>
-            <li>最新视频</li>
-            <li>全部视频</li>
+            <li onclick="loadCourse()">最新视频</li>
+            <li onclick="loadCourse()">全部视频</li>
             <li>个人中心</li>
         </ul>
     </div>
@@ -121,9 +121,10 @@
                     if (records == null) {
                         return;
                     }
+                    $("#course_list_ul").empty();
                     for (var i = 0; i < records.length; i++) {
                         var id = "video_" + i;
-                        var trs = ' <li onclick="play(\'' + id + '\')"><div class="left"><video id=' + id + ' src="${basePath}/file/show?id=' + records[i].videoId + '" controls    height="85px"></video></div> <div class="right"><div class="right_top"><h3>' + records[i].name + '</h3></div><div class="right_bottom"><div class="right_bottom_left"><span>' + records[i].author + '</span> <span>' + records[i].tag + '</span> <span>' + records[i].levelStr + '</span> <span>|</span> <span>' + records[i].typeStr + '</span></div></div></div></li>';
+                        var trs = ' <li onclick="play(\'' + id + '\')"><div class="left"><video id=' + id + ' src="${basePath}/file/show?id=' + records[i].videoId + '" controls   width="140px" height="85px"></video></div> <div class="right"><div class="right_top"><h3>' + records[i].name + '</h3></div><div class="right_bottom"><div class="right_bottom_left"><span>' + records[i].author + '</span> <span>' + records[i].tag + '</span> <span>' + records[i].levelStr + '</span> <span> </span> <span>' + records[i].typeStr + '</span> <span>￥:' + records[i].price + '元</span></div></div></div></li>';
                         $("#course_list_ul").append(trs);
                     }
                 } else {
