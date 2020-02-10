@@ -6916,3 +6916,292 @@ INFO|2020-02-10 13:22:52.598|[log-level-task]|c.i.l.LoggerLevelUpdateTask.update
 INFO|2020-02-10 13:22:57.694|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
 INFO|2020-02-10 13:22:57.694|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
 INFO|2020-02-10 13:22:57.703|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 9 ms
+INFO|2020-02-10 13:25:44.504|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 25252 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 13:25:44.524|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 13:25:45.778|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 13:25:45.797|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 13:25:45.798|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 13:25:46.098|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 13:25:46.107|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 13:25:46.107|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1509 ms
+INFO|2020-02-10 13:25:46.285|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 13:25:46.558|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 13:25:46.969|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 13:25:47.237|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 13:25:47.239|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.061 seconds (JVM running for 4.912)
+INFO|2020-02-10 13:25:47.245|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 13:25:51.958|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 13:25:51.959|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 13:25:51.965|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms
+INFO|2020-02-10 13:44:29.259|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 31892 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 13:44:29.265|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 13:44:30.786|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 13:44:30.805|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 13:44:30.805|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 13:44:31.089|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 13:44:31.095|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 13:44:31.096|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1719 ms
+INFO|2020-02-10 13:44:31.251|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 13:44:31.512|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 13:44:31.901|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 13:44:32.172|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 13:44:32.175|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.263 seconds (JVM running for 4.994)
+INFO|2020-02-10 13:44:32.180|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 13:45:02.776|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 13:45:02.777|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 13:45:02.783|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms
+INFO|2020-02-10 13:45:23.611|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 22464 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 13:45:23.617|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 13:45:25.107|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 13:45:25.132|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 13:45:25.133|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 13:45:25.578|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 13:45:25.592|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 13:45:25.593|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1935 ms
+INFO|2020-02-10 13:45:25.874|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 13:45:26.237|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 13:45:26.660|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 13:45:26.931|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 13:45:26.934|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.652 seconds (JVM running for 5.683)
+INFO|2020-02-10 13:45:26.941|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 13:45:30.260|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 13:45:30.260|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 13:45:30.265|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 5 ms
+INFO|2020-02-10 13:45:48.438|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 32416 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 13:45:48.443|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 13:45:50.002|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 13:45:50.024|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 13:45:50.024|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 13:45:50.348|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 13:45:50.354|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 13:45:50.355|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1835 ms
+INFO|2020-02-10 13:45:50.521|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 13:45:50.823|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 13:45:51.338|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 13:45:51.866|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 13:45:51.872|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.812 seconds (JVM running for 5.955)
+INFO|2020-02-10 13:45:51.883|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 13:45:54.132|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 13:45:54.133|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 13:45:54.139|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms
+INFO|2020-02-10 13:48:29.106|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 29516 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 13:48:29.111|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 13:48:30.414|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 13:48:30.434|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 13:48:30.434|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 13:48:30.729|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 13:48:30.735|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 13:48:30.736|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1543 ms
+INFO|2020-02-10 13:48:30.895|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 13:48:31.163|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 13:48:31.554|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 13:48:31.840|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 13:48:31.843|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.154 seconds (JVM running for 5.176)
+INFO|2020-02-10 13:48:31.850|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 13:48:40.294|[http-nio-80-exec-2]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 13:48:40.294|[http-nio-80-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 13:48:40.301|[http-nio-80-exec-2]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-10 13:49:17.396|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 24628 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 13:49:17.403|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 13:49:18.456|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 13:49:18.476|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 13:49:18.476|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 13:49:18.774|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 13:49:18.781|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 13:49:18.782|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1305 ms
+INFO|2020-02-10 13:49:18.939|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 13:49:19.201|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 13:49:19.587|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 13:49:19.893|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 13:49:19.897|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.827 seconds (JVM running for 4.647)
+INFO|2020-02-10 13:49:19.904|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 13:49:22.936|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 13:49:22.936|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 13:49:22.946|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 9 ms
+INFO|2020-02-10 13:50:17.531|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 30112 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 13:50:17.539|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 13:50:18.896|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 13:50:18.916|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 13:50:18.917|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 13:50:19.242|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 13:50:19.248|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 13:50:19.249|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1661 ms
+INFO|2020-02-10 13:50:19.400|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 13:50:19.674|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 13:50:20.121|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 13:50:20.394|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 13:50:20.397|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.247 seconds (JVM running for 5.002)
+INFO|2020-02-10 13:50:20.402|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 13:50:23.560|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 13:50:23.561|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 13:50:23.572|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 11 ms
+INFO|2020-02-10 13:50:43.555|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 22788 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 13:50:43.560|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 13:50:45.046|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 13:50:45.066|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 13:50:45.067|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 13:50:45.504|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 13:50:45.515|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 13:50:45.516|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1876 ms
+INFO|2020-02-10 13:50:45.719|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 13:50:46.035|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 13:50:46.505|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 13:50:46.812|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 13:50:46.815|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.757 seconds (JVM running for 5.682)
+INFO|2020-02-10 13:50:46.822|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 13:50:46.990|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 13:50:46.990|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 13:50:46.997|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 6 ms
+INFO|2020-02-10 13:52:02.018|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 14992 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 13:52:02.023|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 13:52:03.365|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 13:52:03.384|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 13:52:03.385|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 13:52:03.684|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 13:52:03.691|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 13:52:03.691|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1566 ms
+INFO|2020-02-10 13:52:03.838|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 13:52:04.100|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 13:52:04.472|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 13:52:04.735|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 13:52:04.738|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.112 seconds (JVM running for 5.021)
+INFO|2020-02-10 13:52:04.743|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 13:52:09.349|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 13:52:09.349|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 13:52:09.358|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 8 ms
+INFO|2020-02-10 14:04:28.553|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 29672 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 14:04:28.558|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 14:04:30.164|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 14:04:30.184|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 14:04:30.185|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 14:04:30.481|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 14:04:30.487|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 14:04:30.488|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1768 ms
+INFO|2020-02-10 14:04:30.632|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 14:04:30.890|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 14:04:31.286|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 14:04:31.526|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 14:04:31.530|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.37 seconds (JVM running for 5.332)
+INFO|2020-02-10 14:04:31.535|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 14:04:34.686|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 14:04:34.686|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 14:04:34.692|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 5 ms
+INFO|2020-02-10 14:04:54.075|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 23908 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 14:04:54.083|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 14:04:55.326|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 14:04:55.346|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 14:04:55.346|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 14:04:55.636|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 14:04:55.643|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 14:04:55.644|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1471 ms
+INFO|2020-02-10 14:04:55.802|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 14:04:56.058|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 14:04:56.465|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 14:04:56.740|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 14:04:56.744|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.013 seconds (JVM running for 4.981)
+INFO|2020-02-10 14:04:56.758|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 14:05:00.703|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 14:05:00.704|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 14:05:00.723|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 19 ms
+INFO|2020-02-10 14:05:45.964|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 600 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 14:05:45.969|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 14:05:47.148|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 14:05:47.172|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 14:05:47.172|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 14:05:47.498|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 14:05:47.505|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 14:05:47.505|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1445 ms
+INFO|2020-02-10 14:05:47.666|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 14:05:47.948|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 14:05:48.361|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 14:05:48.615|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 14:05:48.618|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.02 seconds (JVM running for 5.003)
+INFO|2020-02-10 14:05:48.623|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 14:05:52.054|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 14:05:52.054|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 14:05:52.061|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-10 14:06:37.997|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 17752 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 14:06:38.005|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 14:06:39.088|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 14:06:39.108|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 14:06:39.109|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 14:06:39.418|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 14:06:39.424|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 14:06:39.425|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1374 ms
+INFO|2020-02-10 14:06:39.582|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 14:06:39.894|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 14:06:40.341|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 14:06:40.641|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 14:06:40.644|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.106 seconds (JVM running for 5.157)
+INFO|2020-02-10 14:06:40.650|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 14:06:44.186|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 14:06:44.186|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 14:06:44.197|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 10 ms
+INFO|2020-02-10 14:07:00.643|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 32412 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 14:07:00.648|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 14:07:02.019|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 14:07:02.041|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 14:07:02.042|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 14:07:02.347|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 14:07:02.364|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 14:07:02.364|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1581 ms
+INFO|2020-02-10 14:07:02.514|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 14:07:02.813|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 14:07:03.282|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 14:07:03.591|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 14:07:03.595|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.295 seconds (JVM running for 5.171)
+INFO|2020-02-10 14:07:03.601|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 14:07:04.424|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 14:07:04.424|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 14:07:04.431|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-10 14:07:58.021|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 30776 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 14:07:58.056|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 14:07:59.430|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 14:07:59.448|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 14:07:59.449|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 14:07:59.763|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 14:07:59.770|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 14:07:59.770|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1582 ms
+INFO|2020-02-10 14:07:59.920|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 14:08:00.250|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 14:08:00.788|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 14:08:01.081|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 14:08:01.084|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.453 seconds (JVM running for 5.337)
+INFO|2020-02-10 14:08:01.090|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 14:08:01.661|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 14:08:01.661|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 14:08:01.668|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 7 ms
+INFO|2020-02-10 14:08:38.221|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 31096 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 14:08:38.225|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 14:08:39.299|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 14:08:39.319|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 14:08:39.319|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 14:08:39.605|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 14:08:39.613|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 14:08:39.613|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1311 ms
+INFO|2020-02-10 14:08:39.773|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 14:08:40.029|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 14:08:40.402|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 14:08:40.671|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 14:08:40.673|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.819 seconds (JVM running for 4.614)
+INFO|2020-02-10 14:08:40.679|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 14:08:44.691|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 14:08:44.691|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 14:08:44.699|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 8 ms
+INFO|2020-02-10 14:10:03.833|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 32148 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 14:10:03.842|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 14:10:05.017|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 14:10:05.036|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 14:10:05.037|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 14:10:05.326|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 14:10:05.333|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 14:10:05.344|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1408 ms
+INFO|2020-02-10 14:10:05.495|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 14:10:05.759|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 14:10:06.159|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 14:10:06.428|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 14:10:06.431|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 2.992 seconds (JVM running for 4.855)
+INFO|2020-02-10 14:10:06.436|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 14:10:11.312|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 14:10:11.312|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 14:10:11.322|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 9 ms

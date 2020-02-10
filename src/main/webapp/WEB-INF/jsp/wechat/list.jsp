@@ -11,13 +11,13 @@
         }
 
         .wrap {
-            width: 600px;
+            width: 500px;
             margin: 0px auto;
 
         }
 
         .menu {
-            width: 600px;
+            width: 500px;
             height: 30px;
             background: cornflowerblue;
             position: sticky;
@@ -51,8 +51,8 @@
         }
 
         .content .left {
-            overflow: hidden; /*隐藏溢出图片内容*/
-            transition-duration: 0.5s;
+            /*overflow: hidden; !*隐藏溢出图片内容*!*/
+            /*transition-duration: 0.5s;*/
             width: 140px;
             height: 80px;
             /*background: green;*/
@@ -61,7 +61,7 @@
         }
 
         .content .right {
-            width: 400px;
+            width: 300px;
             float: left;
             /*background: pink;*/
         }
@@ -76,7 +76,7 @@
 
         .right_bottom_left span {
             color: darkgray;
-            font-size: 12px;
+            font-size: 13px;
         }
     </style>
 </head>
@@ -124,7 +124,7 @@
                     $("#course_list_ul").empty();
                     for (var i = 0; i < records.length; i++) {
                         var id = "video_" + i;
-                        var trs = ' <li onclick="play(\'' + id + '\')"><div class="left"><video id=' + id + ' src="${basePath}/file/show?id=' + records[i].videoId + '" controls   width="140px" height="85px"></video></div> <div class="right"><div class="right_top"><h3>' + records[i].name + '</h3></div><div class="right_bottom"><div class="right_bottom_left"><span>' + records[i].author + '</span> <span>' + records[i].tag + '</span> <span>' + records[i].levelStr + '</span> <span> </span> <span>' + records[i].typeStr + '</span> <span>￥:' + records[i].price + '元</span></div></div></div></li>';
+                        var trs = ' <li onclick="play(\'' + id + '\')"><div class="left"><video id=' + id + ' src="${basePath}/file/show?id=' + records[i].videoId + '" controls   width="140px" height="100px"></video></div> <div class="right"><div class="right_top"><h3>' + records[i].name + '</h3></div><div class="right_bottom"><div class="right_bottom_left"><span>' + records[i].author + '</span> <span>' + records[i].tag + '</span> <span>' + records[i].levelStr + '</span> <span> </span> <span>' + records[i].typeStr + '</span> <span>￥:' + records[i].price + '元</span></div></div></div></li>';
                         $("#course_list_ul").append(trs);
                     }
                 } else {
