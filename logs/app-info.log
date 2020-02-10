@@ -7863,3 +7863,32 @@ INFO|2020-02-10 16:57:20.578|[http-nio-80-exec-2]|c.i.e.b.s.i.FileServiceImpl.sh
 INFO|2020-02-10 16:57:20.647|[http-nio-80-exec-4]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=646873088-
 INFO|2020-02-10 16:57:20.737|[http-nio-80-exec-3]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=0-
 INFO|2020-02-10 16:57:36.961|[http-nio-80-exec-9]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=642678784-
+INFO|2020-02-10 17:03:37.236|[main]|o.s.b.StartupInfoLogger.logStarting.  50|Starting StartApplication on LAPTOP-MQHIV46L with PID 34028 (G:\idea\ishow-teacher\target\classes started by 86322 in G:\idea\ishow-teacher)
+INFO|2020-02-10 17:03:37.242|[main]|o.s.b.SpringApplication.logStartupProfileInfo. 679|The following profiles are active: dev
+INFO|2020-02-10 17:03:38.559|[main]|o.s.b.w.e.t.TomcatWebServer.initialize.  90|Tomcat initialized with port(s): 80 (http)
+INFO|2020-02-10 17:03:38.584|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting service [Tomcat]
+INFO|2020-02-10 17:03:38.585|[main]|o.a.j.l.DirectJDKLog.log. 173|Starting Servlet engine: [Apache Tomcat/9.0.17]
+INFO|2020-02-10 17:03:38.944|[main]|o.a.j.l.DirectJDKLog.log. 173|At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO|2020-02-10 17:03:38.954|[main]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring embedded WebApplicationContext
+INFO|2020-02-10 17:03:38.954|[main]|o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext. 296|Root WebApplicationContext: initialization completed in 1677 ms
+INFO|2020-02-10 17:03:39.123|[main]|c.a.d.s.b.a.DruidDataSourceAutoConfigure.dataSource.  56|Init DruidDataSource
+INFO|2020-02-10 17:03:39.407|[main]|c.a.d.p.DruidDataSource.init. 991|{dataSource-1} inited
+INFO|2020-02-10 17:03:39.818|[main]|o.s.s.c.ExecutorConfigurationSupport.initialize. 171|Initializing ExecutorService 'applicationTaskExecutor'
+INFO|2020-02-10 17:03:40.091|[main]|o.s.b.w.e.t.TomcatWebServer.start. 204|Tomcat started on port(s): 80 (http) with context path ''
+INFO|2020-02-10 17:03:40.095|[main]|o.s.b.StartupInfoLogger.logStarted.  59|Started StartApplication in 3.257 seconds (JVM running for 5.151)
+INFO|2020-02-10 17:03:40.102|[log-level-task]|c.i.l.LoggerLevelUpdateTask.updateLogLevel.  83|logger level update success ,from info to debug
+INFO|2020-02-10 17:04:00.833|[http-nio-80-exec-1]|o.a.j.l.DirectJDKLog.log. 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO|2020-02-10 17:04:00.833|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 524|Initializing Servlet 'dispatcherServlet'
+INFO|2020-02-10 17:04:00.841|[http-nio-80-exec-1]|o.s.w.s.FrameworkServlet.initServletBean. 546|Completed initialization in 8 ms
+INFO|2020-02-10 17:04:01.982|[http-nio-80-exec-3]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=0-
+INFO|2020-02-10 17:04:02.034|[http-nio-80-exec-4]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=0-
+INFO|2020-02-10 17:04:02.053|[http-nio-80-exec-5]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=0-
+INFO|2020-02-10 17:04:02.106|[http-nio-80-exec-8]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=642678784-
+INFO|2020-02-10 17:04:02.175|[http-nio-80-exec-9]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=644775936-
+INFO|2020-02-10 17:04:02.258|[http-nio-80-exec-10]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=646873088-
+INFO|2020-02-10 17:04:02.324|[http-nio-80-exec-1]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=0-
+INFO|2020-02-10 17:04:15.120|[http-nio-80-exec-3]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=262144-
+INFO|2020-02-10 17:04:15.222|[http-nio-80-exec-4]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=2359296-
+INFO|2020-02-10 17:04:18.168|[http-nio-80-exec-5]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=38109184-
+INFO|2020-02-10 17:04:19.963|[http-nio-80-exec-7]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=86671360-
+INFO|2020-02-10 17:04:21.765|[http-nio-80-exec-8]|c.i.e.b.s.i.FileServiceImpl.showVideo. 126|show range:bytes=442990592-

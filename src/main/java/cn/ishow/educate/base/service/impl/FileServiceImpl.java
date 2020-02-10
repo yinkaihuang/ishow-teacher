@@ -125,7 +125,8 @@ public class FileServiceImpl extends ServiceImpl<FileMapper, FilePO> implements 
         String range = WebUtils.getHeader(RANGE);
         log.info("show range:{}", range);
         if (!Strings.isBlank(range)) {
-            int length = 2 * 1024 * 1024;
+            //获取视频大小默认1M
+            int length = 1 * 1024 * 1024;
             String[] ranges = range.split("=")[1].split("-");
             long startIndex = Long.parseLong(ranges[0]);
             long endIndex = startIndex + length - 1;
