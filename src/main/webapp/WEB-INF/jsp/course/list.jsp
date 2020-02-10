@@ -143,7 +143,7 @@
 
         function operateFormatter(value, row, index) {
             return [
-                '<a role="button" class="btn btn-primary btn-sm" href="${basePath}/user/editPage?id=' + value + '">修改</a>',
+                <%--'<a role="button" class="btn btn-primary btn-sm" href="${basePath}/user/editPage?id=' + value + '">修改</a>',--%>
                 '<button type="button" class="btn btn-primary btn-sm" onclick="remove(' + value + ')">删除</a>',
             ].join('');
         }
